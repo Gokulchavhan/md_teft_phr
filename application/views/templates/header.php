@@ -43,7 +43,7 @@
 								'info' => 'Help & Info',
 								'requests'  => 'Requests',
 								'provideradmin'  => 'Account Profile'
-								);		
+								);
 			}
 			//AUTHORIZED PROVIDER ACCESS
 			//---------------------------------------
@@ -102,9 +102,8 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
+								'carerecord'  => 'My Information',
 								'info' => 'Help & Info',
-								'carerecord'  => 'My Information'
 								);		
 			}
 			//PUBLIC VISITOR ACCESS
@@ -134,8 +133,8 @@
 ?>
 
 <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="main-header">
-      <div class="container">
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="main-header">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -143,7 +142,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url()."index.php/home";?>">Information & Referral</a>
+          <a class="navbar-brand" href="<?php echo base_url()."index.php/home";?>">LTSS Maryland | <b>MyCare</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
