@@ -2,8 +2,11 @@
 html {
 	background-color: #222222;
 }
+body{
+    font-size: 16px;
+}
 #body{
-	padding-top: 70px;  
+	padding-top: 100px;
 	background: #fff;
 }
 #main-footer {

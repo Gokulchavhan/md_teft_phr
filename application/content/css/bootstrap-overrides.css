@@ -1,0 +1,4 @@
+.navbar.navbar-inverse,
+.navbar.navbar-inverse .active > a{
+    background-image: initial;
+}

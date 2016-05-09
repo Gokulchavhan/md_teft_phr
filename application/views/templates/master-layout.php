@@ -6,9 +6,11 @@
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-theme.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-multiselect.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/prettify.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-overrides.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootswatch-paper-theme/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
