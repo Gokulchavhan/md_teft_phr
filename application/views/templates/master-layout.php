@@ -32,7 +32,7 @@
 	<body id="body">
 		<!-- Main Header -->
 		<?php require 'header.php'; ?>
-		<div id="main-body" class="container">
+		<div id="main-body" class="container-fluid">
 			<!-- Main Content -->
 		<?php require "application/views/pages/{$page}.php";?>
 		</div>

@@ -239,3 +239,19 @@ display: inline-block;
 .panel-heading .h4  {
 	display: inline-block;
 }
+
+/*CH styles from this point on*/
+
+span.serviceTime{
+    font-variant: small-caps;
+    font-size: 24px;
+}
+
+p.serviceName{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p.serviceName > span.lead{
+    font-size: 18px;
+}

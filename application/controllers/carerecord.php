@@ -51,7 +51,7 @@
 										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
 										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Service Providers'
+										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -101,7 +101,7 @@
 										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
 										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Service Providers'
+										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -150,7 +150,7 @@
 										'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
 										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Service Providers'
+										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -202,7 +202,7 @@
 										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
 										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Service Providers'
+										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -252,7 +252,7 @@
 										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
 										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Service Providers'
+										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;

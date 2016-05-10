@@ -2,10 +2,10 @@
           <div class="list-group">
 		  <?php
 			  foreach ($sidenavlinks as $link => $linkname) {
-					$isactive =($link == $page) ? 'active' : "";	
-					$addstaricon =($linkname == "Service Providers") ? '<span class="glyphicon glyphicon-star"></span>' : "";	
+					$isactive =($link == $page) ? 'active' : "";
 					
-					echo "<a class=\"list-group-item {$isactive}\" href=\"".base_url()."index.php/{$area}/{$link}\">{$addstaricon} {$linkname}</a>";
+					
+					echo "<a class=\"list-group-item {$isactive}\" href=\"".base_url()."index.php/{$area}/{$link}\">{$linkname}</a>";
 				
 				}
 			?>

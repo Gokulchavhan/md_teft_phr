@@ -309,7 +309,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-offset-1 col-sm-4">
+                    <div class="col-sm-offset-1 col-sm-4">z
                         <address>
                             <strong>Alternate Email Address:</strong><br>
                             casmith2@live.com
