@@ -91,9 +91,9 @@
 
     <br>
     <div class="form-group">
-        <label for="email" class="col-sm-3 control-label">e-mail</label>
+        <label for="email" class="col-sm-3 control-label">Email</label>
         <div class="col-sm-4">
-            <input class="form-control" id="email" placeholder="e-mail">
+            <input class="form-control" id="email" placeholder="Email">
         </div>
     </div>
 

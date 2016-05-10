@@ -168,6 +168,54 @@
 		$this->load->helper('url');
 		$this->load->view("templates/publicLayouts/public-layout.php", $data);
 	}
-	
 
-}
+
+		public function usernamerecovery ($area="public", $page="usernamerecovery"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
+		public function usernamerecoveryconfirmation ($area="public", $page="usernamerecoveryconfirmation"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
+
+		public function passwordrecovery ($area="public", $page="passwordrecovery"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
+
+		public function passwordrecoveryconfirmation ($area="public", $page="passwordrecoveryconfirmation"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
+
+
+	}

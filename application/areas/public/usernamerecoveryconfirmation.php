@@ -1,0 +1,2 @@
+<p class="h5">Your Username has been sent! Please check your registered email for further instructions.</p>
+<a href="<?php echo base_url().'index.php'?>"><span class="fa fa-arrow-left"></span>&nbsp;&nbsp;Back to login</a>
