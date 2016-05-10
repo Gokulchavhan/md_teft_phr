@@ -3,9 +3,10 @@
 	class Site extends CI_Controller {
 		
 	public function index() {
-		$this->home();
+		$this->login();
 	}
-	public function loadview($area="home", $page="home", $subpage="", $partial=""){
+		
+	public function loadview($area="public", $page="login", $subpage="", $partial=""){
 	
 		
 		$data['area'] = $area;
@@ -16,16 +17,19 @@
 		$this->load->view("templates/master-layout.php", $data);
 	}
 		
-	public function home($area="home", $page="home"){
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+	public function login($area="public", $page="login"){
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
-		}	
-		$this->loadview($area, $page);	
+		}
+		$data['area'] = $area;
+		$data['page'] = $page;
+		$this->load->helper('url');
+		$this->load->view("templates/publicLayouts/public-layout.php", $data);
 	}
 	
 	
-	public function login(){
+	public function attemptLogin(){
 		
 		if(isset($_POST['submit']))	{
 			
@@ -105,7 +109,7 @@
 		}
 		
 		$this->load->helper('url');
-		$url = base_url().'index.php';
+		$url = base_url().'index.php/home';
 		header( "Location: $url" );
 	}
 	

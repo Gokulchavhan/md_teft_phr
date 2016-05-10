@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-multiselect.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/prettify.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/fonts/font-awesome-4.6.2/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-overrides.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootswatch-paper-theme/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
@@ -32,9 +33,9 @@
 	<body id="body">
 		<!-- Main Header -->
 		<?php require 'header.php'; ?>
-		<div id="main-body" class="container-fluid">
+		<div id="main-body" class="container">
 			<!-- Main Content -->
-		<?php require "application/views/pages/{$page}.php";?>
+		<?php require "application/areas/{$area}/{$page}.php";?>
 		</div>
         <!-- Main Footer -->
         <?php require 'footer.php'; ?>

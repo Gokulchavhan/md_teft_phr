@@ -2,9 +2,9 @@
 
 	class Msadmin extends CI_Controller {
 			
-	public function index($page = 'accountprofile') {
+	public function index($area= 'msadmin', $page = 'accountprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		
@@ -15,7 +15,7 @@
 		
 	public function accountprofile($area= 'msadmin', $page = 'accountprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}

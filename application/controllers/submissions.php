@@ -2,9 +2,9 @@
 
 	class Submissions extends CI_Controller {
 			
-	public function index($page = 'pendingsubmissions') {
+	public function index($area= 'submissions', $page = 'pendingsubmissions') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		
@@ -15,7 +15,7 @@
 		
 	public function pendingsubmissions($area= 'submissions', $page = 'pendingsubmissions') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -34,7 +34,7 @@
 	
 	public function submissionshistory($area= 'submissions', $page = 'submissionshistory') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -54,7 +54,7 @@
 	
 	public function newrequest($area= 'submissions', $page = 'newrequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -69,7 +69,7 @@
 	
 	public function updaterequest($area= 'submissions', $page = 'updaterequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -84,7 +84,7 @@
 	
 	public function linkrequest($area= 'submissions', $page = 'linkrequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -95,12 +95,11 @@
 		$data['area'] = $area;
 		$this->load->view("templates/master-layout.php", $data);
 	}	
-	
-	
+
 	
 	public function historicnewrequest($area= 'submissions', $page = 'historicnewrequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -115,7 +114,7 @@
 	
 	public function historicupdaterequest($area= 'submissions', $page = 'historicupdaterequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -130,7 +129,7 @@
 	
 	public function historiclinkrequest($area= 'submissions', $page = 'historiclinkrequest') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}

@@ -2,9 +2,9 @@
 
 	class Signup extends CI_Controller {
 			
-	public function index($page = 'signup') {
+	public function index($area = 'signup', $page = 'index') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		

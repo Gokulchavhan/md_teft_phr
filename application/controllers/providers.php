@@ -4,7 +4,7 @@
 			
 	public function index( $area = 'providers', $page = 'providers') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		

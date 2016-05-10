@@ -2,9 +2,9 @@
 
 	class Agencyaccess extends CI_Controller {
 			
-	public function index($page = 'provideraccessinfo') {
+	public function index($area= 'agencyaccess', $page = 'provideraccessinfo') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/views/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		
@@ -18,7 +18,7 @@
 		
 	public function aboutprovideraccess($area= 'agencyaccess', $page = 'aboutprovideraccess') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -33,7 +33,7 @@
 	
 	public function providerregistration($area= 'agencyaccess', $page = 'providerregistration') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -63,7 +63,7 @@
 	
 	public function requestconfirmation($area= 'agencyaccess', $page = 'requestconfirmation') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}

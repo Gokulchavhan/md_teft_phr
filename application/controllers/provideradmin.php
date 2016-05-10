@@ -2,9 +2,9 @@
 
 	class Provideradmin extends CI_Controller {
 			
-	public function index($page = 'accountprofile') {
+	public function index($area= 'provideradmin', $page = 'accountprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		
@@ -33,7 +33,7 @@
 		
 	public function provideraccountprofile($area= 'provideradmin', $page = 'provideraccountprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -111,7 +111,7 @@
 	
 	public function accountprofile($area= 'provideradmin', $page = 'accountprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -163,7 +163,7 @@
 	
 	public function providerprofile($area= 'provideradmin', $page = 'providerprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}

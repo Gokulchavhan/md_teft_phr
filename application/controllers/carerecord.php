@@ -2,9 +2,9 @@
 
 	class Carerecord extends CI_Controller {
 			
-	public function index($page = 'userprofile') {
+	public function index($area= 'carerecord', $page = 'userprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}		
@@ -15,7 +15,7 @@
 		
 	public function userprofile($area= 'carerecord', $page = 'userprofile') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -48,9 +48,7 @@
 						);
 		$data['sidenavlinks']  = array(
 										'userprofile' => 'My Profile',
-										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
-										'myassessments' => 'My Needs Assessments',
 										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
@@ -65,7 +63,7 @@
 	
 	public function contacts($area= 'carerecord', $page = 'contacts') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -97,11 +95,9 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-										'userprofile' => 'My Profile',
-										//'medicalhistory' => 'My Care History',
-										'contacts' => 'My Contacts',
-										'myassessments' => 'My Needs Assessments',
-										'myproviders' => 'Services & Claims'
+											'userprofile' => 'My Profile',
+											'contacts' => 'My Contacts',
+											'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -114,7 +110,7 @@
 	
 	public function medicalhistory($area= 'carerecord', $page = 'medicalhistory') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -147,9 +143,7 @@
 						);
 		$data['sidenavlinks']  = array(
 										'userprofile' => 'My Profile',
-										'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
-										'myassessments' => 'My Needs Assessments',
 										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
@@ -166,7 +160,7 @@
 	
 	public function myassessments($area= 'carerecord', $page = 'myassessments') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -199,9 +193,7 @@
 						);
 		$data['sidenavlinks']  = array(
 										'userprofile' => 'My Profile',
-										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
-										'myassessments' => 'My Needs Assessments',
 										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
@@ -216,7 +208,7 @@
 	
 	public function myproviders($area= 'carerecord', $page = 'myproviders') {
 		
-		if ( ! file_exists('application/views/pages/'.$page.'.php'))
+		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
 			show_404();
 		}
@@ -249,9 +241,7 @@
 						);
 		$data['sidenavlinks']  = array(
 										'userprofile' => 'My Profile',
-										//'medicalhistory' => 'My Care History',
 										'contacts' => 'My Contacts',
-										'myassessments' => 'My Needs Assessments',
 										'myproviders' => 'Services & Claims'
 										);
 		$this->load->helper('url');
