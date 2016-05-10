@@ -3,23 +3,25 @@
     <form class="form-horizontal" role="form" id="loginform" method="post" name="form" action="<?php echo base_url() . 'index.php/site/attemptLogin' ?>">
 
         <div class="form-group required">
-            <label for="username" class="col-sm-3 control-label">Username</label>
+            <label for="email" class="col-sm-3 control-label">Email Address</label>
             <div class="col-sm-4">
-                <input class="form-control" id="username" placeholder="Username" required>
+                <input class="form-control" id="email" required type="email">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="email" class="col-sm-3 control-label">Email</label>
+            <label for="phone" class="col-sm-3 control-label">Phone #</label>
             <div class="col-sm-4">
-                <input class="form-control" id="email" placeholder="Email" required>
+                <input class="form-control" id="phone" type="phone" required>
             </div>
         </div>
-
-        <hr>
-        <div class="col-sm-offset-3 col-sm-5">
-            <button type="button" class="btn btn-default" onclick="window.location='<?php echo base_url()."index.php"?>';">Cancel</button>
-            <button type="button" class="btn btn-success" onclick="window.location='<?php echo base_url()."index.php/usernamerecoveryconfirmation"?>';">Submit</button>
+        <br>
+        <div class="row">
+            <div class="col-xs-6 col-sm-offset-3 col-sm-5">
+                <button type="button" class="btn btn-danger btn-block" onclick="window.location='<?php echo base_url()."index.php"?>';">Cancel</button>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <button type="button" class="btn btn-primary btn-block" onclick="window.location='<?php echo base_url()."index.php/usernamerecoveryconfirmation"?>';">Submit</button>
+            </div>
         </div>
-    </form>
 </div>
