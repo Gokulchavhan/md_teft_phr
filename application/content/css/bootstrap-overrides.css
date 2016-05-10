@@ -2,3 +2,8 @@
 .navbar.navbar-inverse .active > a{
     background-image: initial;
 }
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #b2dbfb;
+    border-bottom-color: #b2dbfb;
+}
