@@ -240,22 +240,7 @@ display: inline-block;
 	display: inline-block;
 }
 
-/*CH styles from this point on*/
-
-span.serviceTime{
-    font-variant: small-caps;
-    font-size: 24px;
-}
-
-p.serviceName{
-    font-size: 28px;
-    font-weight: bold;
-}
-
-p.serviceName > span.lead{
-    font-size: 18px;
-}
-
+/*Form Element Overrides*/
 textarea, textarea.form-control, input.form-control, input[type=text], input[type=password], input[type=email], input[type=number], [type=text].form-control, [type=password].form-control, [type=email].form-control, [type=tel].form-control, [contenteditable].form-control {
     padding: 6px 10px;
     border: 1px solid #ddd;
@@ -289,4 +274,45 @@ select, select.form-control {
 
 input[type="radio"], .radio input[type="radio"], .radio-inline input[type="radio"] {
     margin-top: 8px;
+}
+
+/*CH styles from this point on*/
+
+/*Service Card Styles*/
+span.serviceTime{
+    font-variant: small-caps;
+    font-size: 24px;
+}
+
+p.serviceName{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px 0;
+    line-height: 85%;
+}
+
+p.serviceName > span.lead{
+    font-size: 20px;
+}
+
+div.serviceCard strong{
+    font-size: 18px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+div.serviceCard button{
+    height: 70px;
+    font-size: 18px;
+}
+
+div.serviceCard button > span.glyphicon{
+    padding-right: 25px;
+    margin-left: -8px;
+}
+
+@media (max-width: 992px) {
+    div.serviceCard button{
+        margin-top: 18px;
+    }
 }
