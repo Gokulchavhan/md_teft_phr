@@ -30,7 +30,7 @@
 
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 </head>
-<body id="body">
+<body id="body" style="padding-bottom: 50px">
     <!-- Main Header -->
     <?php require 'header.php'; ?>
     <div id="main-body" class="container">
