@@ -114,10 +114,10 @@
 
                                         <div class="col-xs-12 col-sm-12 col-md-6" >
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                                <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                                <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>
                                             </div>
                                         </div>
                                     </div>
@@ -152,10 +152,10 @@
 
                                         <div class="col-xs-12 col-sm-12 col-md-6" >
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                                <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                                <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>
                                             </div>
                                         </div>
                                     </div>
@@ -190,10 +190,10 @@
 
                                         <div class="col-xs-12 col-sm-12 col-md-6" >
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                                <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                                <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>
                                             </div>
                                         </div>
                                     </div>
@@ -228,10 +228,10 @@
 
                                         <div class="col-xs-12 col-sm-12 col-md-6" >
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                                <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                                <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>
                                             </div>
                                         </div>
                                     </div>
@@ -266,10 +266,10 @@
 
                                         <div class="col-xs-12 col-sm-12 col-md-6" >
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                                <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                                <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>
                                             </div>
                                         </div>
                                     </div>
@@ -315,14 +315,8 @@
 
     <!-- Modals -->
 
-    <!-- Modal - Remove -->
-    <?php echo $_removeconfirmation_modal; ?>
-
-    <!-- Modal - View Provider -->
-    <?php echo $_view_provider_modal; ?>
-
-    <!-- Modal - Share service information -->
-    <?php echo $_shareserviceinfo_modal; ?>
+    <!-- Modal - Service Activity Details -->
+<?php echo $_serviceactivitydetails_modal; ?>
 
     <!-- Modal - Send Message -->
-<?php echo $_sendmessage_modal; ?>
+<?php echo $_flagservice_modal; ?>

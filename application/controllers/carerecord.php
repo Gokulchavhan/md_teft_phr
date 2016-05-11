@@ -258,10 +258,8 @@
 		$data['page'] = $page;
 		$data['area'] = $area;
 		$data['_sidenavigation'] = $this->load->view('pages/shared/_sidenavigation.php', $data, true);
-		$data['_view_provider_modal'] = $this->load->view('pages/shared/_view_provider_modal.php', $data, true);
-		$data['_removeconfirmation_modal'] = $this->load->view('pages/shared/_removeconfirmation_modal.php', $data, true);
-		$data['_shareserviceinfo_modal'] = $this->load->view('pages/shared/_shareserviceinfo_modal.php', $data, true);
-		$data['_sendmessage_modal'] = $this->load->view('pages/shared/_sendmessage_modal.php', $data, true);
+        $data['_serviceactivitydetails_modal'] = $this->load->view('pages/shared/_serviceactivitydetails_modal.php', $data, true);
+        $data['_flagservice_modal'] = $this->load->view('pages/shared/_flagservice_modal.php', $data, true);
 		$this->load->view("templates/master-layout.php", $data);
 	}
 
