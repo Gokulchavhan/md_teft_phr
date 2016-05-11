@@ -34,7 +34,7 @@
     </div>
 
     <div class="form-group">
-        <label for="gender" class="col-sm-3 control-label">Birthday</label>
+        <label for="gender" class="col-sm-3 control-label">Date of Birth</label>
         <div class="col-sm-4">
             <input class="form-control" id="gender" type="date" />
         </div>
