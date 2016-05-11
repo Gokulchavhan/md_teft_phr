@@ -291,32 +291,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="row">
-                <div class="col-xs-12 text-center">
+            <div class="row" style="margin: 0">
+                <div class="col-xs-12 text-center" style="padding: 0">
                     <p>Showing 50 of 50 results</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <nav>
-                        <ul class="pagination">
-                            <li>
-                                <a onclick="return false" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li><a onclick="return false" href="#">1</a></li>
-                            <li><a onclick="return false" href="#">2</a></li>
-                            <li><a onclick="return false" href="#">3</a></li>
-                            <li><a onclick="return false" href="#">4</a></li>
-                            <li><a onclick="return false" href="#">5</a></li>
-                            <li>
-                                <a onclick="return false" href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <ul class="pagination">
+                        <li>
+                            <a onclick="return false" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a onclick="return false" href="#">1</a></li>
+                        <li><a onclick="return false" href="#">2</a></li>
+                        <li><a onclick="return false" href="#">3</a></li>
+                        <li><a onclick="return false" href="#">4</a></li>
+                        <li><a onclick="return false" href="#">5</a></li>
+                        <li>
+                            <a onclick="return false" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
