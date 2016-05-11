@@ -8,7 +8,9 @@
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
         <div class="col-sm-12">
             <div class="row">
-                <h1>My Services and Claims</h1>
+                <div class="col-xs-12">
+                    <h1>My Services</h1>
+                </div>
             </div>
         </div>
 
@@ -86,68 +88,246 @@
                 <hr />
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-xs-12 text-center">
-                                    <span class="serviceTime">yesterday</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p class="serviceName">Profe <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
-                                </div>
-                            </div>
-                            <div class="row">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="col-xs-12">
 
-                                <div class="col-xs-12 col-sm-12 col-md-7">
-                                    <address>
-                                    <div class="col-xs-6"><strong>Hours:</strong> 3</div>
-                                    <div class="col-xs-6"><strong>Units:</strong> 17</div>
-                                    </address>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-12 col-md-7">
-                                    <address>
-                                    <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
-                                    <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
-                                    </address>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-12 col-md-5">
-                                    <div class="col-xs-6">
-                                        <button type="button" class="btn btn-primary btn-block">View</button>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <button type="button" class="btn btn-primary btn-block">Flag</button>
+                        <div class="panel panel-default serviceCard">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <span class="serviceTime">yesterday</span>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="serviceName">Environmental Adaptations - Repair to previous adaptation <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-6" style="padding-left: 31px;">
+                                            <div class="row" style="margin-bottom: 15px">
+                                                <div class="col-xs-6"><strong>Hours:</strong> 3</div>
+                                                <div class="col-xs-6"><strong>Units:</strong> 17</div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="row">
+                                                <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
+                                                <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-6" >
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
+                        <div class="panel panel-default serviceCard">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <span class="serviceTime">yesterday</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="serviceName">Environmental Adaptations - Repair to previous adaptation <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-6" style="padding-left: 31px;">
+                                            <div class="row" style="margin-bottom: 15px">
+                                                <div class="col-xs-6"><strong>Hours:</strong> 3</div>
+                                                <div class="col-xs-6"><strong>Units:</strong> 17</div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="row">
+                                                <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
+                                                <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-6" >
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel panel-default serviceCard">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <span class="serviceTime">yesterday</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="serviceName">Environmental Adaptations - Repair to previous adaptation <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-6" style="padding-left: 31px;">
+                                            <div class="row" style="margin-bottom: 15px">
+                                                <div class="col-xs-6"><strong>Hours:</strong> 3</div>
+                                                <div class="col-xs-6"><strong>Units:</strong> 17</div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="row">
+                                                <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
+                                                <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-6" >
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel panel-default serviceCard">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <span class="serviceTime">yesterday</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="serviceName">Environmental Adaptations - Repair to previous adaptation <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-6" style="padding-left: 31px;">
+                                            <div class="row" style="margin-bottom: 15px">
+                                                <div class="col-xs-6"><strong>Hours:</strong> 3</div>
+                                                <div class="col-xs-6"><strong>Units:</strong> 17</div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="row">
+                                                <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
+                                                <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-6" >
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel panel-default serviceCard">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <span class="serviceTime">yesterday</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p class="serviceName">Environmental Adaptations - Repair to previous adaptation <span class="lead">administered by John Doe between 12:00 PM and 3:00 PM</span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-6" style="padding-left: 31px;">
+                                            <div class="row" style="margin-bottom: 15px">
+                                                <div class="col-xs-6"><strong>Hours:</strong> 3</div>
+                                                <div class="col-xs-6"><strong>Units:</strong> 17</div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="row">
+                                                <div class="col-xs-6"><strong>Claim Type:</strong> Original</div>
+                                                <div class="col-xs-6"><strong>Claim Status:</strong> Paid</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-6" >
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-eye-open"></span>View</button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button type="button" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-flag"></span>Flag</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="row" style="margin: 0">
+                <div class="col-xs-12 text-center" style="padding: 0">
+                    <p>Showing 50 of 50 results</p>
+                    <ul class="pagination">
+                        <li>
+                            <a onclick="return false" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a onclick="return false" href="#">1</a></li>
+                        <li><a onclick="return false" href="#">2</a></li>
+                        <li><a onclick="return false" href="#">3</a></li>
+                        <li><a onclick="return false" href="#">4</a></li>
+                        <li><a onclick="return false" href="#">5</a></li>
+                        <li>
+                            <a onclick="return false" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
+    </div><!-- /.row -->
 
 
-    </div>
+    <!-- Modals -->
 
-</div><!-- /.row -->
+    <!-- Modal - Remove -->
+    <?php echo $_removeconfirmation_modal; ?>
 
+    <!-- Modal - View Provider -->
+    <?php echo $_view_provider_modal; ?>
 
-<!-- Modals -->
+    <!-- Modal - Share service information -->
+    <?php echo $_shareserviceinfo_modal; ?>
 
-<!-- Modal - Remove -->
-<?php echo $_removeconfirmation_modal; ?>
-
-<!-- Modal - View Provider -->
-<?php echo $_view_provider_modal; ?>
-
-<!-- Modal - Share service information -->
-<?php echo $_shareserviceinfo_modal; ?>
-
-<!-- Modal - Send Message -->
+    <!-- Modal - Send Message -->
 <?php echo $_sendmessage_modal; ?>
