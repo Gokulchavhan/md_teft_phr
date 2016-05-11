@@ -6,7 +6,7 @@
 
     <!-- Content -->
     <div class="col-md-9">
-        <h1 style="margin-top:0px;">My Profile</h1>
+        <h1 style="margin-top:0px;">My Service Plan</h1>
         <hr>
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
@@ -322,19 +322,6 @@
         </div>
     </div>
 </div><!--/row-->
-
-<!-- MODALS -->
-
-<!-- Modal - Edit User Info -->
-<?php echo $_edit_userinfo_modal;?>
-
-
-<!-- Modal - Edit Contact Info -->
-<?php echo $_edit_contactinfo_modal;?>
-
-
-<!-- Modal - Edit Account Info -->
-<?php echo $_edit_accountinfo_modal;?>
 
 
 <!-- Scripts -->

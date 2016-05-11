@@ -5,15 +5,10 @@
     <?php echo $_sidenavigation; ?>
 
     <!-- Content -->
-    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-        <div class="col-sm-12">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>My Services</h1>
-                </div>
-            </div>
-        </div>
-
+    <!-- Content -->
+    <div class="col-md-9">
+        <h1 style="margin-top:0px;">Service Activity</h1>
+        <hr>
         <div class="col-xs-12">
             <div class="panel panel-default">
                 <div class="panel-body">

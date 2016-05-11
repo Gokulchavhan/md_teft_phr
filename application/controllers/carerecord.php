@@ -47,9 +47,11 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-										'userprofile' => 'My Profile',
-										'contacts' => 'My Contacts',
-										'myproviders' => 'Services & Claims'
+            'userprofile' => 'My Profile',
+            'contacts' => 'My Contacts',
+            'myserviceplan' => 'My Service Plan',
+            'myemergencybackups' => 'My Emergency Backups',
+            'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -95,9 +97,11 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-											'userprofile' => 'My Profile',
-											'contacts' => 'My Contacts',
-											'myproviders' => 'Services & Claims'
+            'userprofile' => 'My Profile',
+            'contacts' => 'My Contacts',
+            'myserviceplan' => 'My Service Plan',
+            'myemergencybackups' => 'My Emergency Backups',
+            'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -142,9 +146,11 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-										'userprofile' => 'My Profile',
-										'contacts' => 'My Contacts',
-										'myproviders' => 'Services & Claims'
+            'userprofile' => 'My Profile',
+            'contacts' => 'My Contacts',
+            'myserviceplan' => 'My Service Plan',
+            'myemergencybackups' => 'My Emergency Backups',
+            'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -192,9 +198,11 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-										'userprofile' => 'My Profile',
-										'contacts' => 'My Contacts',
-										'myproviders' => 'Services & Claims'
+            'userprofile' => 'My Profile',
+            'contacts' => 'My Contacts',
+            'myserviceplan' => 'My Service Plan',
+            'myemergencybackups' => 'My Emergency Backups',
+            'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -206,7 +214,7 @@
 		$this->load->view("templates/master-layout.php", $data);
 	}
 	
-	public function myproviders($area= 'carerecord', $page = 'myproviders') {
+	public function serviceactivity($area= 'carerecord', $page = 'serviceactivity') {
 		
 		if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 		{
@@ -240,9 +248,11 @@
 						"Other"
 						);
 		$data['sidenavlinks']  = array(
-										'userprofile' => 'My Profile',
-										'contacts' => 'My Contacts',
-										'myproviders' => 'Services & Claims'
+            'userprofile' => 'My Profile',
+            'contacts' => 'My Contacts',
+            'myserviceplan' => 'My Service Plan',
+            'myemergencybackups' => 'My Emergency Backups',
+            'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -254,4 +264,52 @@
 		$data['_sendmessage_modal'] = $this->load->view('pages/shared/_sendmessage_modal.php', $data, true);
 		$this->load->view("templates/master-layout.php", $data);
 	}
-}
+
+
+        public function myserviceplan($area= 'carerecord', $page = 'myserviceplan') {
+
+            if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+            {
+                show_404();
+            }
+            $data['sidenavlinks']  = array(
+                'userprofile' => 'My Profile',
+                'contacts' => 'My Contacts',
+                'myserviceplan' => 'My Service Plan',
+                'myemergencybackups' => 'My Emergency Backups',
+                'serviceactivity' => 'Service Activity'
+            );
+            $this->load->helper('url');
+            $data['page'] = $page;
+            $data['area'] = $area;
+            $data['_sidenavigation'] = $this->load->view('pages/shared/_sidenavigation.php', $data, true);
+            $data['_edit_userinfo_modal'] = $this->load->view('pages/shared/_edit_userinfo_modal.php', $data, true);
+            $data['_edit_contactinfo_modal'] = $this->load->view('pages/shared/_edit_contactinfo_modal.php', $data, true);
+            $data['_edit_accountinfo_modal'] = $this->load->view('pages/shared/_edit_accountinfo_modal.php', $data, true);
+            $this->load->view("templates/master-layout.php", $data);
+        }
+
+        public function myemergencybackups($area= 'carerecord', $page = 'myemergencybackups') {
+
+            if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+            {
+                show_404();
+            }
+            $data['sidenavlinks']  = array(
+                'userprofile' => 'My Profile',
+                'contacts' => 'My Contacts',
+                'myserviceplan' => 'My Service Plan',
+                'myemergencybackups' => 'My Emergency Backups',
+                'serviceactivity' => 'Service Activity'
+            );
+            $this->load->helper('url');
+            $data['page'] = $page;
+            $data['area'] = $area;
+            $data['_sidenavigation'] = $this->load->view('pages/shared/_sidenavigation.php', $data, true);
+            $data['_edit_userinfo_modal'] = $this->load->view('pages/shared/_edit_userinfo_modal.php', $data, true);
+            $data['_edit_contactinfo_modal'] = $this->load->view('pages/shared/_edit_contactinfo_modal.php', $data, true);
+            $data['_edit_accountinfo_modal'] = $this->load->view('pages/shared/_edit_accountinfo_modal.php', $data, true);
+            $this->load->view("templates/master-layout.php", $data);
+        }
+
+	}
