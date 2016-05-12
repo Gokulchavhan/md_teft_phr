@@ -7,317 +7,173 @@
     <!-- Content -->
     <div class="col-md-9">
         <h1 style="margin-top:0px;">My Emergency Backups</h1>
-        <hr>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseOne">
-                            General Information
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
+        <hr style="margin-bottom: 0;">
+        <div class="row">
+            <div class="col-xs-12 text-center"><p style="font-size: 28px; margin: 8px 0; font-variant: small-caps !important;">primary backup</p></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-default serviceCard">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>First Name:</strong><br>
-                                    Cicio
-                                </address>
+                            <div class="col-xs-12">
+                                <p class="serviceName">Emergency Contact Name <span class="lead"> - 240-555-5555</span></p>
                             </div>
-                            <div class="col-sm-4">
-                                <address>
-                                    <strong>Middle Name:</strong><br>
-                                    A.
-                                </address>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row" style="margin-bottom: 15px">
+                                        <div class="col-xs-6 col-md-4"><strong>Address:</strong><address style="margin-bottom:0">8656 New Hampshire Ave.,<br> Wheaton, MD 20874</address></div>
+                                        <div class="col-xs-6 col-md-4"><strong>Primary:</strong> Yes</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong> Sibling</div>
+                                    </div>
+
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row">
+                                        <div class="col-xs-12"><strong>Availability:</strong>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-xs-3 text-right">
-                                <a class="btn btn-sm btn-default" href="#" role="button" data-toggle="modal" data-target="#edituserinfo">Edit</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Last Name:</strong><br>
-                                    Smith
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Suffix:</strong><br>
-                                    Male
-                                </address>
-                            </div>
+
                         </div>
 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p style="font-size: 28px; font-variant: small-caps; margin: 8px 0;"> other backups</p>
+                        <hr style="margin-bottom: 0;">
+                    </div>
+                </div>
+                <div class="panel panel-default serviceCard">
+                    <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Date of Birth:</strong><br>
-                                    08/12/1991
-                                </address>
+                            <div class="col-xs-12">
+                                <p class="serviceName">Emergency Contact (Provider) <span class="lead"> - 301-555-5555</span></p>
                             </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Gender:</strong><br>
-                                    Male
-                                </address>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row" style="margin-bottom: 15px">
+                                        <div class="col-xs-6 col-md-4"><strong>Address:</strong><address style="margin-bottom:0">123 Main St.,<br> Silver Spring, MD 20901</address></div>
+                                        <div class="col-xs-6 col-md-4"><strong>Primary:</strong> No</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong> Provider</div>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row">
+                                        <div class="col-xs-12"><strong>Availability:</strong>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--                                <div class="col-xs-12 col-sm-12 col-md-6" >-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>-->
+                                <!--                                    </div>-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
                             </div>
+
                         </div>
 
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Race:</strong><br>
-                                    Caucasian
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Hispanic:</strong><br>
-                                    No
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Jurisdiction/County:</strong><br>
-                                    Montgomery
-                                </address>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseTwo">
-                            Additional Client Information
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse in">
+                <div class="panel panel-default serviceCard">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>SSN:</strong><br>
-                                    ***-**-1234
-                                </address>
+                            <div class="col-xs-12">
+                                <p class="serviceName">Emergency Contact (Provider) <span class="lead"> - 301-555-5555</span></p>
                             </div>
-                            <div class="col-sm-4">
-                                <address>
-                                    <strong>Client ID:</strong><br>
-                                    1234567890
-                                </address>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row" style="margin-bottom: 15px">
+                                        <div class="col-xs-6 col-md-4"><strong>Address:</strong><address style="margin-bottom:0">123 Main St.,<br> Silver Spring, MD 20901</address></div>
+                                        <div class="col-xs-6 col-md-4"><strong>Primary:</strong> No</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong> Provider</div>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row">
+                                        <div class="col-xs-12"><strong>Availability:</strong>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--                                <div class="col-xs-12 col-sm-12 col-md-6" >-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>-->
+                                <!--                                    </div>-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
                             </div>
-                            <div class="col-xs-3 text-right">
-                                <a class="btn btn-sm btn-default" href="#" role="button" data-toggle="modal" data-target="#editcontactinfo">Edit</a>
-                            </div>
+
                         </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Marital Status:</strong><br>
-                                    Married
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Primary Language:</strong><br>
-                                    English
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Client Address:</strong><br>
-                                    123 Main St.,<br>
-                                    Silver Spring, MD 20901
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Legal Guardian Full Name:</strong><br>
-                                    John Doe
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Relationship with Client:</strong><br>
-                                    Sibling
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Client Phone #:</strong><br>
-                                    (240) 305-2412
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Phone #:</strong><br>
-                                    (240) 305-2412
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Client Alternate Phone #:</strong><br>
-                                    N/A
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Alternate Phone #:</strong><br>
-                                    (301) 555-1234
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>OTP Assignment:</strong><br>
-                                    Yes
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>OTP Assignment History:</strong><br>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <td><strong>OTP Serial #</strong></td>
-                                                <td><strong>Assignment Date</strong></td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>123456789012345</td>
-                                                <td>08/12/1991</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Client OTP Serial #:</strong><br>
-                                    123456789012345
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Program Enrollment:</strong><br>
-                                    AL
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Supports Planner:</strong><br>
-                                    Jane Doe
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Support Planning Agency:</strong><br>
-                                    Agency Name, Inc.
-                                </address>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseThree">
-                            Client Medicaid Information
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse in">
+                <div class="panel panel-default serviceCard">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>MA#:</strong><br>
-                                    44444444444 (Community)
-                                </address>
+                            <div class="col-xs-12">
+                                <p class="serviceName">Emergency Contact (Provider) <span class="lead"> - 301-555-5555</span></p>
                             </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Coverage Group:</strong>
-                                    Individuals Eligible for Home and Community-Based Services
-                                </address>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row" style="margin-bottom: 15px">
+                                        <div class="col-xs-6 col-md-4"><strong>Address:</strong><address style="margin-bottom:0">123 Main St.,<br> Silver Spring, MD 20901</address></div>
+                                        <div class="col-xs-6 col-md-4"><strong>Primary:</strong> No</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong> Provider</div>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
+                                    <div class="row">
+                                        <div class="col-xs-12"><strong>Availability:</strong>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--                                <div class="col-xs-12 col-sm-12 col-md-6" >-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target="#serviceActivityDetails"><span class="glyphicon glyphicon-eye-open"></span>View</button>-->
+                                <!--                                    </div>-->
+                                <!--                                    <div class="col-xs-6">-->
+                                <!--                                        <button type="button" class="btn btn-danger btn-block" role="button" data-toggle="modal" data-target="#flagService"><span class="glyphicon glyphicon-flag"></span>Flag</button>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
                             </div>
+
                         </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Start Date:</strong>
-                                    08/12/1991
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>End Date:</strong>
-                                    08/12/1991
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>LTC/Community:</strong>
-                                    Community
-                                </address>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseFour">
-                            Client Login Information
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseFour" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address><strong>User Name:</strong><br>CSmith</address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address><strong>Email Address:</strong><br>casmith@live.com</address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">z
-                                <address>
-                                    <strong>Alternate Email Address:</strong><br>
-                                    casmith2@live.com
-                                </address>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
