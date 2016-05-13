@@ -1,5 +1,5 @@
 <!doctype html>
-<html style="background: white;">
+<html>
 <head>
     <title><?php echo "LTSS Maryland | MyCare - {$page}" ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

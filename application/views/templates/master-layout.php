@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/fonts/font-awesome-4.6.2/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-overrides.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootswatch-paper-theme/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,6 +27,7 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/bootstrap-multiselect.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery.bootstrap.wizard.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/prettify.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&"></script>
 		
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
@@ -37,9 +39,12 @@
 			<!-- Main Content -->
 		<?php require "application/areas/{$area}/{$page}.php";?>
 		</div>
-        <!-- Main Footer -->
-        <?php require 'footer.php'; ?>
-        
+
+
+
+
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/cleanzone.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/page-calendar.js"></script>
         <!-- Main Scripts -->
 		<?php require 'scripts.php'; ?>
 	</body>

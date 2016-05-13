@@ -77,7 +77,7 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'carerecord'  => 'My Information',
+								'carerecord'  => 'My Care Record',
 								'info' => 'Help & Info',
 								);		
 			}
