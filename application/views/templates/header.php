@@ -14,10 +14,10 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info',
-								'requests'  => 'Requests',
-								'provideradmin'  => 'Account Profile'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info',
+								//'requests'  => 'Requests',
+								//'provideradmin'  => 'Account Profile'
 								);
 			}
 			//AUTHORIZED PROVIDER ACCESS
@@ -27,10 +27,10 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info',
-								'requests'  => 'Requests',
-								'provideradmin'  => 'Provider Admin'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info',
+								//'requests'  => 'Requests',
+								//'provideradmin'  => 'Provider Admin'
 								);		
 			}
 			//MS STAFF ACCESS
@@ -40,9 +40,9 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info',
-								'msadmin'  => 'Account Profile'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info',
+								//'msadmin'  => 'Account Profile'
 								);
 			}
 			//MAC STAFF ACCESS
@@ -52,9 +52,9 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info',
-								'msadmin'  => 'Account Profile'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info',
+								//'msadmin'  => 'Account Profile'
 								);
 			}
 			//DOM STAFF ACCESS
@@ -64,10 +64,10 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info',
-								'submissions'  => 'Submissions',
-								'domadmin'  => 'Account Profile'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info',
+								//'submissions'  => 'Submissions',
+								//'domadmin'  => 'Account Profile'
 								);
 			}
 			//PUBLIC MEMBER ACCESS
@@ -78,7 +78,7 @@
 			$mainlinks = array(
 								'home' => 'Home',
 								'carerecord'  => 'My Care Record',
-								'info' => 'Help & Info',
+								//'info' => 'Help & Info',
 								);		
 			}
 			//PUBLIC VISITOR ACCESS
@@ -88,8 +88,8 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info'
 								);		
 			}
 		}
@@ -100,8 +100,8 @@
 		//Top Level Navigation
 		$mainlinks = array(
 								'home' => 'Home',
-								'providers' => 'Find Services',
-								'info' => 'Help & Info'
+								//'providers' => 'Find Services',
+								//'info' => 'Help & Info'
 								);
 		}
 		
@@ -153,7 +153,7 @@
 								'<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, '.$loginname.' <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+										<!--<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>-->
 										<li><a href="'.base_url().'index.php/site/logout'.'"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 									</ul>
 								</li>'
@@ -168,7 +168,7 @@
 								'<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, '.$loginname.' <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+										<!--<li><a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>-->
 										<li><a href="'.base_url().'index.php/site/logout'.'"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 									</ul>
 								</li>'
