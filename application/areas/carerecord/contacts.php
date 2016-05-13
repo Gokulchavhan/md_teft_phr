@@ -20,10 +20,10 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
                                     <div class="row" style="margin-bottom: 15px">
-                                        <div class="col-xs-6 col-md-4"><strong>Date of Birth:</strong><br> 08/12/1955</div>
                                         <div class="col-xs-6 col-md-4"><strong>Relationship:</strong><br> Friend</div>
                                         <div class="col-xs-6 col-md-4"><strong>Guardian of:</strong><br> No</div>
                                         <div class="col-xs-6 col-md-4"><strong>Power of Attorney:</strong><br> No</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Date of Birth:</strong><br> 08/12/1955</div>
                                         <div class="col-xs-6 col-md-4"><strong>Representative Payee:</strong><br> No</div>
                                         <div class="col-xs-6 col-md-4"><strong>Primary Caregiver:</strong><br> No</div>
                                         <div class="col-xs-6 col-md-4"><strong>CFC Representative:</strong><br> No</div>
@@ -49,16 +49,16 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-12">
-                                <p class="serviceName">John Snow<br><span class="lead">240-123-5555</span></p>
+                                <p class="serviceName">John Snow<br><span class="lead">240-123-5555 x837</span></p>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 31px;">
                                     <div class="row" style="margin-bottom: 15px">
+                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong><br> Sibling</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Guardian of:</strong><br> Yes</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Power of Attorney:</strong><br> Yes</div>
                                         <div class="col-xs-6 col-md-4"><strong>Date of Birth:</strong><br> 01/27/1135</div>
-                                        <div class="col-xs-6 col-md-4"><strong>Relationship:</strong><br> </div>
-                                        <div class="col-xs-6 col-md-4"><strong>Guardian of:</strong><br> No</div>
-                                        <div class="col-xs-6 col-md-4"><strong>Power of Attorney:</strong><br> No</div>
-                                        <div class="col-xs-6 col-md-4"><strong>Representative Payee:</strong><br> No</div>
+                                        <div class="col-xs-6 col-md-4"><strong>Representative Payee:</strong><br> Yes</div>
                                         <div class="col-xs-6 col-md-4"><strong>Primary Caregiver:</strong><br> No</div>
                                         <div class="col-xs-6 col-md-4"><strong>CFC Representative:</strong><br> No</div>
 
