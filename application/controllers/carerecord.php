@@ -48,9 +48,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Contacts',
-            'myserviceplan' => 'My Service Plan',
-            'myemergencybackups' => 'My Emergency Backups',
+            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -98,9 +96,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Contacts',
-            'myserviceplan' => 'My Service Plan',
-            'myemergencybackups' => 'My Emergency Backups',
+            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -147,9 +143,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Contacts',
-            'myserviceplan' => 'My Service Plan',
-            'myemergencybackups' => 'My Emergency Backups',
+            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -199,9 +193,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Contacts',
-            'myserviceplan' => 'My Service Plan',
-            'myemergencybackups' => 'My Emergency Backups',
+            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -249,9 +241,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Contacts',
-            'myserviceplan' => 'My Service Plan',
-            'myemergencybackups' => 'My Emergency Backups',
+            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -272,9 +262,7 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'contacts' => 'My Contacts',
-                'myserviceplan' => 'My Service Plan',
-                'myemergencybackups' => 'My Emergency Backups',
+                'contacts' => 'My Representatives',
                 'serviceactivity' => 'Service Activity'
             );
             $this->load->helper('url');
@@ -295,9 +283,7 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'contacts' => 'My Contacts',
-                'myserviceplan' => 'My Service Plan',
-                'myemergencybackups' => 'My Emergency Backups',
+                'contacts' => 'My Representatives',
                 'serviceactivity' => 'Service Activity'
             );
             $this->load->helper('url');
