@@ -87,11 +87,72 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div id="eventCalendar1"></div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div id="eventCalendar3"></div>
+
+                        <div class="col-xs-6 col-sm-12">
+                            <h4>
+                                <span class="secondary-color">Recent Service Activity</span><br>
+                            </h4>
+                            <hr style="margin-top: 0">
+                            <h5 class="text-center"><strong>Yesterday</strong></h5>
+                            <hr style="margin-top: 0">
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
+                                    <div><span style="font-weight: bold; font-size: 80%">1:15pm</span></div>
+                                    <div><span style="font-weight: bold; font-size: 80%">7:00pm</span></div>
+                                </div>
+                                <div class="col-xs-8" style="padding-top: 5px;">
+                                    <p class="h5 no-margin">Shared Attendant</p>
+                                    <div>
+                                        <a href="#">Details</a>&nbsp;&nbsp;
+                                        <a href="#">Flag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
+                                    <div><span style="font-weight: bold; font-size: 80%">8:00am</span></div>
+                                    <div><span style="font-weight: bold; font-size: 80%">1:00pm</span></div>
+                                </div>
+                                <div class="col-xs-8" style="padding-top: 5px;">
+                                    <p class="h5 no-margin">Personal Assistance</p>
+                                    <div>
+                                        <a href="#">Details</a>&nbsp;&nbsp;
+                                        <a href="#">Flag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h5 class="text-center"><strong>Thursday</strong></h5>
+                            <hr style="margin-top: 0">
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
+                                    <div><span style="font-weight: bold; font-size: 80%">8:15pm</span></div>
+                                    <div><span style="font-weight: bold; font-size: 80%">10:00am</span></div>
+                                </div>
+                                <div class="col-xs-8" style="padding-top: 5px;">
+                                    <p class="h5 no-margin">Shared Attendant</p>
+                                    <div>
+                                        <a href="#">Details</a>&nbsp;&nbsp;
+                                        <a href="#">Flag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h5 class="text-center"><strong>Wednesday</strong></h5>
+                            <hr style="margin-top: 0">
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
+                                    <div><span style="font-weight: bold; font-size: 80%">7:45am</span></div>
+                                    <div><span style="font-weight: bold; font-size: 80%">1:10pm</span></div>
+                                </div>
+                                <div class="col-xs-8" style="padding-top: 5px;">
+                                    <p class="h5 no-margin">Shared Attendant</p>
+                                    <div>
+                                        <a href="#">Details</a>&nbsp;&nbsp;
+                                        <a href="#">Flag</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

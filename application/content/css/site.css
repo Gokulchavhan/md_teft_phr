@@ -328,3 +328,49 @@ div.serviceCard button > span.glyphicon{
 .fc-header-title h2 {
     font-size: 180%;
 }
+
+span.value {
+    margin: 7px 0px 0px;
+    display: inline-block;
+
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 0;
+}
+
+.primary-color {
+    color: #428BCA;
+}
+
+.secondary-color {
+    color: #63ABE8;
+}
+
+.panel.panel-default .panel-body .header a {
+        color: #2196f3;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        padding: 6px 14px;
+        border-radius: 20px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+a.rounded-link {
+    color: #2196f3;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 0px;
+    display: inline-block;
+    line-height: 80%;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+.no-margin {
+    margin: 0 !important;
+}
