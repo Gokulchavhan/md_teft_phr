@@ -10,9 +10,9 @@
         <hr>
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseOne">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseOne">
+                        <a >
                             General Information
                         </a>
                     </h4>
@@ -90,9 +90,9 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseTwo">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseTwo">
+                        <a >
                             Additional Client Information
                         </a>
                     </h4>
@@ -138,21 +138,20 @@
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Legal Guardian Full Name:</strong><br>
-                                    John Doe
+                                    <strong>Legal Guardian Full Name:</strong> John Doe
                                 </address>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Guardian Relationship with Client:</strong><br>
+                                    <strong>Guardian Relationship with Client:</strong>
                                     Sibling
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Client Phone #:</strong><br>
+                                    <strong>Client Phone #:</strong>
                                     (240) 305-2412
                                 </address>
                             </div>
@@ -160,13 +159,13 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Guardian Phone #:</strong><br>
+                                    <strong>Guardian Phone #:</strong>
                                     (240) 305-2412
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Client Alternate Phone #:</strong><br>
+                                    <strong>Client Alternate Phone #:</strong>
                                     N/A
                                 </address>
                             </div>
@@ -174,13 +173,13 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Guardian Alternate Phone #:</strong><br>
+                                    <strong>Guardian Alternate Phone #:</strong>
                                     (301) 555-1234
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>OTP Assignment:</strong><br>
+                                    <strong>OTP Assignment:</strong>
                                     Yes
                                 </address>
                             </div>
@@ -188,49 +187,34 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>OTP Assignment History:</strong><br>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <td><strong>OTP Serial #</strong></td>
-                                                <td><strong>Assignment Date</strong></td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>123456789012345</td>
-                                                <td>08/12/1991</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <strong>Client OTP Serial #:</strong> 123456789012345
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Client OTP Serial #:</strong><br>
-                                    123456789012345
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Program Enrollment:</strong><br>
+                                    <strong>Program Enrollment:</strong>
                                     AL
                                 </address>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-4">
+                                <address>
+                                    <strong>Supports Planner:</strong>
+                                    Jane Doe
+                                </address>
+                            </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Supports Planner:</strong><br>
-                                    Jane Doe
+                                    <strong>Support Planning Agency:</strong>
+                                    Agency Name, Inc.
                                 </address>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Support Planning Agency:</strong><br>
-                                    Agency Name, Inc.
+
                                 </address>
                             </div>
                         </div>
@@ -238,9 +222,9 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseThree">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseThree">
+                        <a>
                             Client Medicaid Information
                         </a>
                     </h4>
@@ -250,8 +234,7 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>MA#:</strong><br>
-                                    44444444444 (Community)
+                                    <strong>MA#:</strong> 44444444444 (Community)
                                 </address>
                             </div>
                             <div class="col-sm-7">
@@ -287,9 +270,9 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFour">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapseFour">
+                        <a >
                             Client Login Information
                         </a>
                     </h4>
@@ -298,17 +281,16 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
-                                <address><strong>User Name:</strong><br>CSmith</address>
+                                <address><strong>User Name:</strong> CSmith</address>
                             </div>
                             <div class="col-sm-7">
-                                <address><strong>Email Address:</strong><br>casmith@live.com</address>
+                                <address><strong>Email Address:</strong> casmith@live.com</address>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">z
+                            <div class="col-sm-offset-1 col-sm-5">
                                 <address>
-                                    <strong>Alternate Email Address:</strong><br>
-                                    casmith2@live.com
+                                    <strong>Alternate Email Address:</strong> casmith2@live.com
                                 </address>
                             </div>
                         </div>
