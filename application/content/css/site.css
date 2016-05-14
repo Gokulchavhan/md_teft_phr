@@ -286,6 +286,46 @@ input[type="radio"], .radio input[type="radio"], .radio-inline input[type="radio
 
 /*CH styles from this point on*/
 
+input.form-control{
+    background: #FFFFFF;
+}
+
+hr{
+    border-top: 1px solid #0793A7;
+}
+
+.navbar-inverse{
+    background-color: #0793A7;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #056E7D;
+}
+
+.navbar-brand{
+    color: #FFFFFF !important;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color: #067B8C;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+
+label{
+    line-height: 20px;
+}
+
+input[type="radio"]{
+    margin-top: 4px !important;
+}
+
 /*Service Card Styles*/
 span.serviceTime{
     font-variant: small-caps;

@@ -48,7 +48,6 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -96,7 +95,6 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -143,7 +141,6 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -193,7 +190,6 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -241,7 +237,6 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'contacts' => 'My Representatives',
             'serviceactivity' => 'Service Activity'
 										);
 		$this->load->helper('url');
@@ -262,7 +257,6 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'contacts' => 'My Representatives',
                 'serviceactivity' => 'Service Activity'
             );
             $this->load->helper('url');
@@ -283,7 +277,6 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'contacts' => 'My Representatives',
                 'serviceactivity' => 'Service Activity'
             );
             $this->load->helper('url');

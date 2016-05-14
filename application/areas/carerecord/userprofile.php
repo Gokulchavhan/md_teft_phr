@@ -22,30 +22,28 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>First Name:</strong><br>
+                                    <strong>First Name:</strong>
                                     Cicio
                                 </address>
                             </div>
                             <div class="col-sm-4">
                                 <address>
-                                    <strong>Middle Name:</strong><br>
+                                    <strong>Middle Name:</strong>
                                     A.
                                 </address>
                             </div>
-                            <div class="col-xs-3 text-right">
-                                <a class="btn btn-sm btn-default" href="#" role="button" data-toggle="modal" data-target="#edituserinfo">Edit</a>
-                            </div>
+                            
                         </div>
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Last Name:</strong><br>
+                                    <strong>Last Name:</strong>
                                     Smith
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Suffix:</strong><br>
+                                    <strong>Suffix:</strong>
                                     Male
                                 </address>
                             </div>
@@ -54,13 +52,13 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Date of Birth:</strong><br>
+                                    <strong>Date of Birth:</strong>
                                     08/12/1991
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Gender:</strong><br>
+                                    <strong>Gender:</strong>
                                     Male
                                 </address>
                             </div>
@@ -69,13 +67,13 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Race:</strong><br>
+                                    <strong>Race:</strong>
                                     Caucasian
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Hispanic:</strong><br>
+                                    <strong>Hispanic:</strong>
                                     No
                                 </address>
                             </div>
@@ -83,7 +81,7 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Jurisdiction/County:</strong><br>
+                                    <strong>Jurisdiction/County:</strong>
                                     Montgomery
                                 </address>
                             </div>
@@ -104,30 +102,28 @@
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>SSN:</strong><br>
+                                    <strong>SSN:</strong>
                                     ***-**-1234
                                 </address>
                             </div>
                             <div class="col-sm-4">
                                 <address>
-                                    <strong>Client ID:</strong><br>
+                                    <strong>Client ID:</strong>
                                     1234567890
                                 </address>
                             </div>
-                            <div class="col-xs-3 text-right">
-                                <a class="btn btn-sm btn-default" href="#" role="button" data-toggle="modal" data-target="#editcontactinfo">Edit</a>
-                            </div>
+                            
                         </div>
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
                                 <address>
-                                    <strong>Marital Status:</strong><br>
+                                    <strong>Marital Status:</strong>
                                     Married
                                 </address>
                             </div>
                             <div class="col-sm-7">
                                 <address>
-                                    <strong>Primary Language:</strong><br>
+                                    <strong>Primary Language:</strong>
                                     English
                                 </address>
                             </div>
