@@ -4,24 +4,25 @@
 
         <div class="form-group required">
             <label for="email" class="col-sm-3 control-label">Email Address</label>
-            <div class="col-sm-4">
+            <div class="col-sm-9 col-md-6">
                 <input class="form-control" id="email" required type="email">
             </div>
         </div>
-
+        <br>
         <div class="form-group">
             <label for="phone" class="col-sm-3 control-label">Phone #</label>
-            <div class="col-sm-4">
-                <input class="form-control" id="phone" type="phone" required>
+            <div class="col-sm-9 col-md-6">
+                <input class="form-control" id="phone" type="phone">
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-xs-6 col-sm-offset-3 col-sm-5">
+            <hr>
+            <div class="col-xs-6 col-sm-offset-3 col-sm-4 col-md-3">
                 <button type="button" class="btn btn-danger btn-block" onclick="window.location='<?php echo base_url()."index.php"?>';">Cancel</button>
             </div>
-            <div class="col-xs-6 col-sm-4">
-                <button type="button" class="btn btn-primary btn-block" onclick="window.location='<?php echo base_url()."index.php/usernamerecoveryconfirmation"?>';">Submit</button>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <button type="button" class="btn btn-success btn-block" onclick="window.location='<?php echo base_url()."index.php/usernamerecoveryconfirmation"?>';">Complete</button>
             </div>
         </div>
 </div>
