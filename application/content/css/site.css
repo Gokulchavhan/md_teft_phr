@@ -380,11 +380,23 @@ span.value {
 }
 
 .primary-color {
-    color: #428BCA;
+    color: #00798D;
 }
 
 .secondary-color {
-    color: #63ABE8;
+    color: #0793A7;
+}
+
+.orange-color {
+    color: #EB9800 !important;
+}
+
+.coolgray-color {
+    color: #B4B4B4 !important;
+}
+
+.bluesteel-color {
+    color: #62717B !important;
 }
 
 .panel.panel-default .panel-body .header a {
@@ -439,4 +451,14 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08b2ac', endColorstr='#067b8c',GradientType=0 );
 
 
+}
+
+.section-block {
+    border: 1px solid #ddd;
+    margin: 0 0 30px 0;
+    padding: 0 15px 30px;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: #7B9AAD;
 }

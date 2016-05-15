@@ -14,7 +14,10 @@
                 <div class="panel-body">
                     <form>
                         <fieldset>
-                            <legend>Find a Service</legend>
+                            <h4>
+                                <span class="secondary-color">Find a Service Activity</span><br>
+                            </h4>
+                            <hr style="margin-top: 0">
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="form-group">
                                     <label>Agency Name</label>
@@ -67,10 +70,16 @@
                                         <option value="All">All</option>
                                         <option value="Flagged">Flagged</option>
                                         <option value="Reviewed">Reviewed</option>
-                                        <option value="CompletedNoAction">Completed - No further action required</option>
+                                        <option value="CompletedNoAction">Completed - No further action required
+                                        </option>
                                         <option value="CompletedReportable">Completed - Entered into RE process</option>
                                     </select>
                                 </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <hr>
+                                <button type="button" class="btn btn-success btn-lg"><span class="fa fa-search"></span>&nbsp;Search
+                                </button>
                             </div>
                         </fieldset>
                     </form>
@@ -86,71 +95,136 @@
                         </div>
                     </div>
                     <br>
-                    <div class="row">
+                    <div class="row section-block">
+                        <h4>
+                            <span class="secondary-color">Recent Service Activity</span><br>
+                        </h4>
+                        <hr style="margin-top: 0">
+                        <h5 class="text-center">
+                            <small><strong class="coolgray-color">YESTERDAY</strong></small>
+                        </h5>
+                        <hr style="margin-top: 0; border-color: #bbb;">
 
-                        <div class="col-xs-6 col-sm-12">
-                            <h4>
-                                <span class="secondary-color">Recent Service Activity</span><br>
-                            </h4>
-                            <hr style="margin-top: 0">
-                            <h5 class="text-center"><strong>Yesterday</strong></h5>
-                            <hr style="margin-top: 0">
-                            <div class="row" style="margin-bottom: 10px;">
-                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                    <div><span style="font-weight: bold; font-size: 80%">1:15pm</span></div>
-                                    <div><span style="font-weight: bold; font-size: 80%">7:00pm</span></div>
+
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-xs-2 text-right">
+                                <div><span style="font-weight: bold;">8:00 am</span></div>
+                                <div><span style="font-weight: bold;">1:00 pm</span></div>
+                            </div>
+                            <div class="col-xs-10"
+                                 style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
+                                <div class="col-xs-8">
+                                    <p class="h5 no-margin bluesteel-color">Personal Assistance (New)<br>
+                                        <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
+                                            Providers)
+                                        </small>
+                                    </p>
                                 </div>
-                                <div class="col-xs-8" style="padding-top: 5px;">
-                                    <p class="h5 no-margin">Shared Attendant</p>
-                                    <div>
-                                        <a href="#">Details</a>&nbsp;&nbsp;
-                                        <a href="#">Flag</a>
-                                    </div>
+                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                    <span class="h4">
+                                        4&nbsp;<small>hrs</small>&nbsp;&nbsp;0&nbsp;<small>min
+                                    </span>
+                                </div>
+                                <div class="col-xs-12 text-right">
+                                    <hr style="margin: 5px 0 0 0; border-color: #aaa">
+                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
+                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
                                 </div>
                             </div>
-                            <div class="row" style="margin-bottom: 10px;">
-                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                    <div><span style="font-weight: bold; font-size: 80%">8:00am</span></div>
-                                    <div><span style="font-weight: bold; font-size: 80%">1:00pm</span></div>
+                        </div>
+
+
+                        <div class="row" style="margin-bottom: 5px; background-color: #F5FAFF; padding: 5px 0;">
+                            <div class="col-xs-2 text-right">
+                                <div><span style="font-weight: bold;">1:15 pm</span></div>
+                                <div><span style="font-weight: bold;">7:00 pm</span></div>
+                            </div>
+                            <div class="col-xs-10"
+                                 style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
+                                <div class="col-xs-8">
+                                    <p class="h5 no-margin bluesteel-color">Shared Attendant (New)<br>
+                                        <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
+                                            Providers)
+                                        </small>
+                                    </p>
                                 </div>
-                                <div class="col-xs-8" style="padding-top: 5px;">
-                                    <p class="h5 no-margin">Personal Assistance</p>
-                                    <div>
-                                        <a href="#">Details</a>&nbsp;&nbsp;
-                                        <a href="#">Flag</a>
-                                    </div>
+                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                    <span class="h4">
+                                        5&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
+                                    </span>
+                                </div>
+                                <div class="col-xs-12 text-right">
+                                    <hr style="margin: 5px 0 0 0; border-color: #aaa">
+                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
+                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
                                 </div>
                             </div>
-                            <br>
-                            <h5 class="text-center"><strong>Thursday</strong></h5>
-                            <hr style="margin-top: 0">
-                            <div class="row" style="margin-bottom: 10px;">
-                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                    <div><span style="font-weight: bold; font-size: 80%">8:15pm</span></div>
-                                    <div><span style="font-weight: bold; font-size: 80%">10:00am</span></div>
+                        </div>
+
+                        <br>
+                        <h5 class="text-center">
+                            <small><strong class="coolgray-color">THURSDAY</strong></small>
+                        </h5>
+                        <hr style="margin-top: 0; border-color: #bbb;">
+
+
+                        <div class="row" style="margin-bottom: 5px; padding: 5px 0;">
+                            <div class="col-xs-2 text-right">
+                                <div><span style="font-weight: bold;">8:15 am</span></div>
+                                <div><span style="font-weight: bold;">10:00 am</span></div>
+                            </div>
+                            <div class="col-xs-10"
+                                 style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
+                                <div class="col-xs-8">
+                                    <p class="h5 no-margin bluesteel-color">Shared Attendant (Rejected)<br>
+                                        <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
+                                            Providers)
+                                        </small>
+                                    </p>
                                 </div>
-                                <div class="col-xs-8" style="padding-top: 5px;">
-                                    <p class="h5 no-margin">Shared Attendant</p>
-                                    <div>
-                                        <a href="#">Details</a>&nbsp;&nbsp;
-                                        <a href="#">Flag</a>
-                                    </div>
+                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                    <span class="h4">
+                                        1&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
+                                    </span>
+                                </div>
+                                <div class="col-xs-12 text-right">
+                                    <hr style="margin: 5px 0 0 0; border-color: #aaa">
+                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
                                 </div>
                             </div>
-                            <br>
-                            <h5 class="text-center"><strong>Wednesday</strong></h5>
-                            <hr style="margin-top: 0">
-                            <div class="row" style="margin-bottom: 10px;">
-                                <div class="col-xs-3 text-right" style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                    <div><span style="font-weight: bold; font-size: 80%">7:45am</span></div>
-                                    <div><span style="font-weight: bold; font-size: 80%">1:10pm</span></div>
+                        </div>
+
+
+                        <br>
+                        <h5 class="text-center">
+                            <small><strong class="coolgray-color">WEDNESDAY</strong></small>
+                        </h5>
+                        <hr style="margin-top: 0; border-color: #bbb;">
+
+
+                        <div class="row" style="margin-bottom: 10px; padding: 5px 0;">
+                            <div class="col-xs-2 text-right">
+                                <div><span style="font-weight: bold;">7:45 am</span></div>
+                                <div><span style="font-weight: bold;">1:10 pm</span></div>
+                            </div>
+                            <div class="col-xs-10"
+                                 style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
+                                <div class="col-xs-8">
+                                    <p class="h5 no-margin bluesteel-color">Shared Attendant (Paid)<br>
+                                        <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
+                                            Providers)
+                                        </small>
+                                    </p>
                                 </div>
-                                <div class="col-xs-8" style="padding-top: 5px;">
-                                    <p class="h5 no-margin">Shared Attendant</p>
-                                    <div>
-                                        <a href="#">Details</a>&nbsp;&nbsp;
-                                        <a href="#">Flag</a>
-                                    </div>
+                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                    <span class="h4">
+                                        5&nbsp;<small>hrs</small>&nbsp;&nbsp;25&nbsp;<small>min</small>
+                                    </span>
+                                </div>
+                                <div class="col-xs-12 text-right">
+                                    <hr style="margin: 5px 0 0 0; border-color: #aaa">
+                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
+                                    <a href="#" data-toggle="modal" data-target="#flagService">Flagged</a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +254,7 @@
                     center: '',
                     right: ''
                 },
-                titleFormat :'MMMM yyyy \'(prev)\'',
+                titleFormat: 'MMMM yyyy \'(prev)\'',
                 events: [
                     {
                         id: '1',
@@ -229,7 +303,7 @@
                 header: {
                     left: 'title',
                     center: '',
-                    right: 'today prev next'
+                    right: 'today prev next month agendaWeek agendaDay'
                 },
                 events: [
                     {
@@ -281,7 +355,7 @@
                     center: '',
                     right: ''
                 },
-                titleFormat :'MMMM yyyy \'(next)\'',
+                titleFormat: 'MMMM yyyy \'(next)\'',
                 events: [
                     {
                         id: '1',
@@ -325,6 +399,6 @@
 
             });
         });
-            $('#eventCalendar1').fullCalendar('prev');
-            $('#eventCalendar3').fullCalendar('next');
+        $('#eventCalendar1').fullCalendar('prev');
+        $('#eventCalendar3').fullCalendar('next');
     </script>

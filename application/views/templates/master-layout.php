@@ -28,6 +28,7 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery.bootstrap.wizard.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/prettify.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/chart.js/Chart.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&"></script>
 		
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
