@@ -1,7 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;My Service Activity
+            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;Service Activity Tracker
                 <small class="pull-right">
                     <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View All Service Activity<span class="fa fa-chevron-right"
                                                            style="font-size: 80%"></span></a>
