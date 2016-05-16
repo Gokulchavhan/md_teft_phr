@@ -521,6 +521,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     .affixed-side-nav {
         width: 262px;
     }
+
+    .affixed-side-content{
+        width: 292px;
+        padding-right: 0px
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
@@ -528,10 +533,20 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
         width: 212px;
     }
 
+    .affixed-side-content {
+        width: 242px;
+        padding-right: 0px
+    }
+
 }
 @media (min-width: 768px ) and (max-width: 991px) {
-    .affixed-side-nav {
-        position: relative;
+    .affixed-side-nav,
+    .affixed-side-content {
+        position: static;
+    }
+
+    .affixed-side-content{
+        padding: 0 15px;
     }
 
 }
@@ -539,6 +554,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 @media (max-width: 767px) {
     .affixed-side-nav {
         display: none;
+    }
+
+    .affixed-side-content {
+        position: static;
+    }
+
+    .affixed-side-content {
+        padding: 0 15px;
     }
 
     .fc-header-left,
@@ -552,4 +575,29 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
         margin-top : 8px;
     }
 
+}
+
+span {
+    display: inline-block;
+    line-height: 100%;
+
+}
+
+#sidebar a .fa-chevron-right {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -8px;
+}
+
+#sidebar a.active .fa-chevron-right {
+    display: initial;
+    color: white !important;
+}
+
+
+#sidebar a:hover .fa-chevron-right {
+    display: initial;
+    color: #ddd;
 }

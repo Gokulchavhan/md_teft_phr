@@ -4,7 +4,7 @@
 			  foreach ($sidenavlinks as $link => $linkname) {
 					$isactive =($link == $page) ? 'active' : "";
 					
-					echo "<a class=\"list-group-item {$isactive}\" href=\"".base_url()."index.php/{$area}/{$link}\">{$addstaricon} {$linkname}</a>";
+					echo "<a class=\"list-group-item {$isactive}\" href=\"".base_url()."index.php/{$area}/{$link}\">{$addstaricon} {$linkname}<span class='fa fa-chevron-right'></span></a>";
 				
 				}
 			?>

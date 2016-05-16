@@ -3,6 +3,45 @@
 
     <!-- Side Navigation -->
     <?php echo $_sidenavigation; ?>
+    <div class="col-sm-12 col-md-3 affix affixed-side-content no-padding" style="top: 250px;">
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4>
+                        <span class="secondary-color">Service Plan Summary</span><br>
+                        <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
+                    </h4>
+                    <hr style="margin: 0">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="value h4"><small>starts</small><br><span>03/15/2016</span></span>
+                        </div>
+                        <div class="col-sm-12">
+                            <span class="value h4"><small>ends</small><br><span>03/14/2017</span></span>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="secondary-color">Weekly Services<br>
+                        <span class="h5 no-margin"><small><i>maximum allowable</i></small></span>
+                    </h4>
+                    <hr style="margin: 0">
+                    <div class="col-sm-12 no-padding">
+                        <span class="value h3">20&nbsp;<small>hrs.</small></span>
+                    </div>
+                    <div class="col-sm-12 no-padding">
+                        <span class="value h3">40&nbsp;<small>units</small></span>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
 
     <!-- Content -->
     <!-- Content -->
@@ -99,8 +138,12 @@
                                                 <option value="All">All</option>
                                                 <option value="Flagged">Pending Review</option>
                                                 <option value="Reviewed">Under Review</option>
-                                                <option value="CompletedNoAction">Completed - No further action required</option>
-                                                <option value="CompletedReportable">Completed - Escalated to a Reportable Event</option>
+                                                <option value="CompletedNoAction">Completed - No further action
+                                                    required
+                                                </option>
+                                                <option value="CompletedReportable">Completed - Escalated to a
+                                                    Reportable Event
+                                                </option>
                                             </select>
                                         </div>
                                     </div>
@@ -114,9 +157,12 @@
                                     </div>
                                     <div class="col-xs-12">
                                         <hr>
-                                        <button type="button" class="btn btn-default btn-lg" onclick="clearSearch();"><span class="fa fa-remove"></span>&nbsp;Clear
-                                        </button>&nbsp;&nbsp;
-                                        <button type="button" class="btn btn-primary btn-lg" onclick="searchServiceActivities();"><span class="fa fa-search"></span>&nbsp;Search
+                                        <button type="button" class="btn btn-default btn-lg" onclick="clearSearch();">
+                                            <span class="fa fa-remove"></span>&nbsp;Clear
+                                        </button>
+                                        &nbsp;&nbsp;
+                                        <button type="button" class="btn btn-primary btn-lg"
+                                                onclick="searchServiceActivities();"><span class="fa fa-search"></span>&nbsp;Search
                                         </button>
                                     </div>
                                 </fieldset>
@@ -153,15 +199,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Personal Assistance<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>New Service Activity</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         4&nbsp;<small>hrs</small>&nbsp;&nbsp;0&nbsp;<small>min
                                     </span>
@@ -182,15 +229,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Shared Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>New Service Activity</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         5&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
                                     </span>
@@ -217,15 +265,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Shared Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>Claim Rejected</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         1&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
                                     </span>
@@ -252,16 +301,19 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-9">
+                                <div class="col-sm-9">
                                     <p class="h5 no-margin bluesteel-color">
-                                        <span class="fa fa-flag" style="color: #FF9800; padding-right: 6px"></span>Shared Attendant<br>
+                                        <span class="fa fa-flag" style="color: #FF9800; padding-right: 6px"></span>Shared
+                                        Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
-                                        <span style="font-size: 80%"><strong>Claim Paid</strong> - Flag Pending Review</span>
+                                        </small>
+                                        <br>
+                                        <span
+                                            style="font-size: 80%"><strong>Claim Paid</strong> - Flag Pending Review</span>
                                     </p>
                                 </div>
-                                <div class="col-xs-3 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-3 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         5&nbsp;<small>hrs</small>&nbsp;&nbsp;25&nbsp;<small>min</small>
                                     </span>
@@ -292,15 +344,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Personal Assistance<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>New Service Activity</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         4&nbsp;<small>hrs</small>&nbsp;&nbsp;0&nbsp;<small>min
                                     </span>
@@ -321,15 +374,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Shared Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>New Service Activity</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         5&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
                                     </span>
@@ -356,15 +410,16 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-8">
+                                <div class="col-sm-8">
                                     <p class="h5 no-margin bluesteel-color">Shared Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>Claim Rejected</strong></span>
                                     </p>
                                 </div>
-                                <div class="col-xs-4 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-4 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         1&nbsp;<small>hrs</small>&nbsp;&nbsp;45&nbsp;<small>min</small>
                                     </span>
@@ -391,16 +446,18 @@
                             </div>
                             <div class="col-xs-10"
                                  style="padding-top: 5px; border-left: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div class="col-xs-9">
+                                <div class="col-sm-9">
                                     <p class="h5 no-margin bluesteel-color">
-                                        <span class="fa fa-flag" style="color: #FF9800; padding-right: 6px"></span>Shared Attendant<br>
+                                        <span class="fa fa-flag" style="color: #FF9800; padding-right: 6px"></span>Shared
+                                        Attendant<br>
                                         <small>performed by:&nbsp;<strong>Candace Kind</strong>&nbsp;(Tru-Care
                                             Providers)
-                                        </small><br>
+                                        </small>
+                                        <br>
                                         <span style="font-size: 80%"><strong>Claim Paid</strong> - Flag Reviewed, No Action Required</span>
                                     </p>
                                 </div>
-                                <div class="col-xs-3 text-right" style="padding-top: 10px;">
+                                <div class="col-sm-3 text-right" style="padding-top: 10px;">
                                     <span class="h4">
                                         5&nbsp;<small>hrs</small>&nbsp;&nbsp;25&nbsp;<small>min</small>
                                     </span>
@@ -431,15 +488,15 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-            $( "#serviceDate" ).datepicker();
+            $("#serviceDate").datepicker();
 
-            searchServiceActivities = function() {
+            searchServiceActivities = function () {
                 $('#calendarContainer, #recentServiceActivity').hide();
                 $('#searchResults').show();
             };
 
 
-            clearSearch = function() {
+            clearSearch = function () {
                 $('#calendarContainer, #recentServiceActivity').show();
                 $('#searchResults').hide();
             };

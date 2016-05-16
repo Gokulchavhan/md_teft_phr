@@ -15,7 +15,7 @@
                     <div class="row section-block">
                         <h4>
                             <span class="secondary-color">Service Plan Summary</span><br>
-                            <span class="h5"><small><i>as of 03/15/2016</i></small></span>
+                            <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
                         </h4>
                         <hr style="margin: 0">
                         <div class="row">
@@ -31,7 +31,7 @@
                 <div class="col-xs-6 col-lg-12">
                     <div class="row section-block">
                         <h4 class="secondary-color">Weekly Services<br>
-                            <span class="h5"><small><i>maximum allowable</i></small></span>
+                            <span class="h5 no-margin"><small><i>maximum allowable</i></small></span>
                         </h4>
                         <hr style="margin: 0">
                         <div class="col-sm-12 no-padding">
