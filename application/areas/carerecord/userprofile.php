@@ -19,72 +19,65 @@
                     </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">
+                    <div class="panel-body form-horizontal">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>First Name:</strong>
-                                    Cicio
-                                </address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>First Name:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Rosie</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Middle Name:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">A</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Last Name:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Red</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Suffix:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">--</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-4">
-                                <address>
-                                    <strong>Middle Name:</strong>
-                                    A.
-                                </address>
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Last Name:</strong>
-                                    Smith
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Suffix:</strong>
-                                    Male
-                                </address>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Date of Birth:</strong>
-                                    08/12/1991
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Gender:</strong>
-                                    Male
-                                </address>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Race:</strong>
-                                    Caucasian
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Hispanic:</strong>
-                                    No
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Jurisdiction/County:</strong>
-                                    Montgomery
-                                </address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Date of Birth:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">08/12/1951</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Gender:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Female</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Race:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Caucasian</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Hispanic:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">No</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Jurisdiction/County:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Montgomery</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
