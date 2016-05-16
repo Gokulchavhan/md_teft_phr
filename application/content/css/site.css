@@ -427,6 +427,10 @@ span.value {
     color: #62717B !important;
 }
 
+.disabled-color {
+    color: #bbb !important;
+}
+
 .panel.panel-default .panel-body .header a {
     color: #2196f3;
     text-decoration: none;
