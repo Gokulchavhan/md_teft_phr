@@ -1,8 +1,10 @@
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2 id="myModalLabel" style="border-bottom: 2px solid #ddd; color: #428BCA; margin-bottom: 30px;">
-            <b>MyCare</b> Representative Registration
+        <h2 id="myModalLabel" class="primary-color">
+            <b>MyCare</b> Represntative Registration
         </h2>
+        <hr>
+        <br>
         <form class="form-horizontal" role="form">
             <div class="form-group">
                 <label for="firstname" class="col-sm-3 control-label">First Name</label>
@@ -99,12 +101,12 @@
                     </select>
                 </div>
             </div>
-            <div class="row">
-                <br>
-                <div class="col-xs-12 col-sm-offset-3 col-sm-5">
-                    <button type="button" class="btn btn-success col-xs-12 col-sm-12 col-md-9 col-lg-9" style="height: 70px; font-size: 28px; margin-bottom: 30px; margin-top: -12px;"><span style="padding-top: 10px" class="glyphicon glyphicon-check"></span> Complete</button>
-
-                </div>
+            <br>
+            <hr>
+            <div class="col-xs-12 col-sm-offset-3 col-sm-5">
+                <button type="button" class="btn btn-success btn-lg" onclick="window.location='<?php echo base_url() . "index.php/registrationconfirmation" ?>';">
+                    <span class="fa fa-check"></span>&nbsp;&nbsp;Complete
+                </button>
             </div>
         </form>
     </div>
