@@ -93,126 +93,119 @@
                     </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
-                    <div class="panel-body">
+                    <div class="panel-body form-horizontal">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>SSN:</strong>
-                                    ***-**-1234
-                                </address>
-                            </div>
-                            <div class="col-sm-4">
-                                <address>
-                                    <strong>Client ID:</strong>
-                                    1234567890
-                                </address>
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Marital Status:</strong>
-                                    Married
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Primary Language:</strong>
-                                    English
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Client Address:</strong><br>
-                                    123 Main St.,<br>
-                                    Silver Spring, MD 20901
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Legal Guardian Full Name:</strong> John Doe
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Relationship with Client:</strong>
-                                    Sibling
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Client Phone #:</strong>
-                                    (240) 305-2412
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Phone #:</strong>
-                                    (240) 305-2412
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Client Alternate Phone #:</strong>
-                                    N/A
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Guardian Alternate Phone #:</strong>
-                                    (301) 555-1234
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>OTP Assignment:</strong>
-                                    Yes
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Client OTP Serial #:</strong> 123456789012345
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Program Enrollment:</strong>
-                                    AL
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Supports Planner:</strong>
-                                    Jane Doe
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Support Planning Agency:</strong>
-                                    Agency Name, Inc.
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>SSN:</strong></span>
+                                    <div class="col-xs-7"><span class="value">***-**-1234</span></div>
+                                </div>
+                                <div class="form-group">
 
-                                </address>
+                                    <span class="control-label col-xs-5"><strong>Client ID:</strong></span>
+                                    <div class="col-xs-7"><span class="value">1234567890</span></div>
+
+                                </div>
+
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Marital Status:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Married</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Primary Language:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">English</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Client Address:</strong><br>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">123 Main St.,<br>
+                                                                                            Silver Spring, MD 20901</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Legal Guardian Full Name:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">John Doe</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Guardian Relationship with Client:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Sibling</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Client Phone #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Guardian Phone #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Client Alternate Phone #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">N/A</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Guardian Alternate Phone #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">(301) 555-1234</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>OTP Assignment:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Yes</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Client OTP Serial #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">123456789012345</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Program Enrollment:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">AL</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Supports Planner:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Jane Doe</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Support Planning Agency:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Agency Name, Inc.</span></div>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -228,38 +221,43 @@
                 <div id="collapseThree" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>MA#:</strong> 44444444444 (Community)
-                                </address>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>MA#:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">44444444444 (Community)</span></div>
+                                </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Coverage Group:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Individuals Eligible for Home and Community-Based Services</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Start Date:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">08/12/1991</span></div>
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>Coverage Group:</strong>
-                                    Individuals Eligible for Home and Community-Based Services
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>Start Date:</strong>
-                                    08/12/1991
-                                </address>
-                            </div>
-                            <div class="col-sm-7">
-                                <address>
-                                    <strong>End Date:</strong>
-                                    08/12/1991
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address>
-                                    <strong>LTC/Community:</strong>
-                                    Community
-                                </address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>End Date:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">08/12/1991</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>LTC/Community:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">Community</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -277,18 +275,26 @@
                 <div id="collapseFour" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-offset-1 col-sm-4">
-                                <address><strong>User Name:</strong> CSmith</address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                </span>
+                                    <div class="col-xs-7"><span class="value">CSmith</span></div>
+                                </div>
+                                <div class="form-group">
+                                <span class="control-label col-xs-5">
+                                    <strong>Email Address:</strong>
+                                </span>
+                                    <div class="col-xs-7"><span class="value">casmith@live.com</span></div>
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                <address><strong>Email Address:</strong> casmith@live.com</address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-5">
-                                <address>
-                                    <strong>Alternate Email Address:</strong> casmith2@live.com
-                                </address>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                <span class="control-label col-xs-5">
+                                    <strong>Alternate Email Address:</strong>
+                                </span>
+                                    <div class="col-xs-7"><span class="value">casmith2@live.com</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>

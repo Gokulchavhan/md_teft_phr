@@ -213,6 +213,49 @@
 		}
 
 
+		public function registrationconfirmation ($area="public", $page="registrationconfirmation"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$races =  array(
+				"Select a Race",
+				"African American",
+				"Asian",
+				"Caucasian",
+				"Middle Eastern",
+				"Native American/Alaskan",
+				"Pacific Islander",
+				"Other"
+			);
+			$counties =  array(
+				"Select a County",
+				"Adams",
+				"Alcorn",
+				"Amite",
+				"Attala",
+				"Benton",
+				"Bolivar",
+				"Calhoun"
+			);
+			$genders =  array(
+				"Select a Gender",
+				"Male",
+				"Female",
+				"Other"
+			);
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$data['races'] = $races;
+			$data['counties'] = $counties;
+			$data['genders'] = $genders;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
+
+
 		public function usernamerecovery ($area="public", $page="usernamerecovery"){
 			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
 			{
@@ -229,7 +272,9 @@
 			{
 				show_404();
 			}
-
+			
+			
+			
 			$data['area'] = $area;
 			$data['page'] = $page;
 			$this->load->helper('url');

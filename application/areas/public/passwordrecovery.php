@@ -22,7 +22,7 @@
                 <button type="button" class="btn btn-danger btn-block" onclick="window.location='<?php echo base_url()."index.php"?>';">Cancel</button>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3">
-                <button type="button" class="btn btn-success btn-block" onclick="window.location='<?php echo base_url()."index.php/usernamerecoveryconfirmation"?>';">Complete</button>
+                <button type="button" class="btn btn-success btn-block" onclick="window.location='<?php echo base_url()."index.php/passwordrecoveryconfirmation"?>';">Complete</button>
             </div>
         </div>
 
