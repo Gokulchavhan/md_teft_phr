@@ -46,14 +46,15 @@
                                         <span class="value">--</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5"><strong>Date of Birth:</strong></span>
                                     <div class="col-xs-7">
                                         <span class="value">08/12/1951</span>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-sm-6">
+
                                 <div class="form-group">
                                     <span class="control-label col-xs-5"><strong>Gender:</strong></span>
                                     <div class="col-xs-7">
@@ -219,44 +220,44 @@
                     </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse">
-                    <div class="panel-body">
+                    <div class="panel-body form-horizontal">
                         <div class="row">
 
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>MA#:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">44444444444 (Community)</span></div>
+                                    <span class="control-label col-sm-5">
+                                        <strong>MA#:</strong>
+                                    </span>
+                                    <div class="col-sm-7"><span class="value">44444444444 (Community)</span></div>
                                 </div>
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Coverage Group:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">Individuals Eligible for Home and Community-Based Services</span>
+                                    <span class="control-label col-sm-5">
+                                        <strong>Coverage Group:</strong>
+                                    </span>
+                                    <div class="col-sm-7"><span class="value">Individuals Eligible for Home and Community-Based Services</span>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Start Date:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">08/12/1991</span></div>
+                                    <span class="control-label col-sm-5">
+                                        <strong>Start Date:</strong>
+                                    </span>
+                                    <div class="col-sm-7"><span class="value">08/12/1991</span></div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>End Date:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">08/12/1991</span></div>
+                                    <span class="control-label col-sm-5">
+                                        <strong>End Date:</strong>
+                                    </span>
+                                    <div class="col-sm-7"><span class="value">08/12/1991</span></div>
                                 </div>
 
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>LTC/Community:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">Community</span></div>
+                                    <span class="control-label col-xs-5">
+                                        <strong>LTC/Community:</strong>
+                                    </span>
+                                    <div class="col-sm-7"><span class="value">Community</span></div>
                                 </div>
                             </div>
                         </div>
@@ -273,27 +274,27 @@
                     </h4>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse">
-                    <div class="panel-body">
+                    <div class="panel-body form-horizontal">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
                                 <span class="control-label col-xs-5"><strong>User Name:</strong>
                                 </span>
-                                    <div class="col-xs-7"><span class="value">CSmith</span></div>
+                                    <div class="col-sm-7"><span class="value">CSmith</span></div>
                                 </div>
                                 <div class="form-group">
-                                <span class="control-label col-xs-5">
+                                <span class="control-label col-sm-5">
                                     <strong>Email Address:</strong>
                                 </span>
-                                    <div class="col-xs-7"><span class="value">casmith@live.com</span></div>
+                                    <div class="col-sm-7"><span class="value">casmith@live.com</span></div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                <span class="control-label col-xs-5">
+                                <span class="control-label col-sm-5">
                                     <strong>Alternate Email Address:</strong>
                                 </span>
-                                    <div class="col-xs-7"><span class="value">casmith2@live.com</span></div>
+                                    <div class="col-sms-7"><span class="value">casmith2@live.com</span></div>
                                 </div>
                             </div>
                         </div>

@@ -605,3 +605,12 @@ span {
     display: initial;
     color: #adadad;
 }
+
+label.required::after{
+    content: "*";
+    position: relative;
+    left: 3px;
+    color: #ff9800;
+    font-weight: bolder;
+    font-size: 22px;
+}
