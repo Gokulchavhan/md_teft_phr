@@ -1,7 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;My Service Activity
+            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;Service Activity Tracker
                 <small class="pull-right">
                     <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View All Service Activity<span class="fa fa-chevron-right"
                                                            style="font-size: 80%"></span></a>
@@ -10,44 +10,44 @@
             <hr>
         </div>
         <div class="content">
-            <div class="col-sm-12 col-lg-3 no-padding">
-                <div class="col-xs-6 col-lg-12">
-                    <div class="row section-block">
-                        <h4>
-                            <span class="secondary-color">Service Plan Summary</span><br>
-                            <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
-                        </h4>
-                        <hr style="margin: 0">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <span class="value h4"><small>starts</small><br><span>03/15/2016</span></span>
-                            </div>
-                            <div class="col-sm-12">
-                                <span class="value h4"><small>ends</small><br><span>03/14/2017</span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-lg-12">
-                    <div class="row section-block">
-                        <h4 class="secondary-color">Weekly Services<br>
-                            <span class="h5 no-margin"><small><i>maximum allowable</i></small></span>
-                        </h4>
-                        <hr style="margin: 0">
-                        <div class="col-sm-12 no-padding">
-                            <span class="value h3">20&nbsp;<small>hrs.</small></span>
-                        </div>
-                        <div class="col-sm-12 no-padding">
-                            <span class="value h3">40&nbsp;<small>units</small></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-5 no-padding">
+<!--            <div class="col-sm-12 col-lg-3 no-padding">-->
+<!--                <div class="col-xs-6 col-lg-12">-->
+<!--                    <div class="row section-block">-->
+<!--                        <h4>-->
+<!--                            <span class="secondary-color">Service Plan Summary</span><br>-->
+<!--                            <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>-->
+<!--                        </h4>-->
+<!--                        <hr style="margin: 0">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-sm-12">-->
+<!--                                <span class="value h4"><small>starts</small><br><span>03/15/2016</span></span>-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-12">-->
+<!--                                <span class="value h4"><small>ends</small><br><span>03/14/2017</span></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-xs-6 col-lg-12">-->
+<!--                    <div class="row section-block">-->
+<!--                        <h4 class="secondary-color">Weekly Services<br>-->
+<!--                            <span class="h5 no-margin"><small><i>maximum allowable</i></small></span>-->
+<!--                        </h4>-->
+<!--                        <hr style="margin: 0">-->
+<!--                        <div class="col-sm-12 no-padding">-->
+<!--                            <span class="value h3">20&nbsp;<small>hrs.</small></span>-->
+<!--                        </div>-->
+<!--                        <div class="col-sm-12 no-padding">-->
+<!--                            <span class="value h3">40&nbsp;<small>units</small></span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="col-sm-6 col-lg-7 no-padding">
                 <div id="service-activity-calendar"></div>
                 <br><br>
             </div>
-            <div class="col-sm-6 col-lg-4 no-padding">
+            <div class="col-sm-6 col-lg-5 no-padding">
                 <div class="col-xs-12 col-sm-12">
                         <div class="row section-block">
                             <h4>
