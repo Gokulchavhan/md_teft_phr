@@ -3,7 +3,7 @@
         <div class="header">
             <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;My Service Activity
                 <small class="pull-right">
-                    <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View All Service Activity&nbsp;&nbsp;<span class="fa fa-chevron-right"
+                    <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View All Service Activity<span class="fa fa-chevron-right"
                                                            style="font-size: 80%"></span></a>
                 </small>
             </h2>

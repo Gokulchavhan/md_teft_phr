@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-overrides.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootswatch-paper-theme/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/jquery-bootstrap-datepicker/jquery-bootstrap-datepicker.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,6 +24,7 @@
 		
 		<!-- Javascript -->
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/jquery-ui-1.11.4/jquery-ui.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/bootstrap.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/bootstrap-multiselect.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery.bootstrap.wizard.js"></script>

@@ -4,7 +4,7 @@
             <h2 class="h3 primary-color"><span class="fa fa-flag"></span>&nbsp;Flagged Services Tracker
                 <small class="pull-right">
                     <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
-                        All Flagged Service Activity&nbsp;<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>
+                        All Flagged Service Activity<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>
                 </small>
             </h2>
             <hr>
@@ -20,10 +20,28 @@
                         </h4>
                         <hr style="margin: 0">
                         <div class="col-sm-12 no-padding">
-                            <span class="value h3">1&nbsp;<small style="color: #87CCBE">pending review</small></span>
+                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <span class="value h3">
+                                    1
+                                </span>
+                            </div>
+                            <div class="col-xs-11 col-sm-10">
+                            <span class="value h3">
+                                    <small class="dashboard-value" style="color: #87CCBE">pending review</small></span>
+                                </span>
+                            </div>
                         </div>
                         <div class="col-sm-12 no-padding">
-                            <span class="value h3">2&nbsp;<small style="color: #469B88">in review process</small></span>
+                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <span class="value h3">
+                                    2
+                                </span>
+                            </div>
+                            <div class="col-xs-11 col-sm-10">
+                            <span class="value h3">
+                                    <small class="dashboard-value" style="color: #469B88">under review</small></span>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,10 +51,29 @@
                         </h4>
                         <hr style="margin: 0">
                         <div class="col-sm-12 no-padding">
-                            <span class="value h3">4&nbsp;<small style="color:#9FC8E1">action not required</small></span>
+                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <span class="value h3">
+                                    4
+                                </span>
+                            </div>
+                            <div class="col-xs-11 col-sm-10">
+                            <span class="value h3">
+                                    <small class="dashboard-value" style="color:#9FC8E1">no action required</small>
+                                </span>
+                            </div>
                         </div>
                         <div class="col-sm-12 no-padding">
-                            <span class="value h3">1&nbsp;<small style="color: #50809F">entered in RE process</small></span>
+                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <span class="value h3">
+                                    1
+                                </span>
+                            </div>
+                            <div class="col-xs-11 col-sm-10">
+                            <span class="value h3">
+                                    <small class="dashboard-value"
+                                           style="color: #50809F;">escalated to reportable event</small>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,9 +95,9 @@
         animation: {
             animateScale: true
         },
-        options : {
-            legend : {
-                position : "bottom"
+        options: {
+            legend: {
+                position: "bottom"
             }
         },
         data: {

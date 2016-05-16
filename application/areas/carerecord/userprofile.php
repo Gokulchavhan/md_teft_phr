@@ -10,9 +10,10 @@
         <hr>
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseOne">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseOne" role="button">
                     <h4 class="panel-title">
-                        <a >
+                        <a>
+                            <span class="fa fa-chevron-down"></span>
                             General Information
                         </a>
                     </h4>
@@ -90,14 +91,15 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseTwo">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseTwo" role="button">
                     <h4 class="panel-title">
                         <a >
+                            <span class="fa fa-chevron-down"></span>
                             Additional Client Information
                         </a>
                     </h4>
                 </div>
-                <div id="collapseTwo" class="panel-collapse collapse in">
+                <div id="collapseTwo" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
@@ -222,14 +224,15 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseThree">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseThree" role="button">
                     <h4 class="panel-title">
                         <a>
+                            <span class="fa fa-chevron-down"></span>
                             Client Medicaid Information
                         </a>
                     </h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse in">
+                <div id="collapseThree" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
@@ -270,14 +273,15 @@
                 </div>
             </div>
             <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFour">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFour" role="button">
                     <h4 class="panel-title">
                         <a >
+                            <span class="fa fa-chevron-down"></span>
                             Client Login Information
                         </a>
                     </h4>
                 </div>
-                <div id="collapseFour" class="panel-collapse collapse in">
+                <div id="collapseFour" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-sm-offset-1 col-sm-4">
