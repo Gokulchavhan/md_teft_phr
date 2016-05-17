@@ -1,7 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <h2 id="myModalLabel" class="primary-color">
-            <b>MyCare</b> Represntative Registration
+            <b>MyCare</b> Representative Registration
         </h2>
         <hr>
         <br>
