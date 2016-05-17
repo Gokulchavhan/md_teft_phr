@@ -18,7 +18,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
+                <div id="collapseOne" class="panel-collapse collapse">
                     <div class="panel-body form-horizontal">
                         <div class="row">
                             <div class="col-sm-6">
@@ -93,7 +93,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
+                <div id="collapseTwo" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
                         <div class="row">
                             <div class="col-sm-6">
@@ -219,7 +219,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse">
+                <div id="collapseThree" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
                         <div class="row">
 
@@ -275,7 +275,7 @@
 
                     <button class="btn btn-default panel-edit pull-right">Edit</button>
                 </div>
-                <div id="collapseFour" class="panel-collapse collapse">
+                <div id="collapseFour" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
                         <div class="row">
                             <div class="col-sm-6">
@@ -303,6 +303,47 @@
                     </div>
                 </div>
             </div>
+            <div class="panel panel-default">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFive" role="button">
+                    <h4 class="panel-title">
+                        <a >
+                            <span class="fa fa-chevron-down"></span>
+                            Representative Account Information
+                        </a>
+                    </h4>
+                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#addRep">Add</button>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse ">
+                    <div class="panel-body form-horizontal">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <table class="table table-striped">
+
+                                    <thead>
+                                        <tr>
+                                            <td><strong>Representative Name</strong></td>
+                                            <td><strong>Account Status</strong></td>
+                                            <td><strong>Actions</strong></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>Active</td>
+                                            <td><a data-target="#disableRep" data-toggle="modal">Disable</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manny Wilson</td>
+                                            <td>Inactive</td>
+                                            <td><a data-target="#enableRep" data-toggle="modal">Enable</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div><!--/row-->
@@ -320,6 +361,14 @@
 <!-- Modal - Edit Account Info -->
 <?php echo $_edit_accountinfo_modal;?>
 
+<!-- Modal - Add Representative -->
+<?php echo $_add_representative_modal; ?>
+
+<!-- Modal - Disable Rep Account -->
+<?php echo $_disable_repaccount_modal; ?>
+
+<!-- Modal - Enable Rep Account -->
+<?php echo $_enable_repaccount_modal; ?>
 
 <!-- Scripts -->
 <script type="text/javascript">
@@ -328,7 +377,6 @@
         $('#gender').val(1);
         $('#race').val(3);
         $('#county').val(5);
-
 
     });
 
