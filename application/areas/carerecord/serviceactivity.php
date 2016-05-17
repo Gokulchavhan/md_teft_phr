@@ -282,6 +282,7 @@
                                 <div class="col-xs-12 text-right">
                                     <hr style="margin: 5px 0 0 0; border-color: #aaa">
                                     <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
+                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
                                 </div>
                             </div>
                         </div>
@@ -321,7 +322,7 @@
                                 <div class="col-xs-12 text-right">
                                     <hr style="margin: 5px 0 0 0; border-color: #aaa">
                                     <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flagged</a>
+                                    <a href="#" data-toggle="modal" data-target="#flaggedService">Flagged</a>
                                 </div>
                             </div>
                         </div>
@@ -466,7 +467,7 @@
                                 <div class="col-xs-12 text-right">
                                     <hr style="margin: 5px 0 0 0; border-color: #aaa">
                                     <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flagged</a>
+                                    <a href="#" data-toggle="modal" data-target="#flaggedService">Flagged</a>
                                 </div>
                             </div>
                         </div>
@@ -484,6 +485,8 @@
 
     <!-- Modal - Send Message -->
     <?php echo $_flagservice_modal; ?>
+
+    <?php echo $_completedflag_modal; ?>
 
 
     <script type="text/javascript">

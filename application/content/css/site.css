@@ -642,3 +642,8 @@ button.panel-edit:hover{
     color: #3c3c3c !important;
     border: 1px solid #FFF;
 }
+
+input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disabled"]{
+    background: rgba(127, 127, 127, .15) !important;
+
+}
