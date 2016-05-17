@@ -404,7 +404,7 @@ span.value {
 }
 
 .form-horizontal .form-group {
-    //margin-bottom: 0;
+/ / margin-bottom: 0;
 }
 
 .primary-color {
@@ -447,9 +447,11 @@ span.value {
 
     color: white;
 }
+
 .panel.panel-default .panel-body .header a span.fa {
     margin-left: 10px;
 }
+
 .panel.panel-default .panel-body .header a:hover {
     text-decoration: underline;
 }
@@ -512,7 +514,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     z-index: 9999 !important;
 }
 
-
 .dashboard-value {
     line-height: 100%;
     display: inline-block;
@@ -520,19 +521,18 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     vertical-align: text-top;
 }
 
-
 @media (min-width: 1200px) {
     .affixed-side-nav {
         width: 262px;
     }
 
-    .affixed-side-content{
+    .affixed-side-content {
         width: 292px;
         padding-right: 0px
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px) {
     .affixed-side-nav {
         width: 212px;
     }
@@ -543,13 +543,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     }
 
 }
+
 @media (min-width: 768px ) and (max-width: 991px) {
     .affixed-side-nav,
     .affixed-side-content {
         position: static;
     }
 
-    .affixed-side-content{
+    .affixed-side-content {
         padding: 0 15px;
     }
 
@@ -570,13 +571,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 
     .fc-header-left,
     .fc-header-center,
-    .fc-header-right{
+    .fc-header-right {
         display: block;
     }
 
-
     .panel.panel-default .panel-body .header a {
-        margin-top : 8px;
+        margin-top: 8px;
     }
 
 }
@@ -600,13 +600,12 @@ span {
     color: white !important;
 }
 
-
 #sidebar a:hover .fa-chevron-right {
     display: initial;
     color: #adadad;
 }
 
-label.required::after{
+label.required::after {
     content: "*";
     position: relative;
     left: 4px;
@@ -616,7 +615,7 @@ label.required::after{
     font-size: 22px;
 }
 
-button.panel-edit{
+button.panel-edit {
     background: transparent !important;
     border: 1px solid #FFF;
     box-shadow: none;
@@ -627,18 +626,66 @@ button.panel-edit{
     font-weight: bold;
 }
 
-button.panel-edit:focus{
+button.panel-edit:focus {
     color: #FFF;
     border: 1px solid #FFF !important;
 }
 
-button.panel-edit:active{
+button.panel-edit:active {
     border: 2px solid #FFF;
     color: #FFF;
 }
 
-button.panel-edit:hover{
+button.panel-edit:hover {
     background: #FFF !important;
     color: #3c3c3c !important;
     border: 1px solid #FFF;
 }
+
+
+ /* nvd3 bullet chart */
+
+.complete-reported-event .nv-bullet .nv-range0 {
+    fill: #EE6C6F !important;
+    fill-opacity: 1 !important;
+}
+
+.complete-no-action .nv-bullet .nv-range0 {
+    fill: #469B88 !important;
+    fill-opacity: 1 !important;
+}
+
+.nv-bullet .nv-range1 {
+    fill: #9FC8E1 !important;
+    fill-opacity: 1 !important;
+}
+
+.nv-bullet .nv-range2 {
+    fill: #ddd !important;
+    fill-opacity: 1 !important;
+}
+
+.complete-no-action .nv-bullet .nv-measure {
+    fill: #469B88 !important;
+    fill-opacity: 1 !important;
+}
+
+.complete-reported-event .nv-bullet .nv-measure {
+    fill: #EE6C6F !important;
+    fill-opacity: 1 !important;
+}
+
+.nv-bullet .nv-measure1 {
+    fill: #F09F6D !important;
+    fill-opacity: 1 !important;
+}
+
+.nv-bullet .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nv-bullet .subtitle {
+    fill: #999;
+}
+
