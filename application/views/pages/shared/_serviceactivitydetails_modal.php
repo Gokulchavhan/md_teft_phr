@@ -3,6 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button style="margin-top:32px; margin-right: -17px;" class="pull-right btn btn-primary"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print</button>
                 <h2 style="margin-bottom: 0 !important;" class="modal-title" id="myModalLabel">Service Activity Details</h2>
                 <hr style="margin-top: 0; margin-bottom: 5px;">
             </div>

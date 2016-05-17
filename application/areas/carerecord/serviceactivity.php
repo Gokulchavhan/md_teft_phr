@@ -55,7 +55,7 @@
                         <h4 class="panel-title">
                             <a>
                                 <span class="fa fa-chevron-down"></span>
-                                Advanced Search
+                                Search
                             </a>
                         </h4>
                     </div>
@@ -327,6 +327,7 @@
                         </div>
                     </div>
                     <div id="searchResults" class="" style="display: none;">
+                        <button class="btn btn-primary pull-right"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print</button>
                         <h3>
                             <span class="secondary-color">Search Results</span><br>
                         </h3>
