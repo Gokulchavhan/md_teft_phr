@@ -118,12 +118,13 @@
                     <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
 
 <script type="text/javascript">
-
+    
     var janChart = $("#myChartJan");
     var febChart = $("#myChartFeb");
     var marChart = $("#myChartMar");

@@ -59,12 +59,100 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="col-xs-12">
+                <br>
+                <h4>
+                    <span class="secondary-color">Service Search Trends</span><br>
+                </h4>
+                <hr style="margin-top: 0">
+            </div>
+            <div class="col-xs-12">
+                <canvas id="serviceSearchTrendChart" width="400" height="100"></canvas>
+            </div>
         </div>
     </div>
 </div>
 
 
 <script type="text/javascript">
+
+
+    var serviceSearchTrendChart = $("#serviceSearchTrendChart");
+
+    var lineChart3 = new Chart(serviceSearchTrendChart, {
+        type: 'line',
+        data: {
+            labels: ["Mar '16", "Apr '16", "May '16", "Jun '16", "Jul '16", "Aug '16", "Sep '16", "Oct '16", "Nov '16", "Dec '16", "Jan '17", "Feb '17", "Mar '17"],
+            datasets: [
+                {
+                    label: "Searched by Date",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(220, 247, 66, 0.4)",
+                    borderColor: "#DCF742",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "#B5CD2E",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "#B5CD2E",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [9, 4, 1]
+                },
+                {
+                    label: "Searched by Billing Week",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(106, 38,111, 0.4)",
+                    borderColor: "#6A266F",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "#5A3A5C",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "#5A3A5C",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [1, 6, 5]
+                },
+                {
+                    label: "Searched by Month",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(111, 189, 42,0.4)",
+                    borderColor: "#8BE43C",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "#6FBD2A",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "#6FBD2A",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [3, 1, 1],
+                }
+            ]
+        }
+    });
+
+
     var usageFrequencyChart = $("#usageFrequencyChart");
 
     var lineChart1 = new Chart(usageFrequencyChart, {
