@@ -10,76 +10,157 @@
             <hr>
         </div>
         <div class="content">
-            <div class="col-sm-6 col-md-4">
-                <canvas id="myChart" width="400" height="400"></canvas>
-            </div>
-            <div class="col-sm-6 col-md-8 no-padding">
-                <div class="col-sm-12 col-md-6">
-                    <div class="row section-block">
-                        <h4 class="secondary-color">Active Flags
-                        </h4>
-                        <hr style="margin: 0">
-                        <div class="col-sm-12 no-padding">
-                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+                <div class="col-sm-6 col-md-8 no-padding">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row section-block">
+                            <h4 class="secondary-color">Active Flags
+                            </h4>
+                            <hr style="margin: 0">
+                            <div class="col-sm-12 no-padding">
+                                <div class="col-xs-1 col-sm-2 text-right no-padding">
                             <span class="value h3">
                                     1
                                 </span>
-                            </div>
-                            <div class="col-xs-11 col-sm-10">
+                                </div>
+                                <div class="col-xs-11 col-sm-10">
                             <span class="value h3">
-                                    <small class="dashboard-value" style="color: #87CCBE">pending review</small></span>
-                                </span>
+                                    <small class="dashboard-value">pending review</small></span>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 no-padding">
-                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <div class="col-sm-12 no-padding">
+                                <div class="col-xs-1 col-sm-2 text-right no-padding">
                             <span class="value h3">
                                     2
                                 </span>
-                            </div>
-                            <div class="col-xs-11 col-sm-10">
+                                </div>
+                                <div class="col-xs-11 col-sm-10">
                             <span class="value h3">
-                                    <small class="dashboard-value" style="color: #469B88">under review</small></span>
-                                </span>
+                                    <small class="dashboard-value">under review</small></span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="row section-block">
-                        <h4 class="secondary-color">Completed Flags
-                        </h4>
-                        <hr style="margin: 0">
-                        <div class="col-sm-12 no-padding">
-                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row section-block">
+                            <h4 class="secondary-color">Completed Flags
+                            </h4>
+                            <hr style="margin: 0">
+                            <div class="col-sm-12 no-padding">
+                                <div class="col-xs-1 col-sm-2 text-right no-padding">
                             <span class="value h3">
                                     4
                                 </span>
-                            </div>
-                            <div class="col-xs-11 col-sm-10">
+                                </div>
+                                <div class="col-xs-11 col-sm-10">
                             <span class="value h3">
-                                    <small class="dashboard-value" style="color:#9FC8E1">no action required</small>
+                                    <small class="dashboard-value">no action required</small>
                                 </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 no-padding">
-                            <div class="col-xs-1 col-sm-2 text-right no-padding">
+                            <div class="col-sm-12 no-padding">
+                                <div class="col-xs-1 col-sm-2 text-right no-padding">
                             <span class="value h3">
                                     1
                                 </span>
-                            </div>
-                            <div class="col-xs-11 col-sm-10">
+                                </div>
+                                <div class="col-xs-11 col-sm-10">
                             <span class="value h3">
-                                    <small class="dashboard-value"
-                                           style="color: #50809F;">escalated to reportable event</small>
+                                    <small class="dashboard-value">escalated to reportable event</small>
                                 </span>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-xs-12 text-center">
+                        <div class="row section-block" style="padding-bottom: 10px">
+                            <span class="value h3">8&nbsp;<small>total flags</small></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 text-center">
-                    <div class="row section-block" style="padding-bottom: 10px">
-                        <span class="value h3">8&nbsp;<small>total flags</small></span>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <br>
+                    <br>
+                    <h3>
+                        <span class="secondary-color">Flag Status Tracker</span><br>
+                    </h3>
+                    <hr style="margin-top: 0">
+                </div>
+                <div class="col-xs-12">
+                    <canvas id="flagFrequencyChart" width="400" height="100"></canvas>
+                </div>
+                <div class="col-xs-12">
+                    <hr>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong>&nbsp;<small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
+                            <span class="h5 pull-right"><small>service date&nbsp;</small>05/02/2016</span>
+                        </div>
+                        <div class="col-xs-12 col-xs-pull-1">
+                            <div class="gallery with-transitions complete-no-action" id="chart1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>0</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>12</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>0</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center">
+                            <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12" style="background: #F5FAFF; border-top: 1px solid #bdcbe5; border-bottom: 1px solid #bdcbe5">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong>&nbsp;<small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
+                            <span class="h5 pull-right"><small>service date&nbsp;</small>05/04/2016</span>
+                        </div>
+                        <div class="col-xs-12 col-xs-pull-1">
+                            <div class="gallery with-transitions complete-reported-event" id="chart2"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>2</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>12</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>0</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                            <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                        </div>
+                        <div class="col-xs-2 text-center">
+                            <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,6 +169,135 @@
 </div>
 
 <script type="text/javascript">
+
+
+    var width = '100%',
+        height = 70,
+        margin = {top: 10, right: 40, bottom: 10, left: 0};
+
+    var chart1 = nv.models.bulletChart()
+        .height(height - margin.top - margin.bottom);
+
+    serviceData1 = [{
+        "ranges": [12, 14, 15],
+        "measures": [15],
+        "markers": [],
+        "markerLabels": ['Target Inventory', 'Low Inventory'],
+        "rangeLabels": ['Pending Review', 'Under Review', 'Completed'],
+        "measureLabels": ['Duration of Flag (No Action Required)']
+    }];
+    var vis = d3.select("#chart1").selectAll("svg")
+        .data(serviceData1)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "margin-bottom: -10px");
+
+    vis.transition().duration(1000).call(chart1);
+
+    var chart2 = nv.models.bulletChart()
+        .height(height - margin.top - margin.bottom);
+
+    serviceData2 = [{
+        "ranges": [12, 14, 15],
+        "measures": [15],
+        "markers": [],
+        "markerLabels": ['Target Inventory', 'Low Inventory'],
+        "rangeLabels": ['Pending Review', 'Under Review', 'Completed'],
+        "measureLabels": ['Duration of Flag (Entered as Reportable Event)']
+    }];
+    var vis = d3.select("#chart2").selectAll("svg")
+        .data(serviceData2)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "margin-bottom: -10px");
+
+    vis.transition().duration(1000).call(chart2);
+
+
+
+
+    var flagFrequencyChart = $("#flagFrequencyChart");
+
+    var lineChart2 = new Chart(flagFrequencyChart, {
+        type: 'line',
+        data: {
+            labels: ["Mar '16", "Apr '16", "May '16", "Jun '16", "Jul '16", "Aug '16", "Sep '16", "Oct '16", "Nov '16", "Dec '16", "Jan '17", "Feb '17", "Mar '17"],
+            datasets: [
+                {
+                    label: "Flags Created by Client",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(208,108,38,0.4)",
+                    borderColor: "rgba(208,108,38,1)",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "rgba(185,78,2,1)",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "rgba(185,78,2,1)",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [1, 2, 5]
+                },
+                {
+                    label: "Flags Completed (No Action Required)",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(75,192,192,0.4)",
+                    borderColor: "rgba(75,192,192,1)",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "rgba(75,192,192,1)",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "rgba(75,192,192,1)",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [0, 1, 3]
+                },
+                {
+                    label: "Flags Completed (Escalated to Reportable Event)",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(216, 49, 49,0.4)",
+                    borderColor: "rgba(216, 49, 49,1)",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "rgba(191, 14, 14,1)",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "rgba(191, 14, 14,1)",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [0, 0, 1],
+                }
+            ]
+        }
+    });
+
+
+
+
+
     var ctx = $("#myChart");
 
     var myChart = new Chart(ctx, {
@@ -101,21 +311,21 @@
             }
         },
         data: {
-            labels: ["Pending Review", "Review in Process", "Completed (No Action Required)", "Completed (Entered in RE Process)"],
+            labels: ["Pending Review", "Under Review", "Completed (No Action Required)", "Completed (Escalated to RE)"],
             datasets: [{
                 label: '# of Votes',
                 data: [1, 2, 4, 1],
                 backgroundColor: [
-                    "#87CCBE",
-                    "#469B88",
+                    "#ddd",
                     "#9FC8E1",
-                    "#50809F"
+                    "rgba(75,192,192,1)",
+                    "#EE6C6F"
                 ],
                 hoverBackgroundColor: [
-                    "#1ab394",
-                    "#0D9277",
-                    "#65BDF5",
-                    "#4AA0D6"
+                    "#bbb",
+                    "#50809F",
+                    "rgba(75,192,192,1)",
+                    "rgba(191, 14, 14,1)"
                 ]
             }]
         }
