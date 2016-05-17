@@ -63,7 +63,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <?php require "shared/_ServiceFrequencyTracker.php" ?>
+            <?php require "shared/_ServiceBudgetTracker.php" ?>
         </div>
     </div>
     <div class="row">

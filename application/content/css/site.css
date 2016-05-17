@@ -702,3 +702,14 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
 .dataTable {
     font-size: 80%;
 }
+
+.drawer-section {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -14px;
+    transform: rotate(45deg);
+    left: 36%;
+    background: #fefefe;
+    box-shadow: inset 2px 1px 1px -1px rgba(0, 0, 0, 0.2);
+}
