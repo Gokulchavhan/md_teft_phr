@@ -2,10 +2,6 @@
     <div class="panel-body">
         <div class="header">
             <h2 class="h3 primary-color"><span class="fa fa-calendar"></span>&nbsp;Service Budget Tracker
-                <small class="pull-right">
-                    <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
-                        All Flagged Service Activity<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>
-                </small>
             </h2>
             <hr>
         </div>
@@ -50,6 +46,10 @@
                 <div class="drawer-section"></div>
                 <div class="col-xs-12" style="margin: 15px 0;">
                     <canvas id="serviceFrequencyChart" width="400" height="100"></canvas>
+                    <span class="pull-right">
+                        <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
+                            Services for this Month&nbsp;&nbsp;<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>
+                    </span>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
