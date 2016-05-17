@@ -8,7 +8,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <h4>
-                        <span class="secondary-color">Service Plan Summary</span><br>
+                        <span class="secondary-color">Plan of Service Summary</span><br>
                         <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
                     </h4>
                     <hr style="margin: 0">
@@ -65,7 +65,7 @@
                                 <fieldset>
                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                         <div class="form-group">
-                                            <label>Agency</label>
+                                            <label>Provider Agency</label>
                                             <select class="form-control">
                                                 <option value="All">All</option>
                                                 <option value="Telephone">Tru-Care Providers</option>
@@ -75,7 +75,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                         <div class="form-group">
-                                            <label>Staff Person</label>
+                                            <label>Provider Staff</label>
                                             <select class="form-control">
                                                 <option value="All">All</option>
                                                 <option value="Telephone">Candace Kind</option>
@@ -148,10 +148,10 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-4">
-                                        <label> </label>
+                                        <br class="hidden-xs">
                                         <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">Show Only Flagged Services
+                                            <label class="checkbox">
+                                                <input type="checkbox" class="checkbox"> <span style="position: relative; bottom: 4px">Show Only Flagged Services</span>
                                             </label>
                                         </div>
                                     </div>
@@ -161,7 +161,7 @@
                                             <span class="fa fa-remove"></span>&nbsp;Clear
                                         </button>
                                         &nbsp;&nbsp;
-                                        <button type="button" class="btn btn-primary btn-lg"
+                                        <button type="button" class="btn btn-success btn-lg"
                                                 onclick="searchServiceActivities();"><span class="fa fa-search"></span>&nbsp;Search
                                         </button>
                                     </div>

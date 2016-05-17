@@ -22,7 +22,7 @@
             <div class="form-group">
                 <label for="gender" class="col-sm-3 control-label required">Date of Birth</label>
                 <div class="col-sm-4">
-                    <input class="form-control" id="gender" type="date"/>
+                    <input class="form-control" id="datepicker" type="text"/>
                 </div>
             </div>
             <div class="form-group">
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="dob" class="col-sm-3 control-labe requiredl">Confirm Password</label>
+                <label for="dob" class="col-sm-3 control-label required">Confirm Password</label>
                 <div class="col-sm-4">
                     <input class="form-control" id="dob" type="password">
                 </div>
@@ -109,3 +109,11 @@
         </form>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#datepicker').datepicker({
+            inline: true
+            });
+    });
+</script>

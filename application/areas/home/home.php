@@ -4,7 +4,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <h4>
-                        <span class="secondary-color">Service Plan Summary</span><br>
+                        <span class="secondary-color">Plan of Service Summary</span><br>
                         <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
                     </h4>
                     <hr style="margin: 0">
