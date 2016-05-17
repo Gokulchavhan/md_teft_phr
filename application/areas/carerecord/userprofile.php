@@ -272,6 +272,8 @@
                             Client Login Information
                         </a>
                     </h4>
+
+                    <button class="btn btn-default panel-edit pull-right">Edit</button>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse">
                     <div class="panel-body form-horizontal">

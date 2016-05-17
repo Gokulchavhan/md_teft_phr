@@ -103,7 +103,7 @@
             <hr>
             <div class="col-xs-12 col-sm-offset-3 col-sm-5">
                 <button type="button" class="btn btn-success btn-lg" onclick="window.location='<?php echo base_url() . "index.php/registrationconfirmation" ?>';">
-                    <span class="fa fa-check"></span>&nbsp;&nbsp;Complete
+                    <span class="fa fa-check"></span>&nbsp;&nbsp;Register
                 </button>
             </div>
         </form>

@@ -609,8 +609,36 @@ span {
 label.required::after{
     content: "*";
     position: relative;
-    left: 3px;
+    left: 4px;
+    bottom: 6px;
     color: #ff9800;
     font-weight: bolder;
     font-size: 22px;
+}
+
+button.panel-edit{
+    background: transparent !important;
+    border: 1px solid #FFF;
+    box-shadow: none;
+    text-shadow: none;
+    color: #FFF;
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button.panel-edit:focus{
+    color: #FFF;
+    border: 1px solid #FFF !important;
+}
+
+button.panel-edit:active{
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+button.panel-edit:hover{
+    background: #FFF !important;
+    color: #3c3c3c !important;
+    border: 1px solid #FFF;
 }
