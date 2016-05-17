@@ -64,27 +64,6 @@
                     pointRadius: 1,
                     pointHitRadius: 10,
                     data: [0, 0, 0, 1, 0, 0, 0],
-                },
-                {
-                    label: "Flagged Service Activities",
-                    fill: false,
-                    lineTension: 0.1,
-                    backgroundColor: "rgba(216, 49, 49,0.4)",
-                    borderColor: "rgba(216, 49, 49,1)",
-                    borderCapStyle: 'butt',
-                    borderDash: [],
-                    borderDashOffset: 0.0,
-                    borderJoinStyle: 'miter',
-                    pointBorderColor: "rgba(191, 14, 14,1)",
-                    pointBackgroundColor: "#fff",
-                    pointBorderWidth: 1,
-                    pointHoverRadius: 5,
-                    pointHoverBackgroundColor: "rgba(191, 14, 14,1)",
-                    pointHoverBorderColor: "rgba(220,220,220,1)",
-                    pointHoverBorderWidth: 2,
-                    pointRadius: 1,
-                    pointHitRadius: 10,
-                    data: [0, 1, 5, 1, 0, 4, 1],
                 }
             ]
         }
