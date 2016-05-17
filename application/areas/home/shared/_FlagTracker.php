@@ -101,65 +101,214 @@
                 <div class="col-xs-12">
                     <hr>
                 </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong>&nbsp;<small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
-                            <span class="h5 pull-right"><small>service date&nbsp;</small>05/02/2016</span>
+                <div class="col-xs-12" style="max-height: 600px; overflow-x: hidden; overflow-y: auto">
+
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6">
+                                    <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>date of service:</small><br>
+                                            <strong>04/08/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>flagged on:</small><br>
+                                            <strong>04/10/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>completed on:</small><br>
+                                            <strong>05/16/2016</strong>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-xs-pull-1">
+                                <div class="gallery with-transitions complete-no-action" id="chart1"></div>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-xs-pull-1">
-                            <div class="gallery with-transitions complete-no-action" id="chart1"></div>
+                        <div class="row">
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>17</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>28</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>3</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>--</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>32</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>0</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                    <div class="col-xs-12" style="background: #F5FAFF; border-top: 1px solid #bdcbe5; border-bottom: 1px solid #bdcbe5">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6">
+                                    <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>date of service:</small><br>
+                                            <strong>03/23/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>flagged on:</small><br>
+                                            <strong>03/23/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>completed on:</small><br>
+                                            <strong>04/02/2016</strong>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-xs-pull-1">
+                                <div class="gallery with-transitions complete-reported-event" id="chart2"></div>
+                            </div>
                         </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>12</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>0</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center">
-                            <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                        <div class="row">
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>21</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>8</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>--</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>9</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12" style="background: #F5FAFF; border-top: 1px solid #bdcbe5; border-bottom: 1px solid #bdcbe5">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong>&nbsp;<small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
-                            <span class="h5 pull-right"><small>service date&nbsp;</small>05/04/2016</span>
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6">
+                                    <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>date of service:</small><br>
+                                            <strong>03/12/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>flagged on:</small><br>
+                                            <strong>03/18/2016</strong>
+                                        </span>
+                                    </div>
+                                    <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>completed on:</small><br>
+                                            <strong>--</strong>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-xs-pull-1">
+                                <div class="gallery with-transitions complete-under-review" id="chart3"></div>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-xs-pull-1">
-                            <div class="gallery with-transitions complete-reported-event" id="chart2"></div>
+                        <div class="row">
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>2</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>21</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>38</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6" style="color: #BD0000"><strong>38</strong>&nbsp;<small style="color: #BD0000">days since</small><br><small style="color: #BD0000">last action</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>59</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>2</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                    <div class="col-xs-12" style="background: #F5FAFF; border-top: 1px solid #bdcbe5; border-bottom: 1px solid #bdcbe5">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                    <div class="col-xs-6">
+                                        <span class="h5" style="display: inline-block"><strong>Personal Assistance</strong><br><small>by <strong>Gladice Tuhelp</strong>&nbsp;(Tru-Care Providers)</small></span>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>date of service:</small><br>
+                                            <strong>04/08/2016</strong>
+                                        </span>
+                                        </div>
+                                        <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>flagged on:</small><br>
+                                            <strong>03/16/2016</strong>
+                                        </span>
+                                        </div>
+                                        <div class="col-xs-4 no-padding">
+                                        <span class="h6 bluesteel-color pull-right">
+                                            <small>completed on:</small><br>
+                                            <strong>03/26/2016</strong>
+                                        </span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col-xs-12 col-xs-pull-1">
+                                <div class="gallery with-transitions complete-no-action" id="chart4"></div>
+                            </div>
                         </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>12</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>0</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                            <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
-                        </div>
-                        <div class="col-xs-2 text-center">
-                            <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                        <div class="row">
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>2</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>12</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>2</strong>&nbsp;<small>days</small><br><small>under review</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>0</strong>&nbsp;<small>days since</small><br><small>last action</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
+                                <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
+                            </div>
+                            <div class="col-xs-2 text-center">
+                                <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,8 +328,8 @@
         .height(height - margin.top - margin.bottom);
 
     serviceData1 = [{
-        "ranges": [12, 14, 15],
-        "measures": [15],
+        "ranges": [28, 31, 32],
+        "measures": [32],
         "markers": [],
         "markerLabels": ['Target Inventory', 'Low Inventory'],
         "rangeLabels": ['Pending Review', 'Under Review', 'Completed'],
@@ -200,8 +349,8 @@
         .height(height - margin.top - margin.bottom);
 
     serviceData2 = [{
-        "ranges": [12, 14, 15],
-        "measures": [15],
+        "ranges": [6, 8, 9],
+        "measures": [9],
         "markers": [],
         "markerLabels": ['Target Inventory', 'Low Inventory'],
         "rangeLabels": ['Pending Review', 'Under Review', 'Completed'],
@@ -216,6 +365,48 @@
         .attr("style", "margin-bottom: -10px");
 
     vis.transition().duration(1000).call(chart2);
+
+    var chart3 = nv.models.bulletChart()
+        .height(height - margin.top - margin.bottom);
+
+    serviceData3 = [{
+        "ranges": [21, 21, 59],
+        "measures": [59],
+        "markers": [],
+        "markerLabels": ['Target Inventory', 'Low Inventory'],
+        "rangeLabels": ['', 'Pending Review', 'Under Review'],
+        "measureLabels": ['Duration of Flag (Entered as Reportable Event)']
+    }];
+    var vis = d3.select("#chart3").selectAll("svg")
+        .data(serviceData3)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "margin-bottom: -10px");
+
+    vis.transition().duration(1000).call(chart3);
+
+    var chart4 = nv.models.bulletChart()
+        .height(height - margin.top - margin.bottom);
+
+    serviceData4 = [{
+        "ranges": [12, 14, 15],
+        "measures": [15],
+        "markers": [],
+        "markerLabels": ['Target Inventory', 'Low Inventory'],
+        "rangeLabels": ['Pending Review', 'Under Review', 'Completed'],
+        "measureLabels": ['Duration of Flag (Entered as Reportable Event)']
+    }];
+    var vis = d3.select("#chart4").selectAll("svg")
+        .data(serviceData4)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("style", "margin-bottom: -10px");
+
+    vis.transition().duration(1000).call(chart4);
 
 
 
@@ -246,7 +437,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [1, 2, 5]
+                    data: [4, 3, 1]
                 },
                 {
                     label: "Flags Completed (No Action Required)",
@@ -267,7 +458,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [0, 1, 3]
+                    data: [1, 1, 1]
                 },
                 {
                     label: "Flags Completed (Escalated to Reportable Event)",
@@ -288,7 +479,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [0, 0, 1],
+                    data: [0, 1, 0],
                 }
             ]
         }

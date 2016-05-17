@@ -50,11 +50,11 @@
             </div>
             <div class="col-sm-6 col-lg-5 no-padding">
                 <div class="col-xs-12 col-sm-12">
-                    <div class="row section-block">
-                        <h4>
-                            <span class="secondary-color">Recent Service Activity</span><br>
-                        </h4>
-                        <hr style="margin-top: 0">
+                    <h4>
+                        <span class="secondary-color">Recent Service Activity</span><br>
+                    </h4>
+                    <hr style="margin-top: 0">
+                    <div class="row section-block"  style="max-height: 550px; overflow-x: hidden; overflow-y: auto">
                         <h5 class="text-center">
                             <small><strong class="coolgray-color">YESTERDAY</strong></small>
                         </h5>

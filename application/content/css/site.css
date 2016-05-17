@@ -660,6 +660,11 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
     fill-opacity: 1 !important;
 }
 
+.complete-under-review .nv-bullet .nv-range0 {
+    fill: #9FC8E1 !important;
+    fill-opacity: 1 !important;
+}
+
 .nv-bullet .nv-range1 {
     fill: #9FC8E1 !important;
     fill-opacity: 1 !important;
@@ -694,3 +699,6 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
     fill: #999;
 }
 
+.dataTable {
+    font-size: 80%;
+}
