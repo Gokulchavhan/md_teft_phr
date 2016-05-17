@@ -27,6 +27,8 @@
 		<!-- Javascript -->
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery-1.10.2.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/jquery-ui-1.11.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/dataTables.bootstrap.js"></script>
 		<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/bootstrap.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/bootstrap-multiselect.js"></script>

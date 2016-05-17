@@ -699,3 +699,6 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
     fill: #999;
 }
 
+.dataTable {
+    font-size: 80%;
+}
