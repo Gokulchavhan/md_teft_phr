@@ -38,7 +38,7 @@
                             <div class="panel-body form-horizontal">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <p><b>Client Name:</b> Your Name</p>
+                                        <p><b>Beneficiary's Name:</b> Your Name</p>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -111,7 +111,7 @@
 
             </div>
             <div class="modal-footer">
-                <hr style="margin-top: 0">
+                <hr style="margin-top: 0; margin-bottom: 15px">
                 <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
             </div>
         </div><!-- /.modal-content -->

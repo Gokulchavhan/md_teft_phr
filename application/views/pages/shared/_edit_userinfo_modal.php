@@ -35,7 +35,7 @@
 					<div class="col-sm-7">
 						<div class="row">
                                     <label class="control-label col-sm-4 required">
-                                        <strong>Client Alternate Phone #:</strong>
+                                        <strong>Beneficiary's Alternate Phone #:</strong>
                                     </label>
 							<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control"></div>
 						</div>

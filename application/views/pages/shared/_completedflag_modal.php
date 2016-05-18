@@ -4,7 +4,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title" id="myModalLabel">Flagged Service<p class="lead" style="margin-bottom: 0; width: auto; position: relative; top: 0"> flagged on 05/17/2016</p></h4>
-
+                <hr style="margin: 0">
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -53,7 +53,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
+                <hr style="margin-top: 0; margin-bottom: 15px">
+                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancel</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

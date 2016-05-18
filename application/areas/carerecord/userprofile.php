@@ -88,7 +88,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Additional Client Information
+                            Additional Beneficiary Information
                         </a>
                     </h4>
 
@@ -125,7 +125,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Client Address:</strong><br>
+                                                                <strong>Beneficiary's Address:</strong><br>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">123 Main St.,<br>
                                                                                             Silver Spring, MD 20901</span>
@@ -140,13 +140,13 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Guardian Relationship with Client:</strong>
+                                                                <strong>Guardian Relationship with Rosie:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">Sibling</span></div>
                                 </div>
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Client Phone #:</strong>
+                                                                <strong>Beneficiary Phone #:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
@@ -161,12 +161,7 @@
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
 
-                                <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Guardian Alternate Phone #:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">(301) 555-1234</span></div>
-                                </div>
+
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
                                                                 <strong>OTP Assignment:</strong>
@@ -176,7 +171,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Client OTP Serial #:</strong>
+                                                                <strong>Beneficiary OTP Serial #:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">123456789012345</span></div>
                                 </div>
@@ -210,7 +205,7 @@
                     <h4 class="panel-title">
                         <a>
                             <span class="fa fa-chevron-down"></span>
-                            Client Medicaid Information
+                            Beneficiary Medicaid Information
                         </a>
                     </h4>
                 </div>
@@ -268,7 +263,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Client Login Information
+                            Beneficiary Login Information
                         </a>
                     </h4>
 
@@ -293,7 +288,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
-                                        <strong>Client Alternate Phone #:</strong>
+                                        <strong>Beneficiary Alternate Phone #:</strong>
                                     </span><div class="col-xs-7"><span class="value">N/A</span></div>
                                 </div>
                                 <div class="form-group">
@@ -301,6 +296,50 @@
                                     <strong>Alternate Email Address:</strong>
                                 </span>
                                     <div class="col-sms-7"><span class="value">casmith2@live.com</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseSix" role="button">
+                    <h4 class="panel-title">
+                        <a >
+                            <span class="fa fa-chevron-down"></span>
+                            Guardian Login Information
+                        </a>
+                    </h4>
+
+                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editGuardianInfo">Edit</button>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse ">
+                    <div class="panel-body form-horizontal">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                </span>
+                                    <div class="col-sm-7"><span class="value">Jdoe</span></div>
+                                </div>
+                                <div class="form-group">
+                                <span class="control-label col-sm-5">
+                                    <strong>Email Address:</strong>
+                                </span>
+                                    <div class="col-sm-7"><span class="value">jdoe116@yahoo.com</span></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Guardian Alternate Phone #:</strong>
+                                    </span><div class="col-xs-7"><span class="value">N/A</span></div>
+                                </div>
+                                <div class="form-group">
+                                <span class="control-label col-sm-5">
+                                    <strong>Alternate Email Address:</strong>
+                                </span>
+                                    <div class="col-sms-7"><span class="value">joe.doe@companyco.com</span></div>
                                 </div>
                             </div>
                         </div>
@@ -321,46 +360,48 @@
                     <div class="panel-body form-horizontal">
                         <div class="row">
                             <div class="col-xs-12">
-                                <table class="table table-striped">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
 
-                                    <thead>
-                                    <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
-                                        <td style="vertical-align: bottom">Representative Name</td>
-                                        <td style="vertical-align: bottom">Date of Birth</td>
-                                        <td style="vertical-align: bottom">Relationship</td>
-                                        <td style="vertical-align: bottom">Guardian</td>
-                                        <td style="vertical-align: bottom">Power of Attorney</td>
-                                        <td style="vertical-align: bottom">Representative Payee</td>
-                                        <td style="vertical-align: bottom">Primary Caregiver</td>
-                                        <td style="vertical-align: bottom">CFC Representative</td>
-                                        <td style="vertical-align: bottom">Actions</td>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>John Doe</td>
-                                        <td>08/12/1991</td>
-                                        <td>Sibling</td>
-                                        <td>Yes</td>
-                                        <td>Yes</td>
-                                        <td>Yes</td>
-                                        <td>Yes</td>
-                                        <td>Yes</td>
-                                        <td><a>Disable</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Manny Wilson</td>
-                                        <td>04/26/1853</td>
-                                        <td>Neighbor</td>
-                                        <td>No</td>
-                                        <td>No</td>
-                                        <td>No</td>
-                                        <td>No</td>
-                                        <td>No</td>
-                                        <td><a>Enable</a></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                        <thead>
+                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                            <td style="vertical-align: bottom">Representative Name</td>
+                                            <td style="vertical-align: bottom">Date of Birth</td>
+                                            <td style="vertical-align: bottom">Relationship</td>
+                                            <td style="vertical-align: bottom">Guardian</td>
+                                            <td style="vertical-align: bottom">Power of Attorney</td>
+                                            <td style="vertical-align: bottom">Representative Payee</td>
+                                            <td style="vertical-align: bottom">Primary Caregiver</td>
+                                            <td style="vertical-align: bottom">CFC Representative</td>
+                                            <td style="vertical-align: bottom">Actions</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>08/12/1991</td>
+                                            <td>Sibling</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td><a>Disable</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manny Wilson</td>
+                                            <td>04/26/1853</td>
+                                            <td>Neighbor</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td><a>Enable</a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -403,6 +444,9 @@
 
 <!-- Modal - Reset Password -->
 <?php echo $_resetpassword_modal; ?>
+
+<!-- Modal - Edit Rep Login Info -->
+<?php echo $_edit_guardianlogin_modal; ?>
 
 <!-- Scripts -->
 <script type="text/javascript">

@@ -59,7 +59,7 @@
                 </div>
 			</div>
 			<div class="modal-footer">
-				<hr style="margin: 0">
+				<hr style="margin-top: 0; margin-bottom: 15px">
 				<button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancel</button>
 				<button type="button" class="btn btn-success btn-lg">Continue</button>
 			</div>
