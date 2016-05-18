@@ -139,6 +139,7 @@
 
 <!-- Modal - Send Message -->
 <?php echo $_flagservice_modal; ?>
+<?php echo $_completedflag_modal; ?>
 
 <script type="text/javascript">
     $(document).ready(function () {

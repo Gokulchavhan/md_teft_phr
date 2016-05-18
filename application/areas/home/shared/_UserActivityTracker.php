@@ -158,7 +158,7 @@
     var lineChart1 = new Chart(usageFrequencyChart, {
         type: 'line',
         data: {
-            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            labels:["Mar '16", "Apr '16", "May '16", "Jun '16", "Jul '16", "Aug '16", "Sep '16", "Oct '16", "Nov '16", "Dec '16", "Jan '17", "Feb '17", "Mar '17"],
             datasets: [
                 {
                     label: "Successful Login Attempts",
@@ -179,7 +179,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [3, 15, 8, 5, 10, 3, 4],
+                    data: [3, 15, 8],
                 },
                 {
                     label: "Unsuccessful Login Attempts",
@@ -200,7 +200,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [0, 0, 0, 1, 0, 0, 0],
+                    data: [0, 0, 1 ],
                 }
             ]
         }

@@ -98,7 +98,11 @@
                     <canvas id="flagFrequencyChart" width="400" height="100"></canvas>
                 </div>
                 <div class="col-xs-12">
-                    <hr>
+                    <br>
+                    <h4>
+                        <span class="secondary-color">Flagged Services</span><br>
+                    </h4>
+                    <hr style="margin-top: 0">
                 </div>
                 <div class="col-xs-12">
                     <div class="section-block" style="max-height: 600px; overflow-x: hidden; overflow-y: auto;">
@@ -150,7 +154,8 @@
                                     <span class="h6"><strong>32</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center">
-                                    <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#flaggedService">Flag</a>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +207,8 @@
                                     <span class="h6"><strong>9</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center">
-                                    <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#flaggedService">Flag</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +248,7 @@
                                     <span class="h6"><strong>2</strong>&nbsp;<small>days after</small><br><small>last flagged service</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
-                                    <span class="h6"><strong>21</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
+                                    <span class="h6"><strong>5</strong>&nbsp;<small>days</small><br><small>pending review</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center" style="border-right: 1px solid #ddd;">
                                     <span class="h6"><strong>38</strong>&nbsp;<small>days</small><br><small>under review</small></span>
@@ -254,7 +260,8 @@
                                     <span class="h6"><strong>59</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center">
-                                    <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#flaggedService">Flag</a>
                                 </div>
                             </div>
                         </div>
@@ -306,7 +313,8 @@
                                     <span class="h6"><strong>14</strong>&nbsp;<small>days</small><br><small>flag duration</small></span>
                                 </div>
                                 <div class="col-xs-2 text-center">
-                                    <a href="#" style="margin-top: 10px; display: inline-block;">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>
+                                    <a href="#" style="display: block;" data-toggle="modal" data-target="#flaggedService">Flag</a>
                                 </div>
                             </div>
                         </div>

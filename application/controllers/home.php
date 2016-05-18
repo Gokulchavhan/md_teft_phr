@@ -15,6 +15,7 @@ class Home extends CI_Controller
         $this->load->helper('url');
         $data['_serviceactivitydetails_modal'] = $this->load->view('pages/shared/_serviceactivitydetails_modal.php', $data, true);
         $data['_flagservice_modal'] = $this->load->view('pages/shared/_flagservice_modal.php', $data, true);
+        $data['_completedflag_modal'] = $this->load->view('pages/shared/_completedflag_modal.php', $data, true);
         $this->load->view("templates/master-layout.php", $data);
 
     }
