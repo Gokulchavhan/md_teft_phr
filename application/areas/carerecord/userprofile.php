@@ -3,7 +3,6 @@
 
     <!-- Side Navigation -->
     <?php echo $_sidenavigation; ?>
-
     <!-- Content -->
     <div class="col-md-9">
         <h1 style="margin-top:0px;">My Profile</h1>
