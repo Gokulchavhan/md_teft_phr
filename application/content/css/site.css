@@ -409,7 +409,7 @@ span.value {
 }
 
 .form-horizontal .form-group {
-/ / margin-bottom: 0;
+/*margin-bottom: 0;*/
 }
 
 .primary-color {
@@ -532,8 +532,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     }
 
     .affixed-side-content {
-        width: 292px;
-        padding-right: 0px
+        top: 100px;
+        bottom: 0px;
+        overflow-y: auto;
+        z-index: 1;
+        width: 282px;
+        padding-right: 0px;
     }
 }
 
@@ -543,7 +547,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     }
 
     .affixed-side-content {
-        width: 242px;
+        top: 100px;
+        bottom: 0px;
+        overflow-y: auto;
+        z-index: 1;
+        width: 232px;
         padding-right: 0px
     }
 

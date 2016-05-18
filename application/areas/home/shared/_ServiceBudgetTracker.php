@@ -149,6 +149,27 @@
             labels: ["Apr 1 - Apr 7", "Apr 8 - Apr 14", "Apr 15 - Apr 23", "Apr 24 - Apr 30"],
             datasets: [
                 {
+                    label: "Approved Hours",
+                    fill: false,
+                    lineTension: 0.1,
+                    backgroundColor: "rgba(68, 139, 188,0.4)",
+                    borderColor: "#448BBC",
+                    borderCapStyle: 'butt',
+                    borderDash: [],
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "#1D5F8C",
+                    pointBackgroundColor: "#fff",
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 5,
+                    pointHoverBackgroundColor: "#1D5F8C",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointHoverBorderWidth: 2,
+                    pointRadius: 1,
+                    pointHitRadius: 10,
+                    data: [20, 20, 20, 20]
+                },
+                {
                     label: "Hours Billed",
                     fill: false,
                     lineTension: 0.1,
