@@ -1,5 +1,5 @@
 <div class="modal fade" id="editEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
+
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -7,16 +7,6 @@
 				<hr style="margin: 0">
 			</div>
 			<div class="modal-body" style="padding-top: 0">
-<!--				<div class="row">-->
-<!--					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
-<!--						<label class="required control-label"><strong>Alternate Email Address:</strong></label>-->
-<!--						<input required type="text" class="form-control">-->
-<!--					</div>-->
-<!--					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
-<!--						<label class="required control-label"><strong>Confirm Email Address:</strong></label>-->
-<!--						<input required type="text" class="form-control">-->
-<!--					</div>-->
-<!--				</div>-->
 				<div class="row">
 					<div class="col-sm-5">
 						<div class="row">
@@ -57,5 +47,4 @@
 				<button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Continue</button>
 			</div>
 		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
