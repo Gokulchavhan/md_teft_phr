@@ -88,7 +88,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Additional Beneficiary Information
+                            Additional Information
                         </a>
                     </h4>
 
@@ -205,7 +205,7 @@
                     <h4 class="panel-title">
                         <a>
                             <span class="fa fa-chevron-down"></span>
-                            Beneficiary Medicaid Information
+                            Medicaid Information
                         </a>
                     </h4>
                 </div>
@@ -263,7 +263,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Beneficiary Login Information
+                            Login Account
                         </a>
                     </h4>
 
@@ -303,11 +303,71 @@
                 </div>
             </div>
             <div class="panel panel-default">
+                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFive" role="button">
+                    <h4 class="panel-title">
+                        <a >
+                            <span class="fa fa-chevron-down"></span>
+                            Representatives
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse ">
+                    <div class="panel-body form-horizontal">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                            <td style="vertical-align: bottom">Representative Name</td>
+                                            <td style="vertical-align: bottom">Date of Birth</td>
+                                            <td style="vertical-align: bottom">Relationship</td>
+                                            <td style="vertical-align: bottom">Guardian</td>
+                                            <td style="vertical-align: bottom">Power of Attorney</td>
+                                            <td style="vertical-align: bottom">Representative Payee</td>
+                                            <td style="vertical-align: bottom">Primary Caregiver</td>
+                                            <td style="vertical-align: bottom">CFC Representative</td>
+                                            <td style="vertical-align: bottom">Actions</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>08/12/1991</td>
+                                            <td>Sibling</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td>Yes</td>
+                                            <td><a href="#" data-toggle="modal" data-target="#addRep">Send Registration Invite</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manny Wilson</td>
+                                            <td>04/26/1853</td>
+                                            <td>Neighbor</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                            <td></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
                 <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseSix" role="button">
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Guardian Login Information
+                            Representative Login Account
                         </a>
                     </h4>
 
@@ -340,67 +400,6 @@
                                     <strong>Alternate Email Address:</strong>
                                 </span>
                                     <div class="col-sms-7"><span class="value">joe.doe@companyco.com</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFive" role="button">
-                    <h4 class="panel-title">
-                        <a >
-                            <span class="fa fa-chevron-down"></span>
-                            Representative Account Information
-                        </a>
-                    </h4>
-                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#addRep">Add</button>
-                </div>
-                <div id="collapseFive" class="panel-collapse collapse ">
-                    <div class="panel-body form-horizontal">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-
-                                        <thead>
-                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
-                                            <td style="vertical-align: bottom">Representative Name</td>
-                                            <td style="vertical-align: bottom">Date of Birth</td>
-                                            <td style="vertical-align: bottom">Relationship</td>
-                                            <td style="vertical-align: bottom">Guardian</td>
-                                            <td style="vertical-align: bottom">Power of Attorney</td>
-                                            <td style="vertical-align: bottom">Representative Payee</td>
-                                            <td style="vertical-align: bottom">Primary Caregiver</td>
-                                            <td style="vertical-align: bottom">CFC Representative</td>
-                                            <td style="vertical-align: bottom">Actions</td>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>John Doe</td>
-                                            <td>08/12/1991</td>
-                                            <td>Sibling</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td><a>Disable</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Manny Wilson</td>
-                                            <td>04/26/1853</td>
-                                            <td>Neighbor</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td><a>Enable</a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                         </div>

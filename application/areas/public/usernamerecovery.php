@@ -1,5 +1,5 @@
 <div class="col-sm-10 col-sm-offset-1">
-    <h2 class="form-signin-heading" id="myModalLabel" style="border-bottom: 2px solid #ddd; color: #428BCA; margin-bottom: 30px;"><b>MyCare</b>&nbsp;Username Recovery</h2>
+    <h2 class="form-signin-heading" id="myModalLabel" style="border-bottom: 2px solid #ddd; color: #428BCA; margin-bottom: 30px;"><b>MyLTSS</b>&nbsp;Username Recovery</h2>
     <form class="form-horizontal" role="form" id="loginform" method="post" name="form" action="<?php echo base_url() . 'index.php/site/attemptLogin' ?>">
 
         <div class="form-group required">
