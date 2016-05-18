@@ -274,7 +274,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                <span class="control-label col-xs-5"><strong>Username:</strong>
                                 </span>
                                     <div class="col-sm-7"><span class="value">CSmith</span></div>
                                 </div>
@@ -378,7 +378,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                <span class="control-label col-xs-5"><strong>Username:</strong>
                                 </span>
                                     <div class="col-sm-7"><span class="value">Jdoe</span></div>
                                 </div>

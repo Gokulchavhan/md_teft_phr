@@ -103,7 +103,7 @@
             <div class="panel-body">
               <form class="form-horizontal" role="form">
 				  <div class="form-group">
-					<label for="username" class="col-xs-3 control-label">User Name</label>
+					<label for="username" class="col-xs-3 control-label">Username</label>
 					<div class="col-xs-6">
 					  <p class="form-control-static"><?php echo $login;?></p>
 					</div>

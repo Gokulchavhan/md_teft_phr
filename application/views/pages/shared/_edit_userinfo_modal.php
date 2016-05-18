@@ -1,6 +1,6 @@
 <div class="modal fade" id="editEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
-		<div class="modal-content">
+
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 class="modal-title" id="myModalLabel">Edit Login Information</h4>
@@ -10,15 +10,14 @@
 				<div class="row">
 					<div class="col-sm-5">
 						<div class="row">
-                                <span class="control-label col-xs-5"><strong>User Name:</strong>
-                                </span>
-							<div class="col-sm-7"><span class="value" style="">CSmith</span></div>
+							<label class="control-label col-xs-5"><strong>Username:</strong></label>
+							<div class="col-sm-7"><span style="margin-top: 2px; display: block">CSmith</span></div>
 						</div>
-						<br>
+
 						<div class="row">
-                                <span class="control-label col-sm-5">
+                                <label class="control-label col-sm-5">
                                     <strong>Email Address:</strong>
-                                </span>
+                                </label>
 							<div class="col-sm-7"><span class="">casmith@live.com</span></div>
 						</div>
 					</div>
@@ -46,5 +45,5 @@
 				<button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancel</button>
 				<button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Continue</button>
 			</div>
-		</div><!-- /.modal-content -->
+
 </div><!-- /.modal -->

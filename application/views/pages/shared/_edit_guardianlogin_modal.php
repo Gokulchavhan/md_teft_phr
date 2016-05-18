@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="row">
-                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                <span class="control-label col-xs-5"><strong>Username:</strong>
                                 </span>
                             <div class="col-sm-7"><span class="value" style="">Jdoe</span></div>
                         </div>

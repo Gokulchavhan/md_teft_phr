@@ -8,7 +8,7 @@
       	<form id="loginform" method="post" name="form" action="<?php echo base_url().'index.php/site/login'?>">
           <div class="modal-body">
               <div class="form-signin">
-                <input type="text" class="form-control" placeholder="User Name" name="username" required autofocus title="roisered (Public Member 1); gabrielgreen (Public Member 2); penelopepurple (Un-authorized Provider); susanasilver (Authorized Provider); burtonbrown (DOM Staff)">
+                <input type="text" class="form-control" placeholder="Username" name="username" required autofocus title="roisered (Public Member 1); gabrielgreen (Public Member 2); penelopepurple (Un-authorized Provider); susanasilver (Authorized Provider); burtonbrown (DOM Staff)">
                 <input type="password" class="form-control" placeholder="Password"  name="usernamepassword" required title="Type anything for password">
                 <label class="checkbox">
                   <input type="checkbox" value="remember-me"> Remember me

@@ -117,7 +117,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url()."index.php/home/index";?>">LTSS Maryland | <b>MyLTSS</b></a>
+          <a class="navbar-brand" href="<?php echo base_url()."index.php/home/index";?>">LTSSMaryland | <b>MyLTSS</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

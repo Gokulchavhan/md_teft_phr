@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title><?php echo "LTSS Maryland | MyCare - {$page}" ?></title>
+    <title><?php echo "LTSSMaryland | MyLTSS - {$page}" ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap.css">

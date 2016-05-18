@@ -3,7 +3,7 @@
     <form class="form-horizontal" role="form" id="loginform" method="post" name="form" action="<?php echo base_url() . 'index.php/site/attemptLogin' ?>">
 
         <div class="form-group required">
-            <label for="email" class="col-sm-3 control-label">User Name</label>
+            <label for="email" class="col-sm-3 control-label">Username</label>
             <div class="col-sm-9 col-md-6">
                 <input class="form-control" id="email" required type="email">
             </div>

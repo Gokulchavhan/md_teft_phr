@@ -27,7 +27,7 @@
         <div class="row">
                 <div class="col-sm-offset-1 col-sm-5">
                     <address>
-                      <strong>User Name:</strong><br>
+                      <strong>Username:</strong><br>
                       Victoria Violet
                     </address>
                 </div>	

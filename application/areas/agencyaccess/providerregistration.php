@@ -17,7 +17,7 @@
         <div class="text-center" style="padding: 40px 0px">
         	<form class="hidden" id="loginform" method="post" name="form" action="<?php echo base_url().'index.php/site/login'?>">
               <div class="form-signin">
-                <input type="text" class="form-control" placeholder="User Name" name="username" required autofocus title="susanasilver (Authorized Provider)">
+                <input type="text" class="form-control" placeholder="Username" name="username" required autofocus title="susanasilver (Authorized Provider)">
                 <input type="password" class="form-control" placeholder="Password"  name="usernamepassword" required title="Type anything for password">
               </div>
               <div class="text-center">

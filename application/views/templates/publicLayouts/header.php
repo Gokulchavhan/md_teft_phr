@@ -142,7 +142,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url()."index.php";?>">LTSS Maryland | <b>MyLTSS</b></a>
+          <a class="navbar-brand" href="<?php echo base_url()."index.php";?>">LTSSMaryland | <b>MyLTSS</b></a>
         </div>
       </div><!-- /.container -->
     </div><!-- /.navbar -->

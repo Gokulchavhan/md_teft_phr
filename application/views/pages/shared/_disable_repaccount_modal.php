@@ -9,8 +9,7 @@
             <div class="modal-body" style="padding-top: 0">
                 <div class="row">
                     <div class="col-xs-12">
-                        <p style="margin-bottom: 0">Are you sure you wish to disable this account? <strong>This representative will no longer be able to access MyCare.</strong></p>
-                    </div>
+                        <p style="margin-bottom: 0">Are you sure you wish to disable this account? <strong>This representative will no longer be able to access MyLTSS                    </div>
                 </div>
 
             </div>

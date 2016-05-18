@@ -22,7 +22,7 @@
                     <div class="col-xs-12">
                         <div class="checkbox" style="padding-left: 25px;">
                             <label class="checkbox">
-                                <input type="checkbox" class="checkbox"> <span style="position: relative; bottom: 4px">Are you sure you wish to send an invite to create a representative account? This user will have access to all data shown on MyCare.</span>
+                                <input type="checkbox" class="checkbox"> <span style="position: relative; bottom: 4px">Are you sure you wish to send an invite to create a representative account? This user will have access to all data shown on MyLTSS.</span>
                             </label>
                         </div>
                     </div>

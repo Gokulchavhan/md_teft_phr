@@ -2,11 +2,11 @@
 <meta charset="utf-8">
 <html>
 	<head>
-		<title><?php echo "LTSS Maryland | MyCare - {$page}" ?></title>
+		<title><?php echo "LTSSMaryland | MyLTSS - {$page}" ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-modal-bs3patch.css">
+<!--		<link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--application/content/css/bootstrap-modal-bs3patch.css">-->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-modal.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/bootstrap-multiselect.css">
