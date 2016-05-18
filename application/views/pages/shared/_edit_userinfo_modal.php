@@ -3,20 +3,52 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Edit Alternate Email</h4>
+				<h4 class="modal-title" id="myModalLabel">Edit Login Information</h4>
 				<hr style="margin: 0">
 			</div>
 			<div class="modal-body" style="padding-top: 0">
+<!--				<div class="row">-->
+<!--					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
+<!--						<label class="required control-label"><strong>Alternate Email Address:</strong></label>-->
+<!--						<input required type="text" class="form-control">-->
+<!--					</div>-->
+<!--					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
+<!--						<label class="required control-label"><strong>Confirm Email Address:</strong></label>-->
+<!--						<input required type="text" class="form-control">-->
+<!--					</div>-->
+<!--				</div>-->
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<label class="required control-label"><strong>Alternate Email Address:</strong></label>
-						<input required type="text" class="form-control">
+					<div class="col-sm-5">
+						<div class="row">
+                                <span class="control-label col-xs-5"><strong>User Name:</strong>
+                                </span>
+							<div class="col-sm-7"><span class="value" style="">CSmith</span></div>
+						</div>
+						<br>
+						<div class="row">
+                                <span class="control-label col-sm-5">
+                                    <strong>Email Address:</strong>
+                                </span>
+							<div class="col-sm-7"><span class="">casmith@live.com</span></div>
+						</div>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<label class="required control-label"><strong>Confirm Email Address:</strong></label>
-						<input required type="text" class="form-control">
+					<div class="col-sm-7">
+						<div class="row">
+                                    <label class="control-label col-sm-4 required">
+                                        <strong>Client Alternate Phone #:</strong>
+                                    </label>
+							<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control"></div>
+						</div>
+						<br>
+						<div class="row">
+                                <label class="control-label col-sm-4 required">
+                                    <strong>Alternate Email Address:</strong>
+                                </label>
+							<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control"></div>
+						</div>
 					</div>
 				</div>
+
 
 			</div>
 			<div class="modal-footer" style="margin-top:0;">

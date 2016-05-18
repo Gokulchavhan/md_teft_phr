@@ -92,7 +92,7 @@
                             Additional Client Information
                         </a>
                     </h4>
-                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editContactInfo">Edit</button>
+
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
@@ -151,12 +151,7 @@
                                                             </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
-                                <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Client Alternate Phone #:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">N/A</span></div>
-                                </div>
+
                             </div>
 
                             <div class="col-sm-6">
@@ -298,6 +293,11 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Client Alternate Phone #:</strong>
+                                    </span><div class="col-xs-7"><span class="value">N/A</span></div>
+                                </div>
+                                <div class="form-group">
                                 <span class="control-label col-sm-5">
                                     <strong>Alternate Email Address:</strong>
                                 </span>
@@ -325,22 +325,43 @@
                                 <table class="table table-striped">
 
                                     <thead>
-                                    <tr>
-                                        <td><strong>Representative Name</strong></td>
-                                        <td><strong>Account Status</strong></td>
-                                        <td><strong>Actions</strong></td>
+                                    <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                        <td style="vertical-align: bottom">Representative Name</td>
+                                        <td style="vertical-align: bottom">Date of Birth</td>
+                                        <td style="vertical-align: bottom">Relationship</td>
+                                        <td style="vertical-align: bottom">Guardian</td>
+                                        <td style="vertical-align: bottom">Power of Attorney</td>
+                                        <td style="vertical-align: bottom">Representative Payee</td>
+                                        <td style="vertical-align: bottom">Primary Caregiver</td>
+                                        <td style="vertical-align: bottom">CFC Representative</td>
+                                        <td style="vertical-align: bottom">Actions</td>
+
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td>John Doe</td>
-                                        <td>Active</td>
-                                        <td><a data-target="#disableRep" data-toggle="modal">Disable</a></td>
+                                        <td>08/12/1991</td>
+                                        <td>Sibling</td>
+                                        <td>Yes</td>
+                                        <td>Yes</td>
+                                        <td>Yes</td>
+                                        <td>Yes</td>
+                                        <td>Yes</td>
+                                        <td><a>Disable</a></td>
+
                                     </tr>
                                     <tr>
                                         <td>Manny Wilson</td>
-                                        <td>Inactive</td>
-                                        <td><a data-target="#enableRep" data-toggle="modal">Enable</a></td>
+                                        <td>04/26/1853</td>
+                                        <td>Neighbor</td>
+                                        <td>No</td>
+                                        <td>No</td>
+                                        <td>No</td>
+                                        <td>No</td>
+                                        <td>No</td>
+                                        <td><a>Enable</a></td>
+
                                     </tr>
                                     </tbody>
                                 </table>
