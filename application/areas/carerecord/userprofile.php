@@ -92,6 +92,7 @@
                             Additional Client Information
                         </a>
                     </h4>
+                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editContactInfo">Edit</button>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
@@ -150,6 +151,12 @@
                                                             </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
+                                <div class="form-group">
+                                                            <span class="control-label col-xs-5">
+                                                                <strong>Client Alternate Phone #:</strong>
+                                                            </span>
+                                    <div class="col-xs-7"><span class="value">N/A</span></div>
+                                </div>
                             </div>
 
                             <div class="col-sm-6">
@@ -158,12 +165,6 @@
                                                                 <strong>Guardian Phone #:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
-                                </div>
-                                <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Client Alternate Phone #:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">N/A</span></div>
                                 </div>
 
                                 <div class="form-group">
@@ -233,8 +234,12 @@
                                 <div class="form-group">
                                     <span class="control-label col-sm-5">
                                         <strong>Coverage Group:</strong>
+
                                     </span>
-                                    <div class="col-sm-7"><span class="value">Individuals Eligible for Home and Community-Based Services</span>
+                                    <div class="col-sm-7">
+                                        <span class="value">Individuals Eligible for Home and Community-Based Services</span>
+                                        <br>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#viewCoverage" style="display: inline-block">View History</button>
                                     </div>
                                 </div>
 
@@ -273,7 +278,7 @@
                         </a>
                     </h4>
 
-                    <button class="btn btn-default panel-edit pull-right">Edit</button>
+                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editEmail">Edit</button>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
@@ -320,23 +325,23 @@
                                 <table class="table table-striped">
 
                                     <thead>
-                                        <tr>
-                                            <td><strong>Representative Name</strong></td>
-                                            <td><strong>Account Status</strong></td>
-                                            <td><strong>Actions</strong></td>
-                                        </tr>
+                                    <tr>
+                                        <td><strong>Representative Name</strong></td>
+                                        <td><strong>Account Status</strong></td>
+                                        <td><strong>Actions</strong></td>
+                                    </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>John Doe</td>
-                                            <td>Active</td>
-                                            <td><a data-target="#disableRep" data-toggle="modal">Disable</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Manny Wilson</td>
-                                            <td>Inactive</td>
-                                            <td><a data-target="#enableRep" data-toggle="modal">Enable</a></td>
-                                        </tr>
+                                    <tr>
+                                        <td>John Doe</td>
+                                        <td>Active</td>
+                                        <td><a data-target="#disableRep" data-toggle="modal">Disable</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Manny Wilson</td>
+                                        <td>Inactive</td>
+                                        <td><a data-target="#enableRep" data-toggle="modal">Enable</a></td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -361,6 +366,9 @@
 <!-- Modal - Edit Account Info -->
 <?php echo $_edit_accountinfo_modal;?>
 
+<!-- Modal - Edit Email Info -->
+<?php echo $_edit_userinfo_modal; ?>
+
 <!-- Modal - Add Representative -->
 <?php echo $_add_representative_modal; ?>
 
@@ -369,6 +377,15 @@
 
 <!-- Modal - Enable Rep Account -->
 <?php echo $_enable_repaccount_modal; ?>
+
+<!-- Modal - Edit Contact Info -->
+<?php echo $_edit_contactinfo_modal; ?>
+
+<!-- Modal - View Coverage Group History -->
+<?php echo $_view_coveragegrouphistory_modal; ?>
+
+<!-- Modal - Reset Password -->
+<?php echo $_resetpassword_modal; ?>
 
 <!-- Scripts -->
 <script type="text/javascript">

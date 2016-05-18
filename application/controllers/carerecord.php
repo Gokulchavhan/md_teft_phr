@@ -60,6 +60,8 @@
         $data['_disable_repaccount_modal'] = $this->load->view('pages/shared/_disable_repaccount_modal.php', $data, true);
         $data['_enable_repaccount_modal'] = $this->load->view('pages/shared/_enable_repaccount_modal.php', $data, true);
 		$data['_edit_accountinfo_modal'] = $this->load->view('pages/shared/_edit_accountinfo_modal.php', $data, true);
+        $data['_view_coveragegrouphistory_modal'] = $this->load->view('pages/shared/_view_coveragegrouphistory_modal.php', $data, true);
+        $data['_resetpassword_modal'] = $this->load->view('pages/shared/_resetpassword_modal.php', $data, true);
 		$this->load->view("templates/master-layout.php", $data);
 	}	
 	

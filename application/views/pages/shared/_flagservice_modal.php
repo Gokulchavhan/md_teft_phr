@@ -4,12 +4,13 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 class="modal-title" id="myModalLabel">Flag Service</h4>
+				<hr style="margin: 0">
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-xs-12 col-sm-8">
-						<label><b>Reason for Flagging:</b></label>
-						<select class="form-control">
+					<div class="col-xs-12">
+						<label class="control-label required"><strong>Reason for Flagging:</strong></label>
+						<select required class="form-control">
 							<option></option>
 							<optgroup label="Life and Safety">
 								<option>Quality of Care concerns</option>
@@ -46,8 +47,8 @@
                 <br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label><b>Comments/Additional Information</b></label>
-						<textarea class="form-control"></textarea>
+						<label class="required control-label"><strong>Comments/Additional Information:</strong></label>
+						<textarea required class="form-control"></textarea>
 					</div>
 				</div>
                 <br>
@@ -58,8 +59,9 @@
                 </div>
 			</div>
 			<div class="modal-footer">
+				<hr style="margin: 0">
 				<button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancel</button>
-				<button type="button" class="btn btn-primary btn-lg">Send</button>
+				<button type="button" class="btn btn-success btn-lg">Continue</button>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->

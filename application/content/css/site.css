@@ -713,3 +713,7 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
     background: #fefefe;
     box-shadow: inset 2px 1px 1px -1px rgba(0, 0, 0, 0.2);
 }
+
+input[required], select[required], textarea[required]{
+    background-color: rgba(244, 248, 42, 0.39) !important;
+}

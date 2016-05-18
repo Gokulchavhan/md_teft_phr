@@ -8,13 +8,13 @@
             </div>
             <div class="modal-body" style="padding-top: 0">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <label class="control-label"><strong>Representative Name:</strong></label>
-                        <input type="text" class="form-control" >
+                    <div class="col-xs-12 col-sm-6">
+                        <label class="required control-label"><strong>Representative Name:</strong></label>
+                        <input required type="text" class="form-control" >
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <label class="control-label"><strong>Email Address:</strong></label>
-                        <input type="text" class="form-control" >
+                    <div class="col-xs-12 col-sm-6">
+                        <label class="control-label required"><strong>Email Address:</strong></label>
+                        <input required type="text" class="form-control" >
                     </div>
                 </div>
                 <br>
@@ -31,7 +31,8 @@
             </div>
             <div class="modal-footer" style="margin-top:0;">
                 <hr style="margin-top: 0;">
-                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Continue</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

@@ -306,4 +306,17 @@
 		}
 
 
+
+
+		public function resetpassword ($area="public", $page="resetpassword"){
+			if ( ! file_exists('application/areas/'.$area.'/'.$page.'.php'))
+			{
+				show_404();
+			}
+
+			$data['area'] = $area;
+			$data['page'] = $page;
+			$this->load->helper('url');
+			$this->load->view("templates/publicLayouts/public-layout.php", $data);
+		}
 	}
