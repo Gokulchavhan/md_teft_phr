@@ -334,7 +334,6 @@
                                         <td style="vertical-align: bottom">Primary Caregiver</td>
                                         <td style="vertical-align: bottom">CFC Representative</td>
                                         <td style="vertical-align: bottom">Actions</td>
-
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -348,7 +347,6 @@
                                         <td>Yes</td>
                                         <td>Yes</td>
                                         <td><a>Disable</a></td>
-
                                     </tr>
                                     <tr>
                                         <td>Manny Wilson</td>
@@ -360,7 +358,6 @@
                                         <td>No</td>
                                         <td>No</td>
                                         <td><a>Enable</a></td>
-
                                     </tr>
                                     </tbody>
                                 </table>
