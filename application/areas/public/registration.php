@@ -20,7 +20,8 @@
             </div>
             <br>
             <div class="form-group">
-                <label for="gender" class="col-sm-3 control-label required"><strong>Date of Birth:</strong></label>
+                <label for="gender" class="col-sm-3 control-label required with-sub"><strong>Date of Birth:</strong><br><span class="sublabel">(mm/dd/yyyy)</span>
+                </label>
                 <div class="col-sm-4">
                     <input class="form-control" id="datepicker" type="text"/>
                 </div>
@@ -37,7 +38,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="ssn" class="col-sm-3 control-label required"><strong>SSN:</strong></label>
+                <label for="ssn" class="col-sm-3 control-label required with-sub"><strong>SSN:</strong><br><span class="sublabel">(XXX-XX-XXXX)</span></label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="ssn">
                 </div>
@@ -49,7 +50,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
+                <label for="phone" class="col-sm-3 control-label required with-sub"><strong>Phone Number:</strong><br><span class="sublabel">(XXX-XXX-XXXX)</span></label>
                 <div class="col-sm-4">
                     <input class="form-control" type="phone" id="phone">
                 </div>
@@ -63,7 +64,8 @@
             </div>
 
             <div class="form-group">
-                <label for="password" class="col-sm-3 control-label required"><strong>Password:</strong></label>
+                <label for="password" class="col-sm-3 control-label required with-sub"><strong>Password:</strong> <span class="sublabel">(Must be 8 characters long and include at least one number)</span></label>
+
                 <div class="col-sm-4">
                     <input class="form-control" id="password" type="password">
                 </div>

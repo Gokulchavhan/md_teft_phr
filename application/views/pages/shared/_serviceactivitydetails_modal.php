@@ -37,7 +37,7 @@
                             <div class="panel-body form-horizontal">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <p><b>Beneficiary's Name:</b> Your Name</p>
+                                        <p><b>Participant's Name:</b> Your Name</p>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

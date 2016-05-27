@@ -39,13 +39,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="ssn" class="col-sm-3 control-label required"><strong>SSN:</strong></label>
-                <div class="col-sm-4">
-                    <input type="text" class="form-control" id="ssn">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="manum" class="col-sm-3 control-label"><strong>Beneficiary's MA#:</strong></label>
+                <label for="manum" class="col-sm-3 control-label"><strong>Participant's MA#:</strong></label>
                 <div class="col-sm-4">
                     <p style="padding-top: 7px !important; margin-bottom: 0">0000761147692</p>
                 </div>

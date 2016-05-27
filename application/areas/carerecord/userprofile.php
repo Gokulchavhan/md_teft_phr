@@ -125,7 +125,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Beneficiary's Address:</strong><br>
+                                                                <strong>Participant's Address:</strong><br>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">123 Main St.,<br>
                                                                                             Silver Spring, MD 20901</span>
@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Beneficiary Phone #:</strong>
+                                                                <strong>Participant Phone #:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
@@ -171,7 +171,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Beneficiary OTP Serial #:</strong>
+                                                                <strong>Participant OTP Serial #:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">123456789012345</span></div>
                                 </div>
@@ -288,7 +288,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
-                                        <strong>Beneficiary Alternate Phone #:</strong>
+                                        <strong>Participant Alternate Phone #:</strong>
                                     </span><div class="col-xs-7"><span class="value">N/A</span></div>
                                 </div>
                                 <div class="form-group">

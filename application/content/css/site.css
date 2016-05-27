@@ -409,7 +409,7 @@ span.value {
 }
 
 .form-horizontal .form-group {
-/*margin-bottom: 0;*/
+    /*margin-bottom: 0;*/
 }
 
 .primary-color {
@@ -618,7 +618,7 @@ span {
     color: #adadad;
 }
 
-label.required::after {
+label.required>strong::after {
     content: "*";
     position: relative;
     left: 3px;
@@ -627,6 +627,17 @@ label.required::after {
     font-weight: bolder;
     font-size: 22px;
 }
+
+label.required.with-sub{
+    padding-top: 0;
+    margin-top: -6px;
+}
+
+span.sublabel{
+    font-size: 14px;
+    padding-right: 9px;
+}
+
 
 button.panel-edit {
     background: transparent !important;
@@ -661,7 +672,7 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
 }
 
 
- /* nvd3 bullet chart */
+/* nvd3 bullet chart */
 
 .complete-reported-event .nv-bullet .nv-range0 {
     fill: #EE6C6F !important;

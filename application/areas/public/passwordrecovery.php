@@ -3,16 +3,16 @@
     <form class="form-horizontal" role="form" id="loginform" method="post" name="form" action="<?php echo base_url() . 'index.php/site/attemptLogin' ?>">
 
         <div class="form-group required">
-            <label for="email" class="col-sm-3 control-label">Username</label>
+            <label for="email" class="col-sm-3 control-label required"><strong>Username:</strong></label>
             <div class="col-sm-9 col-md-6">
                 <input class="form-control" id="email" required type="email">
             </div>
         </div>
         <br>
         <div class="form-group">
-            <label for="phone" class="col-sm-3 control-label">Email Address</label>
+            <label for="phone" class="col-sm-3 control-label required"><strong>Email Address:</strong></label>
             <div class="col-sm-9 col-md-6">
-                <input class="form-control" id="phone" type="phone">
+                <input class="form-control" required id="phone" type="phone">
             </div>
         </div>
         <br>
