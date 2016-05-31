@@ -482,41 +482,41 @@
                 events: [
                     {
                         id: '1',
-                        title: 'Nurse Visit',
-                        start: '2016-05-08'
+                        title: 'Shared Attendant',
+                        start: '2016-05-15'
                     },
                     {
                         id: '2',
-                        title: 'Service Activity',
-                        start: '2016-05-08'
+                        title: 'Shared Attendant',
+                        start: '2016-05-13'
                     },
                     {
                         id: '3',
-                        title: 'Service Activity',
-                        start: '2016-05-09'
+                        title: 'Shared Attendant',
+                        start: '2016-05-11'
                     },
                     {
                         id: '4',
-                        title: 'Dr. Appointment',
+                        title: 'Personal Assistance',
                         start: '2016-05-09'
                     },
                     {
                         id: '5',
-                        title: 'Dr. Appointment',
-                        start: '2016-05-10'
+                        title: 'Shared Attendant',
+                        start: '2016-05-06'
                     },
                     {
                         id: '6',
-                        title: 'Service Activity',
-                        start: '2016-05-11'
+                        title: 'Personal Assistance',
+                        start: '2016-05-04'
                     }, {
                         id: '7',
-                        title: 'Nurse Visit',
-                        start: '2016-05-13'
+                        title: 'Shared Attendant',
+                        start: '2016-05-03'
                     }, {
                         id: '8',
-                        title: 'Nurse Visit',
-                        start: '2016-05-13'
+                        title: 'Shared Attendant',
+                        start: '2016-05-01'
                     }
                 ]
 
@@ -532,43 +532,42 @@
                 events: [
                     {
                         id: '1',
-                        title: 'Nurse Visit',
-                        start: '2016-05-08'
+                        title: 'Personal Assistance',
+                        start: '2016-05-13'
                     },
                     {
                         id: '2',
-                        title: 'Service Activity',
-                        start: '2016-05-08'
+                        title: 'Shared Attendant',
+                        start: '2016-05-13'
                     },
                     {
                         id: '3',
-                        title: 'Service Activity',
-                        start: '2016-05-09'
+                        title: 'Shared Attendant',
+                        start: '2016-05-12'
                     },
                     {
                         id: '4',
-                        title: 'Dr. Appointment',
-                        start: '2016-05-09'
+                        title: 'Personal Assistance',
+                        start: '2016-05-11'
                     },
                     {
                         id: '5',
-                        title: 'Dr. Appointment',
-                        start: '2016-05-10'
+                        title: 'Shared Attendant',
+                        start: '2016-05-06'
                     },
                     {
                         id: '6',
-                        title: 'Service Activity',
-                        start: '2016-05-11'
+                        title: 'Personal Assistance',
+                        start: '2016-05-04'
                     }, {
                         id: '7',
-                        title: 'Nurse Visit',
-                        start: '2016-05-13'
+                        title: 'Shared Attendant',
+                        start: '2016-05-03'
                     }, {
                         id: '8',
-                        title: 'Nurse Visit',
-                        start: '2016-05-13'
-                    }
-                ]
+                        title: 'Shared Attendant',
+                        start: '2016-05-01'
+                    }                ]
 
             });
             $('#eventCalendar3').fullCalendar({
