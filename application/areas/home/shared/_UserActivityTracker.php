@@ -10,7 +10,7 @@
             <div class="col-sm-12 no-padding">
                 <canvas id="usageFrequencyChart" width="400" height="100"></canvas>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12" style="overflow-x: scroll;">
                 <br>
                 <table class="dataTable table table-bordered table-hover">
                     <thead>
