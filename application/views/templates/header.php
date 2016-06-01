@@ -133,6 +133,11 @@
 			
 			?>
           </ul>
+
+            <div class="pull-right" style="display: inline-block; text-align: right">
+                <div style="display: inline-block; margin-right: 50px">
+                    <span class="h5" style="margin: 12px 0;">A</span>&nbsp;<span class="h4" style="margin: 12px 0; opacity: .7;">A</span>&nbsp;<span class="h3" style="margin: 12px 0 ; opacity: .7;">A</span>
+                </div>
 			<ul class="nav navbar-nav navbar-right">
 			<?php /*?><?php 
 			
@@ -186,6 +191,7 @@
 					}
 			?>
 			</ul>
+            </div>
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </div><!-- /.navbar -->
