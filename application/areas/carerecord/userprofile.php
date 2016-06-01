@@ -289,7 +289,7 @@
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
                                         <strong>Participant Alternate Phone #:</strong>
-                                    </span><div class="col-xs-7"><span class="value">N/A</span></div>
+                                    </span><div class="col-xs-7"><span class="value">301-555-1234</span></div>
                                 </div>
                                 <div class="form-group">
                                 <span class="control-label col-sm-5">
@@ -393,7 +393,7 @@
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
                                         <strong>Guardian Alternate Phone #:</strong>
-                                    </span><div class="col-xs-7"><span class="value">N/A</span></div>
+                                    </span><div class="col-xs-7"><span class="value">240-555-5555</span></div>
                                 </div>
                                 <div class="form-group">
                                 <span class="control-label col-sm-5">
