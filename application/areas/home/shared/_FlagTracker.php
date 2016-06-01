@@ -120,20 +120,23 @@
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>04/10/2016</strong>
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style=margin: 10px 0 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>05/16/2016</strong>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-xs-pull-1">
+                                <div class="col-xs-3 text-center">
+                                    <span class="h5"><strong style="color: #469B88">No Action Required</strong><br><small>Completed in <strong>32</strong> Days </small></span>
+                                </div>
+                                <div class="col-xs-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-no-action" id="chart1"></div>
                                 </div>
                             </div>
@@ -173,20 +176,23 @@
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/23/2016</strong>
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>04/02/2016</strong>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-xs-pull-1">
+                                <div class="col-xs-3 text-center">
+                                    <span class="h5"><strong style="color: #EE6C6F">Escalated to Reportable Event</strong><br><small>Completed in <strong>9</strong> Days </small></span>
+                                </div>
+                                <div class="col-xs-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-reported-event" id="chart2"></div>
                                 </div>
                             </div>
@@ -226,20 +232,23 @@
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/18/2016</strong>
                                             </span>
                                         </div>
                                         <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>--</strong>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-xs-pull-1">
+                                <div class="col-xs-3 text-center">
+                                    <span class="h5"><strong style="color: #237AB6">Under Review</strong></span>
+                                </div>
+                                <div class="col-xs-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-under-review" id="chart3"></div>
                                 </div>
                             </div>
@@ -279,13 +288,13 @@
                                             </span>
                                             </div>
                                             <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/16/2016</strong>
                                             </span>
                                             </div>
                                             <div class="col-sm-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>03/26/2016</strong>
                                             </span>
@@ -446,7 +455,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [4, 3, 1]
+                    data: [10, 11, 6]
                 },
                 {
                     label: "Flags Completed (No Action Required)",
@@ -467,7 +476,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [1, 1, 1]
+                    data: [5, 6, 3]
                 },
                 {
                     label: "Flags Completed (Escalated to Reportable Event)",
@@ -488,7 +497,7 @@
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [0, 1, 0],
+                    data: [3, 2, 4],
                 }
             ]
         }
@@ -501,19 +510,27 @@
     var ctx = $("#myChart");
 
     var myChart = new Chart(ctx, {
-        type: "doughnut",
+        type: "bar",
         animation: {
             animateScale: true
         },
         options: {
             legend: {
                 position: "bottom"
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        min: 0,
+                        max: 6
+                    }
+                }]
             }
         },
         data: {
             labels: ["Pending Review", "Under Review", "Completed (No Action Required)", "Completed (Escalated to RE)"],
             datasets: [{
-                label: '# of Votes',
+                label: '# of Flags',
                 data: [1, 2, 4, 1],
                 backgroundColor: [
                     "#ddd",
@@ -528,6 +545,6 @@
                     "rgba(191, 14, 14,1)"
                 ]
             }]
-        }
+    }
     });
 </script>

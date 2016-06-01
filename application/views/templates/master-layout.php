@@ -22,6 +22,8 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/jquery-bootstrap-datepicker/jquery-bootstrap-datepicker.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/nvd3-js/nv.d3.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/slick-1.6.0/slick.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/js/lib/slick-1.6.0/slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/content/css/site.css">
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -49,6 +51,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/jquery.fullcalendar/fullcalendar.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/nvd3-js/nv.d3.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/chart.js/Chart.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>application/content/js/lib/slick-1.6.0/slick.js"></script>
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&"></script>
 		
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />

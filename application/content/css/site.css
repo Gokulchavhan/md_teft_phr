@@ -693,11 +693,13 @@ input[disabled="disabled"], textarea[disabled="disabled"], select[disabled="disa
 
 .complete-reported-event .nv-bullet .nv-range0 {
     fill: #EE6C6F !important;
+    /*fill: #237AB6 !important;*/
     fill-opacity: 1 !important;
 }
 
 .complete-no-action .nv-bullet .nv-range0 {
     fill: #469B88 !important;
+    /*fill: #237AB6 !important;*/
     fill-opacity: 1 !important;
 }
 
@@ -771,3 +773,39 @@ input[required], select[required], textarea[required]{
 }
 
 */
+
+
+.slick-prev:before, .slick-next:before{
+    color:  rgb(32, 140, 6);
+}
+.slick-prev {
+    right: -5px;
+    left: auto;
+    transform: rotate(180deg);
+    z-index: 999;
+}
+.slick-prev:before {
+    float: left;
+}
+.slick-next {
+     left: -5px;
+    right: auto;
+    transform: rotate(180deg);
+ }
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: xx-large;
+}
+
+.start-week-highlight .fc-thu,
+.start-week-highlight .fc-fri,
+.start-week-highlight .fc-sat {
+    background: #F5FAFF;
+}
+.end-week-highlight .fc-sun,
+.end-week-highlight .fc-mon,
+.end-week-highlight .fc-tue,
+.end-week-highlight .fc-wed {
+    background: #F5FAFF;
+}
