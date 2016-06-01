@@ -295,7 +295,7 @@
                                 <span class="control-label col-sm-5">
                                     <strong>Alternate Email Address:</strong>
                                 </span>
-                                    <div class="col-sms-7"><span class="value">casmith2@live.com</span></div>
+                                    <div class="col-sm-7"><span class="value">casmith2@live.com</span></div>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +399,7 @@
                                 <span class="control-label col-sm-5">
                                     <strong>Alternate Email Address:</strong>
                                 </span>
-                                    <div class="col-sms-7"><span class="value">joe.doe@companyco.com</span></div>
+                                    <div class="col-sm-7"><span class="value">joe.doe@companyco.com</span></div>
                                 </div>
                             </div>
                         </div>

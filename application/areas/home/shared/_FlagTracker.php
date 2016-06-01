@@ -113,20 +113,20 @@
                                         <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
                                     </div>
                                     <div class="col-xs-6">
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>date of service:</small><br>
                                                 <strong>04/08/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>04/10/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>05/16/2016</strong>
                                             </span>
@@ -166,20 +166,20 @@
                                         <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
                                     </div>
                                     <div class="col-xs-6">
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>date of service:</small><br>
                                                 <strong>03/23/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/23/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>04/02/2016</strong>
                                             </span>
@@ -219,20 +219,20 @@
                                         <span class="h5" style="display: inline-block"><strong>Shared Attendant</strong><br><small>by <strong>Candace Kind</strong>&nbsp;(Tru-Care Providers)</small></span>
                                     </div>
                                     <div class="col-xs-6">
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>date of service:</small><br>
                                                 <strong>03/12/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/18/2016</strong>
                                             </span>
                                         </div>
-                                        <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                        <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>--</strong>
                                             </span>
@@ -272,20 +272,20 @@
                                             <span class="h5" style="display: inline-block"><strong>Personal Assistance</strong><br><small>by <strong>Gladice Tuhelp</strong>&nbsp;(Tru-Care Providers)</small></span>
                                         </div>
                                         <div class="col-xs-6">
-                                            <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                            <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 10px 0 5px 0;">
                                                 <small>date of service:</small><br>
                                                 <strong>04/08/2016</strong>
                                             </span>
                                             </div>
-                                            <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                            <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>flagged on:</small><br>
                                                 <strong>03/16/2016</strong>
                                             </span>
                                             </div>
-                                            <div class="col-xs-4 no-padding">
-                                            <span class="h6 bluesteel-color pull-right">
+                                            <div class="col-sm-4 no-padding">
+                                            <span class="h6 bluesteel-color pull-right" style="margin: 5px 0;">
                                                 <small>completed on:</small><br>
                                                 <strong>03/26/2016</strong>
                                             </span>

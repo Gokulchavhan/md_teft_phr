@@ -6,40 +6,50 @@
             <hr>
         </div>
         <div class="content">
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Mar '16</h4>
                 <canvas id="myChartMar" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin">40/40&nbsp;<small>hours billed</small></span>
+                    <span class="h4 no-margin">40/40&nbsp;<small>hours<br/>billed</small></span>
                     <hr class="no-margin">
-                    <span class="h4 no-margin">22&nbsp;<small>service activities</small></span>
+                    <span class="h4 no-margin">22&nbsp;<small>service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Apr '16</h4>
                 <canvas id="myChartApr" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin">75/80&nbsp;<small>hours billed</small></span>
+                    <span class="h4 no-margin">75/80&nbsp;<small>hours<br/>billed</small></span>
                     <hr class="no-margin">
-                    <span class="h4 no-margin">52&nbsp;<small>service activities</small></span>
+                    <span class="h4 no-margin">52&nbsp;<small>service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+<!--            <div class="col-xs-12" style="background: #fefefe; box-shadow: inset 0 0px 5px 0px rgba(0, 0, 0, 0.2);">-->
+<!--                <div class="drawer-section" style=" left: 71%;"></div>-->
+<!--                <div class="col-xs-12" style="margin: 15px 0;">-->
+<!--                    <canvas id="serviceFrequencyChart" width="400" height="300"></canvas>-->
+<!--                    <span class="pull-right">-->
+<!--                        <a href="--><?php //echo base_url('index.php/carerecord/serviceactivity') ?><!--" style="font-size: 80%">View-->
+<!--                            Services for this Month&nbsp;&nbsp;<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>-->
+<!--                    </span>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center orange-color"><strong>May '16</strong></h4>
                 <canvas id="myChartMay" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin">12/40&nbsp;<small>hours billed</small></span>
+                    <span class="h4 no-margin">12/40&nbsp;<small>hours<br/>billed</small></span>
                     <hr class="no-margin">
-                    <span class="h4 no-margin">20&nbsp;<small>service activities</small></span>
+                    <span class="h4 no-margin">20&nbsp;<small>service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Jun '16</h4>
                 <canvas id="myChartJun" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
             <div class="col-xs-12" style="background: #fefefe; box-shadow: inset 0 0px 5px 0px rgba(0, 0, 0, 0.2);">
@@ -52,85 +62,85 @@
                     </span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Jul '16</h4>
                 <canvas id="myChartJul" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Aug '16</h4>
                 <canvas id="myChartAug" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Sep '16</h4>
                 <canvas id="myChartSep" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Oct '16</h4>
                 <canvas id="myChartOct" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Nov '16</h4>
                 <canvas id="myChartNov" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Dec '16</h4>
                 <canvas id="myChartDec" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Jan '17</h4>
                 <canvas id="myChartJan" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Feb '17</h4>
                 <canvas id="myChartFeb" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/80&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px">
+            <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px">
                 <h4 class="text-center secondary-color">Mar '17</h4>
                 <canvas id="myChartMar17" height="180"></canvas>
                 <div class="text-center">
-                    <span class="h4 no-margin disabled-color">0/40&nbsp;<small class="disabled-color">hours billed</small></span>
+                    <span class="h4 no-margin disabled-color">0/40&nbsp;<small class="disabled-color">hours<br/>billed</small></span>
                     <hr class="no-margin" style="border-color: #bbb">
-                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service activities</small></span>
+                    <span class="h4 no-margin disabled-color">0&nbsp;<small class="disabled-color">service<br/>activities</small></span>
                 </div>
             </div>
         </div>

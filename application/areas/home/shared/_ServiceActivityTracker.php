@@ -155,41 +155,41 @@
             events: [
                 {
                     id: '1',
-                    title: '',
-                    start: '2016-05-08T08:30:00'
+                    title: 'Personal Assistance',
+                    start: '2016-05-13'
                 },
                 {
                     id: '2',
-                    title: '',
-                    start: '2016-05-08'
+                    title: 'Shared Attendant',
+                    start: '2016-05-13'
                 },
                 {
                     id: '3',
-                    title: '',
-                    start: '2016-05-09'
+                    title: 'Shared Attendant',
+                    start: '2016-05-12'
                 },
                 {
                     id: '4',
-                    title: '',
-                    start: '2016-05-09'
+                    title: 'Personal Assistance',
+                    start: '2016-05-11'
                 },
                 {
                     id: '5',
-                    title: '',
-                    start: '2016-05-10'
+                    title: 'Shared Attendant',
+                    start: '2016-05-06'
                 },
                 {
                     id: '6',
-                    title: '',
-                    start: '2016-05-11'
+                    title: 'Personal Assistance',
+                    start: '2016-05-04'
                 }, {
                     id: '7',
-                    title: '',
-                    start: '2016-05-13'
+                    title: 'Shared Attendant',
+                    start: '2016-05-03'
                 }, {
                     id: '8',
-                    title: '',
-                    start: '2016-05-13'
+                    title: 'Shared Attendant',
+                    start: '2016-05-01'
                 }
             ]
 
