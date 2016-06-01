@@ -144,59 +144,84 @@
                                                             </span>
                                     <div class="col-xs-7"><span class="value">Sibling</span></div>
                                 </div>
-                                <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Participant Phone #:</strong>
-                                                            </span>
-                                    <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
-                                </div>
+
 
                             </div>
 
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Guardian Phone #:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>Guardian Phone #:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
 
 
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>OTP Assignment:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>OTP Assignment:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">Yes</span></div>
                                 </div>
 
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Participant OTP Serial #:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>Participant OTP Serial #:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">123456789012345</span></div>
                                 </div>
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Program Enrollment:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>Program Enrollment:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">AL</span></div>
                                 </div>
 
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Supports Planner:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>Supports Planner:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">Jane Doe</span></div>
                                 </div>
                                 <div class="form-group">
-                                                            <span class="control-label col-xs-5">
-                                                                <strong>Support Planning Agency:</strong>
-                                                            </span>
+                                    <span class="control-label col-xs-5">
+                                        <strong>Support Planning Agency:</strong>
+                                    </span>
                                     <div class="col-xs-7"><span class="value">Agency Name, Inc.</span></div>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-condensed">
+                                        <caption>Phone Numbers</caption>
+                                        <thead>
+                                            <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                                <td style="vertical-align: bottom">Primary</td>
+                                                <td style="vertical-align: bottom">Phone Type</td>
+                                                <td style="vertical-align: bottom">Phone Number</td>
+                                                <td style="vertical-align: bottom">Actions</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td>Home</td>
+                                            <td>240-305-2412</td>
+                                            <td><a data-toggle="modal" data-target="#editEmail">Edit</a><br><a>Delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</i></td>
+                                            <td>Cell</td>
+                                            <td>301-448-5555</td>
+                                            <td><a data-toggle="modal" data-target="#editEmail">Edit</a><br><a>Delete</a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -227,8 +252,6 @@
                                     </span>
                                     <div class="col-sm-7">
                                         <span class="value">Individuals Eligible for Home and Community-Based Services</span>
-                                        <br>
-                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#viewCoverage" style="display: inline-block">View History</button>
                                     </div>
                                 </div>
 
@@ -253,6 +276,44 @@
                                     </span>
                                     <div class="col-sm-7"><span class="value">Community</span></div>
                                 </div>
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-condensed">
+                                        <thead>
+                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                            <td  style="vertical-align: bottom">Coverage Group</td>
+                                            <td style="vertical-align: bottom">Status</td>
+                                            <td style="vertical-align: bottom">Enrollment Date</td>
+                                            <td style="vertical-align: bottom">Disenrollment Date</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>HCBS</td>
+                                            <td>Enrolled</td>
+                                            <td>03/15/2016</td>
+                                            <td>03/16/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>H01</td>
+                                            <td>Disenrolled</td>
+                                            <td>06/01/2006</td>
+                                            <td>06/14/2011</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Community First Choice</td>
+                                            <td>Pending</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -267,7 +328,7 @@
                         </a>
                     </h4>
 
-                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editEmail">Edit</button>
+
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
@@ -278,24 +339,14 @@
                                 </span>
                                     <div class="col-sm-7"><span class="value">CSmith</span></div>
                                 </div>
+
+                            </div>
+                            <div class="col-sm-6">
                                 <div class="form-group">
                                 <span class="control-label col-sm-5">
                                     <strong>Email Address:</strong>
                                 </span>
                                     <div class="col-sm-7"><span class="value">casmith@live.com</span></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Participant Alternate Phone #:</strong>
-                                    </span><div class="col-xs-7"><span class="value">301-555-1234</span></div>
-                                </div>
-                                <div class="form-group">
-                                <span class="control-label col-sm-5">
-                                    <strong>Alternate Email Address:</strong>
-                                </span>
-                                    <div class="col-sm-7"><span class="value">casmith2@live.com</span></div>
                                 </div>
                             </div>
                         </div>
@@ -319,7 +370,7 @@
                                     <table class="table table-striped table-condensed">
 
                                         <thead>
-                                            <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
                                             <td style="vertical-align: bottom">Representative Name</td>
                                             <td style="vertical-align: bottom">Date of Birth</td>
                                             <td style="vertical-align: bottom">Relationship</td>
@@ -329,31 +380,31 @@
                                             <td style="vertical-align: bottom">Primary Caregiver</td>
                                             <td style="vertical-align: bottom">CFC Representative</td>
                                             <td style="vertical-align: bottom">Actions</td>
-                                            </tr>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>John Doe</td>
-                                                <td>08/12/1991</td>
-                                                <td>Sibling</td>
-                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
-                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
-                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
-                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
-                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
-                                                <td><a href="#" data-toggle="modal" data-target="#addRep">Send Registration Invite</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Manny Wilson</td>
-                                                <td>04/26/1853</td>
-                                                <td>Neighbor</td>
-                                                <td>&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td></td>
-                                            </tr>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>08/12/1991</td>
+                                            <td>Sibling</td>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td><a href="#" data-toggle="modal" data-target="#addRep">Send Registration Invite</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manny Wilson</td>
+                                            <td>04/26/1853</td>
+                                            <td>Neighbor</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -395,12 +446,7 @@
                                         <strong>Guardian Alternate Phone #:</strong>
                                     </span><div class="col-xs-7"><span class="value">240-555-5555</span></div>
                                 </div>
-                                <div class="form-group">
-                                <span class="control-label col-sm-5">
-                                    <strong>Alternate Email Address:</strong>
-                                </span>
-                                    <div class="col-sm-7"><span class="value">joe.doe@companyco.com</span></div>
-                                </div>
+
                             </div>
                         </div>
                     </div>

@@ -31,21 +31,12 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<label class="control-label col-sm-4 required">
-							<strong>Participant's Alternate Phone #:</strong>
+							<strong>Participant's Phone #:</strong>
 						</label>
 						<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control"></div>
 					</div>
 				</div>
-				
-				<br>
-				<div class="row">
-					<div class="col-xs-12">
-						<label class="control-label col-xs-4 required">
-							<strong>Alternate Email Address:</strong>
-						</label>
-						<div class="col-xs-8"><input type="text" required class="form-control"></div>
-					</div>
-				</div>
+
 
 
 
