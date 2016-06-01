@@ -238,47 +238,16 @@
                     <div class="panel-body form-horizontal">
                         <div class="row">
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <span class="control-label col-sm-5">
+                                    <label style="padding-left: 17px" class="control-label">
                                         <strong>MA#:</strong>
-                                    </span>
-                                    <div class="col-sm-7"><span class="value">44444444444 (Community)</span></div>
+                                    </label>
+                                    <span class="value">44444444444 (Community)</span>
                                 </div>
-                                <div class="form-group">
-                                    <span class="control-label col-sm-5">
-                                        <strong>Coverage Group:</strong>
-
-                                    </span>
-                                    <div class="col-sm-7">
-                                        <span class="value">Individuals Eligible for Home and Community-Based Services</span>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <span class="control-label col-sm-5">
-                                        <strong>Start Date:</strong>
-                                    </span>
-                                    <div class="col-sm-7"><span class="value">08/12/1991</span></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <span class="control-label col-sm-5">
-                                        <strong>End Date:</strong>
-                                    </span>
-                                    <div class="col-sm-7"><span class="value">08/12/1991</span></div>
-                                </div>
-
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>LTC/Community:</strong>
-                                    </span>
-                                    <div class="col-sm-7"><span class="value">Community</span></div>
-                                </div>
-
 
                             </div>
+
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
