@@ -140,7 +140,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Guardian Relationship with Rosie:</strong>
+                                                                <strong>Guardian Relationship:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">Sibling</span></div>
                                 </div>
@@ -316,10 +316,10 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="table-responsive">
-                                    <table class="table table-striped">
+                                    <table class="table table-striped table-condensed">
 
                                         <thead>
-                                        <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
+                                            <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
                                             <td style="vertical-align: bottom">Representative Name</td>
                                             <td style="vertical-align: bottom">Date of Birth</td>
                                             <td style="vertical-align: bottom">Relationship</td>
@@ -329,31 +329,31 @@
                                             <td style="vertical-align: bottom">Primary Caregiver</td>
                                             <td style="vertical-align: bottom">CFC Representative</td>
                                             <td style="vertical-align: bottom">Actions</td>
-                                        </tr>
+                                            </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
-                                            <td>John Doe</td>
-                                            <td>08/12/1991</td>
-                                            <td>Sibling</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td>Yes</td>
-                                            <td><a href="#" data-toggle="modal" data-target="#addRep">Send Registration Invite</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Manny Wilson</td>
-                                            <td>04/26/1853</td>
-                                            <td>Neighbor</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td>No</td>
-                                            <td></td>
-                                        </tr>
+                                            <tr>
+                                                <td>John Doe</td>
+                                                <td>08/12/1991</td>
+                                                <td>Sibling</td>
+                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                                <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                                <td><a href="#" data-toggle="modal" data-target="#addRep">Send Registration Invite</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Manny Wilson</td>
+                                                <td>04/26/1853</td>
+                                                <td>Neighbor</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td></td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>

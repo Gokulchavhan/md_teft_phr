@@ -9,13 +9,13 @@
             <div class="form-group">
                 <label for="firstname" class="col-sm-3 control-label required"><strong>First Name:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="firstname" placeholder="First Name">
+                    <input class="form-control" id="firstname">
                 </div>
             </div>
             <div class="form-group">
                 <label for="lastname" class="col-sm-3 control-label required"><strong>Last Name:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="lastname" placeholder="Last Name">
+                    <input class="form-control" id="lastname">
                 </div>
             </div>
             <br>
@@ -24,7 +24,8 @@
             <div class="form-group">
                 <label for="gender" class="col-sm-3 control-label required"><strong>Date of Birth:</strong></label>
                 <div class="col-sm-4">
-                    <input class="form-control" id="gender" type="date"/>
+                    <input class="form-control" id="gender" type="text"/>
+                    <span class="sublabel">MM/DD/YYYY</span>
                 </div>
             </div>
             <div class="form-group">
@@ -45,16 +46,36 @@
                 </div>
             </div>
             <div class="form-group">
+                <label for="phoneType" class="col-sm-3 control-label required"><strong>Phone Type:</strong></label>
+                <div class="col-sm-5">
+                    <select class="form-control methodOfCom" id="phoneType">
+                        <option></option>
+                        <option value="home">Home</option>
+                        <option value="cell">Cell</option>
+                        <option value="business">Business</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
                 <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
                 <div class="col-sm-4">
                     <input class="form-control" type="phone" id="phone">
+                    <span class="sublabel">123-456-7890</span>
+                </div>
+            </div>
+            <div class="form-group" id="cellContainer" style="display: none">
+                <label for="phone" class="col-sm-3 control-label required"><strong>Cell Phone:</strong></label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="phone" id="phone">
+                    <span class="sublabel">123-456-7890</span>
                 </div>
             </div>
             <br>
             <div class="form-group">
                 <label for="username" class="col-sm-3 control-label required"><strong>Username:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="username" placeholder="Username">
+                    <input class="form-control" id="username">
                 </div>
             </div>
 
@@ -62,6 +83,7 @@
                 <label for="password" class="col-sm-3 control-label required"><strong>Password:</strong></label>
                 <div class="col-sm-4">
                     <input class="form-control" id="password" type="password">
+                    <span class="sublabel">Must be 8 characters long and include at least one number.</span>
                 </div>
             </div>
             <div class="form-group">
@@ -89,11 +111,13 @@
                 <label for="password" class="col-sm-3 control-label required"><strong>Preferred Method of
                         Communication:</strong></label>
                 <div class="col-sm-5">
-                    <select class="form-control">
-                        <option>All</option>
-                        <option>Email</option>
-                        <option>Phone</option>
-                        <option>US Mail</option>
+                    <select id="methodOfContact" class="methodOfCom form-control">
+                        <option></option>
+                        <option value="all">All</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="text">Text</option>
+                        <option value="mail">US Mail</option>
                     </select>
                 </div>
             </div>
@@ -107,3 +131,23 @@
         </form>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        var methodOfContact = $("#methodOfContact");
+        var phoneType = $("#phoneType");
+        var cellContainer = $("#cellContainer");
+        var trigger = $(".methodOfCom");
+
+        trigger.change(function(){
+            if(methodOfContact.val() == "text" && phoneType.val() != "cell"){
+                cellContainer.show();
+                console.log('== text != cell')
+            }else if(methodOfContact.val == "text" && phoneType.val() == "cell"){
+                cellContainer.hide();
+                console.log('')
+            }
+        });
+
+    });
+</script>
