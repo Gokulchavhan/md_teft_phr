@@ -13,7 +13,7 @@
 					  <p class="form-control-static">CSmith</p>
 			</div>
 		  </div>
-		  
+
 		  <div class="form-group">
 			<label for="oldpassword" class="col-xs-3 control-label">Old Password</label>
 			<div class="col-xs-5">
@@ -32,7 +32,7 @@
 			  <input type="password" class="form-control" id="verifypassword" placeholder="Verify Password" value="">
 			</div>
 		  </div>
-		  
+
 		  <div class="form-group">
 			<div class="col-xs-offset-3 col-xs-5">
 			  <div class="checkbox">

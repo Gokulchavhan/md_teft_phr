@@ -1,3 +1,8 @@
+<style>
+    span.value{
+        padding-top: 4px;
+    }
+</style>
 <div class="panel panel-default">
     <div class="panel-body">
         <h2 id="myModalLabel" class="primary-color">
@@ -9,13 +14,13 @@
             <div class="form-group">
                 <label for="firstname" class="col-sm-3 control-label required"><strong>First Name:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="firstname">
+                    <span class="value">John</span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="lastname" class="col-sm-3 control-label required"><strong>Last Name:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="lastname">
+                    <span class="value">Doe</span>
                 </div>
             </div>
             <br>
@@ -24,8 +29,8 @@
             <div class="form-group">
                 <label for="gender" class="col-sm-3 control-label required"><strong>Date of Birth:</strong></label>
                 <div class="col-sm-4">
-                    <input class="form-control" id="gender" type="text"/>
-                    <span class="sublabel">MM/DD/YYYY</span>
+                    <span class="value">08/12/1991</span>
+
                 </div>
             </div>
             <div class="form-group">
@@ -42,7 +47,13 @@
             <div class="form-group">
                 <label for="manum" class="col-sm-3 control-label"><strong>Participant's MA#:</strong></label>
                 <div class="col-sm-4">
-                    <p style="padding-top: 7px !important; margin-bottom: 0">0000761147692</p>
+                    <span class="value">0000761147692</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
+                <div class="col-sm-4">
+                    <span class="value">240-555-5551</span>
                 </div>
             </div>
             <div class="form-group">
@@ -57,13 +68,6 @@
                     </select>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
-                <div class="col-sm-4">
-                    <input class="form-control" type="phone" id="phone">
-                    <span class="sublabel">123-456-7890</span>
-                </div>
-            </div>
             <div class="form-group" id="cellContainer" style="display: none">
                 <label for="phone" class="col-sm-3 control-label required"><strong>Cell Phone:</strong></label>
                 <div class="col-sm-4">
@@ -71,6 +75,14 @@
                     <span class="sublabel">123-456-7890</span>
                 </div>
             </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-3 control-label required"><strong>Email Address:</strong></label>
+                <div class="col-sm-4">
+                    <span class="value">jdoe116@yahoo.com</span>
+                </div>
+            </div>
+
+
             <br>
             <div class="form-group">
                 <label for="username" class="col-sm-3 control-label required"><strong>Username:</strong></label>
@@ -93,19 +105,8 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <label for="email" class="col-sm-3 control-label required"><strong>Email Address:</strong></label>
-                <div class="col-sm-4">
-                    <input class="form-control" id="email" type="email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="emailConfirm" class="col-sm-3 control-label required"><strong>Confirm Email
-                        Address:</strong></label>
-                <div class="col-sm-5">
-                    <input class="form-control" id="emailConfirm" type="email">
-                </div>
-            </div>
+
+
 
             <div class="form-group">
                 <label for="password" class="col-sm-3 control-label required"><strong>Preferred Method of
