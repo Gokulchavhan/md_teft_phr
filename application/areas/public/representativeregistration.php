@@ -51,21 +51,21 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
-                <div class="col-sm-4">
-                    <span class="value">240-555-5551</span>
-                </div>
-            </div>
-            <div class="form-group">
                 <label for="phoneType" class="col-sm-3 control-label required"><strong>Phone Type:</strong></label>
                 <div class="col-sm-5">
-                    <select class="form-control methodOfCom" id="phoneType">
+                    <select class="form-control methodOfCom" required id="phoneType">
                         <option></option>
                         <option value="home">Home</option>
                         <option value="cell">Cell</option>
                         <option value="business">Business</option>
                         <option value="other">Other</option>
                     </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="col-sm-3 control-label required"><strong>Phone Number:</strong></label>
+                <div class="col-sm-4">
+                    <input class="form-control" required value="240-555-5551" type="text" />
                 </div>
             </div>
             <div class="form-group" id="cellContainer" style="display: none">
@@ -87,21 +87,21 @@
             <div class="form-group">
                 <label for="username" class="col-sm-3 control-label required"><strong>Username:</strong></label>
                 <div class="col-sm-5">
-                    <input class="form-control" id="username">
+                    <input class="form-control" required id="username">
                 </div>
             </div>
 
             <div class="form-group">
                 <label for="password" class="col-sm-3 control-label required"><strong>Password:</strong></label>
                 <div class="col-sm-4">
-                    <input class="form-control" id="password" type="password">
+                    <input class="form-control" required id="password" type="password">
                     <span class="sublabel">Must be 8 characters long and include at least one number.</span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="dob" class="col-sm-3 control-label required"><strong>Confirm Password:</strong></label>
                 <div class="col-sm-4">
-                    <input class="form-control" id="dob" type="password">
+                    <input class="form-control" required id="dob" type="password">
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
                 <label for="password" class="col-sm-3 control-label required"><strong>Preferred Method of
                         Communication:</strong></label>
                 <div class="col-sm-5">
-                    <select id="methodOfContact" class="methodOfCom form-control">
+                    <select id="methodOfContact" required class="methodOfCom form-control">
                         <option></option>
                         <option value="all">All</option>
                         <option value="email">Email</option>

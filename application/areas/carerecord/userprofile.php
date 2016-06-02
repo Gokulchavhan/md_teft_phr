@@ -205,7 +205,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style=""><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
                                             <td>Home</td>
                                             <td>240-305-2412</td>
                                         </tr>
@@ -238,9 +238,9 @@
 
                             <div class="col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <label style="padding-left: 17px" class="control-label">
+                                    <span class="control-label col-sm-5">
                                         <strong>MA#:</strong>
-                                    </label>
+                                    </span>
                                     <span class="value">44444444444 (Community)</span>
                                 </div>
 
