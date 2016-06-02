@@ -20,10 +20,11 @@
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4">
+						<label class="control-label col-sm-4 required">
 							<strong>Email Address:</strong>
 						</label>
-						<div class="col-sm-8"><span class="value" style="margin-top: 2px; display: block"">casmith@live.com</span></div>
+                        <div class="col-xs-12 col-sm-8"><input type="text" required class="form-control" value="casmith@live.com">
+                            <span class="sublabel">example@mail.com</span></div>
 					</div>
 				</div>
 
@@ -31,9 +32,10 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<label class="control-label col-sm-4 required">
-							<strong>Participant's Phone #:</strong>
+							<strong>Phone #:</strong>
 						</label>
-						<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control"></div>
+						<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control" value="240-305-2412">
+                            <span class="sublabel">123-456-7890</span></div>
 					</div>
 				</div>
 
