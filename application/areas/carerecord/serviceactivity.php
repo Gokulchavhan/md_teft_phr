@@ -4,7 +4,7 @@
     <!-- Side Navigation -->
     <?php echo $_sidenavigation; ?>
     <div class="col-sm-12 col-md-3 affix affixed-side-content no-padding" style="top: 250px;">
-        <?php require "application/areas/home/shared/_posSnapshot.php" ?>
+        <?php require "application/areas/home/shared/_posSnapshot_v2.php" ?>
     </div>
 
     <!-- Content -->
@@ -567,7 +567,52 @@
                         id: '8',
                         title: 'Shared Attendant',
                         start: '2016-05-01'
-                    }                ]
+                    }                ],
+                selectHelper: true,
+                dayClick: function(start, allDay, jsEvent, view) {
+
+                    $(this).parent().siblings().removeClass("start-week-highlight");
+                    $(this).parent().siblings().removeClass("end-week-highlight");
+                    $(this).parent().removeClass("start-week-highlight");
+                    $(this).parent().removeClass("end-week-highlight");
+
+                    console.log(this);
+
+                    if ($(this).hasClass("fc-thu") || $(this).hasClass("fc-fri") || $(this).hasClass("fc-sat")) {
+                        $(this).parent().next().addClass("end-week-highlight");
+                        $(this).parent().addClass("start-week-highlight");
+                        console.log("start week");
+
+                    } else {
+                        $(this).parent().prev().addClass("start-week-highlight");
+                        $(this).parent().addClass("end-week-highlight");
+                        console.log("end week");
+                    }
+
+//                if(start < date && start.getDate() != date.getDate())
+//                {
+//                    alert("Cannot select past dates.");
+//                    $(this).parent().removeClass("week-highlight");
+//                    return;
+//                }
+
+                    var now = date? new Date(start-1) : new Date();
+                    now.setHours(0,0,0,0);
+                    var monday = new Date(now);
+                    monday.setDate(monday.getDate() - monday.getDay() + 1);
+                    var sunday = new Date(now);
+                    sunday.setDate(sunday.getDate() - sunday.getDay() + 7);
+//                activityCalendar.fullCalendar("renderEvent",
+//                        {
+//                            start: monday,
+//                            end: sunday,
+//                            allDay: allDay
+//                        },
+//                        true // make the event "stick"
+//                    );
+                    //$(this).parent().removeClass("week-highlight");
+                }
+
 
             });
             $('#eventCalendar3').fullCalendar({
