@@ -133,10 +133,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-3 text-center">
+                                <div class="col-sm-3 text-center">
                                     <span class="h5"><strong style="color: #469B88">No Action Required</strong><br><small>Completed in <strong>32</strong> Days </small></span>
                                 </div>
-                                <div class="col-xs-9 col-xs-pull-1">
+                                <div class="col-sm-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-no-action" id="chart1"></div>
                                 </div>
                             </div>
@@ -189,10 +189,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-3 text-center">
+                                <div class="col-sm-3 text-center">
                                     <span class="h5"><strong style="color: #EE6C6F">Escalated to Reportable Event</strong><br><small>Completed in <strong>9</strong> Days </small></span>
                                 </div>
-                                <div class="col-xs-9 col-xs-pull-1">
+                                <div class="col-sm-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-reported-event" id="chart2"></div>
                                 </div>
                             </div>
@@ -245,10 +245,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-3 text-center">
+                                <div class="col-sm-3 text-center">
                                     <span class="h5"><strong style="color: #237AB6">Under Review</strong></span>
                                 </div>
-                                <div class="col-xs-9 col-xs-pull-1">
+                                <div class="col-sm-9 col-xs-pull-1">
                                     <div class="gallery with-transitions complete-under-review" id="chart3"></div>
                                 </div>
                             </div>
