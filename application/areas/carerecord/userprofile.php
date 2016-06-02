@@ -201,7 +201,6 @@
                                                 <td style="vertical-align: bottom">Primary</td>
                                                 <td style="vertical-align: bottom">Phone Type</td>
                                                 <td style="vertical-align: bottom">Phone Number</td>
-                                                <td style="vertical-align: bottom">Actions</td>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -209,13 +208,12 @@
                                             <td style="text-align: center"><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
                                             <td>Home</td>
                                             <td>240-305-2412</td>
-                                            <td><a data-toggle="modal" data-target="#editEmail">Edit</a><br><a>Delete</a></td>
                                         </tr>
                                         <tr>
                                             <td>&nbsp;</i></td>
                                             <td>Cell</td>
                                             <td>301-448-5555</td>
-                                            <td><a data-toggle="modal" data-target="#editEmail">Edit</a><br><a>Delete</a></td>
+
                                         </tr>
                                         </tbody>
                                     </table>
@@ -297,7 +295,7 @@
                         </a>
                     </h4>
 
-
+                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editEmail">Edit</button>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
@@ -316,6 +314,13 @@
                                     <strong>Email Address:</strong>
                                 </span>
                                     <div class="col-sm-7"><span class="value">casmith@live.com</span></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Phone #:</strong>
+                                    </span><div class="col-xs-7"><span class="value">301-555-1234</span></div>
                                 </div>
                             </div>
                         </div>
