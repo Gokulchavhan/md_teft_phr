@@ -151,6 +151,12 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
+                                        <strong>Preferred Method of Communication:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">Phone</span> &nbsp;&nbsp;<a>Edit</a></div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
                                         <strong>Guardian Phone #:</strong>
                                     </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
@@ -174,7 +180,7 @@
                                     <span class="control-label col-xs-5">
                                         <strong>Program Enrollment:</strong>
                                     </span>
-                                    <div class="col-xs-7"><span class="value">AL</span></div>
+                                    <div class="col-xs-7"><span class="value">CO</span></div>
                                 </div>
 
                                 <div class="form-group">
@@ -205,7 +211,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td style=""><i style="color:#2196f3" class="glyphicon glyphicon-check"></i></td>
+                                            <td style=""><i style="color:#2196f3; padding-left: 20px;" class="glyphicon glyphicon-check"></i></td>
                                             <td>Home</td>
                                             <td>240-305-2412</td>
                                         </tr>
@@ -228,7 +234,7 @@
                     <h4 class="panel-title">
                         <a>
                             <span class="fa fa-chevron-down"></span>
-                            Medicaid Information
+                            Program Information
                         </a>
                     </h4>
                 </div>
@@ -237,8 +243,8 @@
                         <div class="row">
 
                             <div class="col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <span class="control-label col-sm-5">
+                                <div class="form-group" style="padding-left: 17px;">
+                                    <span class="control-label">
                                         <strong>MA#:</strong>
                                     </span>
                                     <span class="value">44444444444 (Community)</span>
@@ -253,7 +259,7 @@
                                     <table class="table table-striped table-condensed">
                                         <thead>
                                         <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
-                                            <td  style="vertical-align: bottom">Coverage Group</td>
+                                            <td  style="vertical-align: bottom">Program Name</td>
                                             <td style="vertical-align: bottom">Status</td>
                                             <td style="vertical-align: bottom">Enrollment Date</td>
                                             <td style="vertical-align: bottom">Disenrollment Date</td>
@@ -261,22 +267,16 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td>HCBS</td>
+                                            <td>Comunity Options Waiver</td>
                                             <td>Enrolled</td>
                                             <td>03/15/2016</td>
-                                            <td>03/16/2017</td>
+                                            <td>N/A</td>
                                         </tr>
                                         <tr>
-                                            <td>H01</td>
+                                            <td>CFC</td>
                                             <td>Disenrolled</td>
                                             <td>06/01/2006</td>
                                             <td>06/14/2011</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Community First Choice</td>
-                                            <td>Pending</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -417,11 +417,17 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
-                                        <strong>Guardian Alternate Phone #:</strong>
+                                        <strong>Representative Alternate Phone #:</strong>
                                     </span><div class="col-xs-7"><span class="value">240-555-5555</span></div>
                                 </div>
-
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Preferred Method of Communication:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">Phone</span> &nbsp;&nbsp;<a>Edit</a></div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 <div class="modal fade" id="editEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-sm">
+
 
 
 		<div class="modal-content">
@@ -39,6 +39,23 @@
 					</div>
 				</div>
 
+				<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label for="phoneType" class="col-sm-4 control-label required"><strong>Phone Type:</strong></label>
+						<div class="col-sm-8 col-xs-12">
+							<select required class="form-control methodOfCom" id="phoneType">
+								<option></option>
+								<option value="home">Home</option>
+								<option value="cell">Cell</option>
+								<option value="business">Business</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+
 
 
 
@@ -52,5 +69,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+
 </div><!-- /.modal -->

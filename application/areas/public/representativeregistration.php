@@ -12,14 +12,14 @@
         <br>
         <form class="form-horizontal" role="form">
             <div class="form-group">
-                <label for="firstname" class="col-sm-3 control-label required"><strong>First Name:</strong></label>
-                <div class="col-sm-5">
+                <label for="firstname" class="col-sm-3 col-xs-4 control-label required"><strong>First Name:</strong></label>
+                <div class="col-sm-5 col-xs-3">
                     <span class="value">John</span>
                 </div>
             </div>
             <div class="form-group">
-                <label for="lastname" class="col-sm-3 control-label required"><strong>Last Name:</strong></label>
-                <div class="col-sm-5">
+                <label for="lastname" class="col-sm-3 col-xs-4 control-label required"><strong>Last Name:</strong></label>
+                <div class="col-sm-5 col-xs-3">
                     <span class="value">Doe</span>
                 </div>
             </div>
@@ -27,15 +27,15 @@
 
 
             <div class="form-group">
-                <label for="gender" class="col-sm-3 control-label required"><strong>Date of Birth:</strong></label>
-                <div class="col-sm-4">
+                <label for="gender" class="col-sm-3 col-xs-4 control-label required"><strong>Date of Birth:</strong></label>
+                <div class="col-sm-4 col-xs-4">
                     <span class="value">08/12/1991</span>
 
                 </div>
             </div>
             <div class="form-group">
-                <label for="race" class="col-sm-3 control-label required"><strong>Gender:</strong></label>
-                <div class="col-sm-9" style="padding-left: 21px;">
+                <label for="race" class="col-sm-3 col-xs-4 control-label required"><strong>Gender:</strong></label>
+                <div class="col-sm-9 col-xs-8" style="padding-left: 21px;">
                     <label class="radio-inline ">
                         <input type="radio" id="gender" name="gender"> Male
                     </label>
@@ -45,8 +45,8 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="manum" class="col-sm-3 control-label"><strong>Participant's MA#:</strong></label>
-                <div class="col-sm-4">
+                <label for="manum" class="col-sm-3 col-xs-5 control-label"><strong>Participant's MA#:</strong></label>
+                <div class="col-sm-4 col-xs-4">
                     <span class="value">0000761147692</span>
                 </div>
             </div>
@@ -76,8 +76,8 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="email" class="col-sm-3 control-label required"><strong>Email Address:</strong></label>
-                <div class="col-sm-4">
+                <label for="email" class="col-sm-3 col-xs-5 control-label required"><strong>Email Address:</strong></label>
+                <div class="col-sm-4 col-xs-6">
                     <span class="value">jdoe116@yahoo.com</span>
                 </div>
             </div>

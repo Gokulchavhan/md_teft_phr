@@ -3,13 +3,35 @@
 
     <!-- Side Navigation -->
     <?php echo $_sidenavigation; ?>
-    <div class="col-sm-12 col-md-3 affix affixed-side-content no-padding" style="top: 250px;">
-        <?php require "application/areas/home/shared/_posSnapshot_v2.php" ?>
-    </div>
+<!--    <div class="col-sm-12 col-md-3 affix affixed-side-content no-padding" style="top: 250px;">-->
+<!--        --><?php //require "application/areas/home/shared/_posSnapshot_v2.php" ?>
+<!--    </div>-->
 
     <!-- Content -->
     <!-- Content -->
     <div class="col-md-9">
+        <row>
+            <div class="col-sm-12 no-padding">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="col-xs-6">
+                            <h4>
+                                <span class="secondary-color">Plan of Service Summary</span><br>
+                                <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
+                            </h4>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="col-sm-6">
+                                <span class="value h4"><small>effective date</small><br><span>03/15/2016</span></span>
+                            </div>
+                            <div class="col-sm-6">
+                                <span class="value h4"><small>end date</small><br><span>03/14/2017</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </row>
         <h1 style="margin-top:0px;">Service Activity</h1>
         <hr>
         <div class="col-xs-12">

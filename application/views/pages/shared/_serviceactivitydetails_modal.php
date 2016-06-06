@@ -2,7 +2,6 @@
     <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <button style="margin-top:32px; margin-right: -17px;" class="pull-right btn btn-primary"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print</button>
                 <h2 style="margin-bottom: 0 !important;" class="modal-title" id="myModalLabel">Service Activity Details</h2>
                 <hr style="margin-top: 0; margin-bottom: 5px;">
             </div>
@@ -18,7 +17,7 @@
                                 <div class="row">
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <p><b>Agency Provider Name:</b> Your Care Co.</p>
+                                        <p><b>Agency Provider Name:</b> Integrity Nursing Services</p>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -46,7 +45,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <p><b>Service Name:</b> Environmental Adaptations - Repair to previous adaptation</p>
+                                        <p><b>Service Name:</b> Personal Assistance Agency</p>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -55,7 +54,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <p><b>Service Type:</b> Personal Assistance Agency</p>
+                                        <p><b>Service Type:</b> Community First Choice</p>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -111,7 +110,9 @@
             </div>
             <div class="modal-footer">
                 <hr style="margin-top: 0; margin-bottom: 15px">
-                <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
+                <button style=" " class="pull-left btn btn-primary"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print</button>
+                <button style=" margin-right: 10px" class="pull-left btn btn-primary"><i class="glyphicon glyphicon-export"></i>&nbsp;&nbsp; Export</button>
+                <button typ="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
             </div>
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
