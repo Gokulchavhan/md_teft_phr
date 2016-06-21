@@ -4,6 +4,7 @@
 
             <div class="row">
                 <div class="col-sm-6 col-md-4">
+                    <button class="btn btn-primary pull-right visible-xs" style="margin-bottom: 10px; margin-top: -1px;" data-toggle="modal" data-target="#editEmail">View All Flagged Services</button>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </div>
                 <div class="col-sm-6 col-md-8 no-padding">

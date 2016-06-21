@@ -35,6 +35,7 @@
             <!--                </div>-->
             <!--            </div>-->
             <div class="col-sm-6 col-lg-9 no-padding">
+                <button class="btn btn-primary pull-right visible-xs" data-toggle="modal" data-target="#editEmail">View All Services</button>
                 <div id="service-activity-calendar"></div>
                 <br><br>
             </div>

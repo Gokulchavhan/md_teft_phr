@@ -34,7 +34,7 @@
             <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseOne" role="button">
                 <h4 class="panel-title"><a href=""><span class="fa fa-chevron-down"></span>&nbsp;<span class="fa fa-calendar-plus-o"></span>&nbsp;My Services</a></h4>
 
-                <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editEmail">View All Services</button>
+                <button class="btn btn-default panel-edit pull-right hidden-xs" data-toggle="modal" data-target="#editEmail">View All Services</button>
             </div>
 
             <div id="collapseOne" class="panel-collapse collapse in">
@@ -67,7 +67,7 @@
 
             <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseThree" role="button">
                 <h4 class="panel-title"><a href=""><span class="fa fa-chevron-down"></span>&nbsp;<span class="fa fa-flag"></span>&nbsp;My Flagged Services</a></h4>
-                <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editEmail">View All Flagged Services</button>
+                <button class="btn btn-default panel-edit pull-right hidden-xs" data-toggle="modal" data-target="#editEmail">View All Flagged Services</button>
             </div>
 
             <div id="collapseThree" class="panel-collapse collapse in">
