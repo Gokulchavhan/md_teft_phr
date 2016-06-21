@@ -2,14 +2,14 @@
 <div class="row">
 
     <!-- Side Navigation -->
-    <?php echo $_sidenavigation; ?>
+<!--    --><?php //echo $_sidenavigation; ?>
 <!--    <div class="col-sm-12 col-md-3 affix affixed-side-content no-padding" style="top: 250px;">-->
 <!--        --><?php //require "application/areas/home/shared/_posSnapshot_v2.php" ?>
 <!--    </div>-->
 
     <!-- Content -->
     <!-- Content -->
-    <div class="col-md-9">
+    <div class="col-md-12">
         <row>
             <div class="col-sm-12 no-padding">
                 <div class="panel panel-default">

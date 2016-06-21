@@ -76,7 +76,7 @@
 			
 			//Top Level Navigation
 			$mainlinks = array(
-								'home' => 'Home',
+								'home/home' => 'Home',
 								'carerecord/userprofile'  => 'My Profile',
 								'carerecord/serviceactivity' => 'My Services'
 								//'info' => 'Help & Info',
@@ -122,11 +122,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-			<?php 
-			
+			<?php
 			foreach ($mainlinks as $link => $linkname) {
-			
-				$isactive =($link == $area) ? 'class="active"' : "";
+
+                $newLink = str_replace("/","", strstr($link, '/'));
+
+				$isactive =($newLink == $page) ? 'class="active"' : "";
 				$badge =($link == "submissions") ? '<span class="badge" style="background-color: #3276b1">3</span> ' : "";	
 				echo "<li {$isactive}><a href=\"".base_url()."index.php/{$link}\">{$badge}{$linkname}</a></li>";
 			
