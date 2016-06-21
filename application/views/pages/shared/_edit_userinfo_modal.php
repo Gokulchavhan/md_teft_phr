@@ -12,7 +12,7 @@
 
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-xs-4"><strong>Username:</strong></label>
+						<label class="control-label col-xs-4"><strong>My Username:</strong></label>
 						<div class="col-sm-8"><span class="value" style="margin-top: 2px; display: block">CSmith</span></div>
 					</div>
 				</div>
@@ -20,29 +20,55 @@
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4 required">
-							<strong>Email Address:</strong>
+						<label class="control-label col-sm-4">
+							<strong>Old Email Address:</strong>
 						</label>
-                        <div class="col-xs-12 col-sm-8"><input type="text" required class="form-control" value="casmith@live.com">
-                            <span class="sublabel">example@mail.com</span></div>
+                        <span class="col-xs-12 col-sm-8">casmith@live.com
+
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label class="control-label col-sm-4 required"><strong>New Email Address:</strong></label>
+						<div class="col-xs-12 col-sm-8"><input type="email" required class="form-control"><span class="sublabel">example@mail.com</span></span></div>
 					</div>
 				</div>
 
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4 required">
-							<strong>Phone #:</strong>
+						<label class="control-label col-sm-4">
+							<strong>Old Phone #:</strong>
 						</label>
-						<div class="col-xs-12 col-sm-8"><input type="text" required class="form-control" value="240-305-2412">
-                            <span class="sublabel">123-456-7890</span></div>
+						<span class="col-xs-12 col-sm-8">240-305-2412</span>
+
 					</div>
 				</div>
 
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label for="phoneType" class="col-sm-4 control-label required"><strong>Phone Type:</strong></label>
+						<label class="control-label col-sm-4 required"><strong>New Phone #:</strong></label>
+						<div class="col-xs-12 col-sm-8"><input type="email" required class="form-control"><span class="sublabel">123-456-7890</span></span></div>
+					</div>
+				</div>
+
+				<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label class="control-label col-sm-4">
+							<strong>Old Phone Type:</strong>
+						</label>
+						<span class="col-xs-12 col-sm-8">Cell</span>
+
+					</div>
+				</div>
+
+				<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label for="phoneType" class="col-sm-4 control-label required"><strong>New Phone Type:</strong></label>
 						<div class="col-sm-8 col-xs-12">
 							<select required class="form-control methodOfCom" id="phoneType">
 								<option></option>

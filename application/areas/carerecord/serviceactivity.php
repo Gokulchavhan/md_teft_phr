@@ -16,7 +16,7 @@
                     <div class="panel-body">
                         <div class="col-xs-6">
                             <h4>
-                                <span class="secondary-color">Plan of Service Summary</span><br>
+                                <span class="secondary-color">My Plan of Service Summary</span><br>
                                 <span class="h5 no-margin"><small><i>as of 03/15/2016</i></small></span>
                             </h4>
                         </div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </row>
-        <h1 style="margin-top:0px;">Service Activity</h1>
+        <h1 style="margin-top:0px;">My Services</h1>
         <hr>
         <div class="col-xs-12">
             <div class="panel-group" id="accordion">
@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                         <div class="form-group">
-                                            <label>Service Initiation Source</label>
+                                            <label>Clock-in by:</label>
                                             <select class="form-control">
                                                 <option value="All">All</option>
                                                 <option value="Telephone">Telephone</option>
@@ -108,7 +108,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-4">
                                         <div class="form-group">
-                                            <label>Claim Status</label>
+                                            <label>Payment Status</label>
                                             <select class="form-control">
                                                 <option value="All">All</option>
                                                 <option value="In Process">In Process</option>
@@ -169,7 +169,7 @@
                     </div>
                     <div id="recentServiceActivity" class="row section-block">
                         <h3>
-                            <span class="secondary-color">Recent Service Activity</span><br>
+                            <span class="secondary-color">My Recent Services</span><br>
                         </h3>
                         <hr style="margin-top: 0">
                         <h5 class="text-center">
@@ -191,7 +191,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service Activity</strong></span>
+                                        <span style="font-size: 80%"><strong>New Service</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -221,7 +221,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service Activity</strong></span>
+                                        <span style="font-size: 80%"><strong>New Service</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -257,7 +257,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>Claim Rejected</strong></span>
+                                        <span style="font-size: 80%"><strong>Rejected Service</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -297,7 +297,7 @@
                                         </small>
                                         <br>
                                         <span
-                                            style="font-size: 80%"><strong>Claim Paid</strong> - Flag Pending Review</span>
+                                            style="font-size: 80%"><strong>Paid Service</strong> - Flag Pending Review</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-3 text-right" style="padding-top: 10px;">
@@ -314,7 +314,7 @@
                         </div>
                     </div>
                     <div id="searchResults" class="" style="display: none;">
-                        <button class="btn btn-primary pull-right"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print</button>
+                        <button class="btn btn-primary pull-right"><i class="glyphicon glyphicon-print"></i>&nbsp;&nbsp; Print Results</button>
                         <h3>
                             <span class="secondary-color">Search Results</span><br>
                         </h3>
@@ -338,7 +338,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service Activity</strong></span>
+                                        <span style="font-size: 80%"><strong>New Service</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -368,7 +368,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service Activity</strong></span>
+                                        <span style="font-size: 80%"><strong>New Service</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -493,7 +493,7 @@
 
 
             $('#eventCalendar1').fullCalendar({
-                //defaultView: 'basicWeek',
+                defaultView: 'agendaWeek',
                 height: 300,
                 header: {
                     left: 'title',
@@ -544,7 +544,7 @@
 
             });
             $('#eventCalendar2').fullCalendar({
-                //defaultView: 'basicWeek',
+                defaultView: 'agendaWeek',
                 height: 500,
                 header: {
                     left: 'title',
@@ -654,12 +654,12 @@
                     },
                     {
                         id: '2',
-                        title: 'Service Activity',
+                        title: 'New Service',
                         start: '2016-05-08'
                     },
                     {
                         id: '3',
-                        title: 'Service Activity',
+                        title: 'New Service',
                         start: '2016-05-09'
                     },
                     {
@@ -674,7 +674,7 @@
                     },
                     {
                         id: '6',
-                        title: 'Service Activity',
+                        title: 'New Service',
                         start: '2016-05-11'
                     }, {
                         id: '7',

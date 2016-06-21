@@ -17,7 +17,7 @@
                 </div>
             </div>
             <br>
-            <h4 class="secondary-color">Current Service Activity<br>
+            <h4 class="secondary-color">Current Services<br>
             </h4>
             <hr style="margin-top: 0">
             <div class="row">

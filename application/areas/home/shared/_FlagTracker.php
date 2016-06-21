@@ -1,14 +1,5 @@
 <div class="panel panel-default">
     <div class="panel-body">
-        <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-flag"></span>&nbsp;Flagged Services Tracker
-                <small class="pull-right">
-                    <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
-                        All Flagged Service Activity<span class="fa fa-chevron-right" style="font-size: 80%"></span></a>
-                </small>
-            </h2>
-            <hr>
-        </div>
         <div class="content">
 
             <div class="row">

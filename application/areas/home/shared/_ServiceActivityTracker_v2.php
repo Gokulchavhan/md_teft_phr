@@ -1,15 +1,5 @@
 <div class="panel panel-default">
     <div class="panel-body">
-        <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;Service Activity Tracker
-                <small class="pull-right">
-                    <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
-                        All Service Activity<span class="fa fa-chevron-right"
-                                                  style="font-size: 80%"></span></a>
-                </small>
-            </h2>
-            <hr>
-        </div>
         <div class="content">
             <!--            <div class="col-sm-12 col-lg-3 no-padding">-->
             <!--                <div class="col-xs-6 col-lg-12">-->
@@ -44,11 +34,11 @@
             <!--                    </div>-->
             <!--                </div>-->
             <!--            </div>-->
-            <div class="col-sm-6 col-lg-7 no-padding">
+            <div class="col-sm-6 col-lg-9 no-padding">
                 <div id="service-activity-calendar"></div>
                 <br><br>
             </div>
-            <div class="col-sm-6 col-lg-5 no-padding">
+            <div class="col-sm-6 col-lg-3 no-padding">
                 <div class="col-xs-12 col-sm-12">
                     <h4 class="text-center">
                         <strong class="orange-color">May 12 - May 18</strong><br>
@@ -151,7 +141,7 @@
         // page is now ready, initialize the calendar...
 
         var activityCalendar =$('#service-activity-calendar').fullCalendar({
-            //defaultView: 'basicWeek',
+            defaultView: 'agendaWeek',
             height: 500,
             header: {
                 left: 'title',
@@ -160,44 +150,61 @@
             },
             gotoDate : new Date(2016, 04, 15),
             titleFormat: 'MMMM yyyy',
+            timeFormat: 'h:mmt {- h:mmt}',
             events: [
                 {
                     id: '1',
                     title: 'Personal Assistance',
-                    start: '2016-05-13'
+                    start: '2016-06-20T13:33:27-04:00',
+                    end: '2016-06-20T70:33:27-04:00',
+
+                    allDay: false
                 },
                 {
                     id: '2',
                     title: 'Shared Attendant',
-                    start: '2016-05-13'
+                    start: '2016-06-22T11:33:27-04:00',
+                    end: '2016-06-22T20:33:27-04:00',
+                    allDay: false
                 },
                 {
                     id: '3',
                     title: 'Shared Attendant',
-                    start: '2016-05-12'
+                    start: '2016-06-20T11:33:27-04:00',
+                    end: '2016-06-20T12:30:27-04:00',
+
+                    allDay: false
                 },
                 {
                     id: '4',
                     title: 'Personal Assistance',
-                    start: '2016-05-11'
+                    start: '2016-06-21T11:33:27-04:00',
+                    end: '2016-06-21T20:33:27-04:00',
+
+                    allDay: false
                 },
-                {
-                    id: '5',
-                    title: 'Shared Attendant',
-                    start: '2016-05-06'
-                },
+
                 {
                     id: '6',
                     title: 'Personal Assistance',
-                    start: '2016-05-04'
+                    start: '2016-06-21T15:33:27-04:00',
+                    end: '2016-06-21T17:33:27-04:00',
+
+                    allDay: false
                 }, {
                     id: '7',
                     title: 'Shared Attendant',
-                    start: '2016-05-03'
+                    start: '2016-06-23T18:23:27-04:00',
+
+                    end: '2016-06-23T20:33:27-04:00',
+                    allDay: false
                 }, {
                     id: '8',
                     title: 'Shared Attendant',
-                    start: '2016-05-01'
+
+                    end: '2016-06-24T22:33:27-04:00',
+                    start: '2016-06-24T20:35:28-04:00',
+                    allDay: false
                 }
             ],
             selectHelper: true,

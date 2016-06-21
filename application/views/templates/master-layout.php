@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <html>
 	<head>
-		<title><?php echo "LTSSMaryland | MyLTSS - {$page}" ?></title>
+		<title><?php echo "MyLTSS - {$page}" ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- CSS -->
 

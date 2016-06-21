@@ -1,10 +1,10 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;Service Activity Tracker
+            <h2 class="h3 primary-color"><span class="fa fa-calendar-plus-o"></span>&nbsp;My Service Tracker
                 <small class="pull-right">
                     <a href="<?php echo base_url('index.php/carerecord/serviceactivity') ?>" style="font-size: 80%">View
-                        All Service Activity<span class="fa fa-chevron-right"
+                        All Services<span class="fa fa-chevron-right"
                                                   style="font-size: 80%"></span></a>
                 </small>
             </h2>
@@ -51,7 +51,7 @@
             <div class="col-sm-6 col-lg-5 no-padding">
                 <div class="col-xs-12 col-sm-12">
                     <h4>
-                        <span class="secondary-color">Recent Service Activity</span><br>
+                        <span class="secondary-color">My Recent Services</span><br>
                     </h4>
                     <hr style="margin-top: 0">
                     <div class="row section-block"  style="max-height: 550px; overflow-x: hidden; overflow-y: auto">
@@ -208,12 +208,12 @@
                 },
                 {
                     id: '2',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-08'
                 },
                 {
                     id: '3',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-09'
                 },
                 {
@@ -228,7 +228,7 @@
                 },
                 {
                     id: '6',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-11'
                 }, {
                     id: '7',

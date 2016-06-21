@@ -1,11 +1,6 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <div class="header">
-            <h2 class="h3 primary-color"><span class="fa fa-user"></span>&nbsp;User Activity Tracker
-            </h2>
-            <hr>
-        </div>
         <div class="content">
             <div class="col-sm-12 no-padding">
                 <canvas id="usageFrequencyChart" width="400" height="100"></canvas>

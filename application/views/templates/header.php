@@ -77,7 +77,8 @@
 			//Top Level Navigation
 			$mainlinks = array(
 								'home' => 'Home',
-								'carerecord'  => 'My Care Record',
+								'carerecord/userprofile'  => 'My Profile',
+								'carerecord/serviceactivity' => 'My Services'
 								//'info' => 'Help & Info',
 								);		
 			}
@@ -117,7 +118,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url()."index.php/home/index";?>">LTSSMaryland | <b>MyLTSS</b></a>
+          <a class="navbar-brand" href="<?php echo base_url()."index.php/home/index";?>"><b>MyLTSS</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

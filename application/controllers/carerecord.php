@@ -48,7 +48,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'serviceactivity' => 'Service Activity'
+            'serviceactivity' => 'My Services'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -101,7 +101,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'serviceactivity' => 'Service Activity'
+            'serviceactivity' => 'My Services'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -147,7 +147,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'serviceactivity' => 'Service Activity'
+            'serviceactivity' => 'My Services'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -196,7 +196,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'serviceactivity' => 'Service Activity'
+            'serviceactivity' => 'My Services'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -243,7 +243,7 @@
 						);
 		$data['sidenavlinks']  = array(
             'userprofile' => 'My Profile',
-            'serviceactivity' => 'Service Activity'
+            'serviceactivity' => 'My Services'
 										);
 		$this->load->helper('url');
 		$data['page'] = $page;
@@ -264,7 +264,7 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'serviceactivity' => 'Service Activity'
+                'serviceactivity' => 'My Services'
             );
             $this->load->helper('url');
             $data['page'] = $page;
@@ -284,7 +284,7 @@
             }
             $data['sidenavlinks']  = array(
                 'userprofile' => 'My Profile',
-                'serviceactivity' => 'Service Activity'
+                'serviceactivity' => 'My Services'
             );
             $this->load->helper('url');
             $data['page'] = $page;

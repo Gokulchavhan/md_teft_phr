@@ -28,7 +28,7 @@
 <div class="col-sm-6 col-md-12" style="padding-right: 5px;">
     <div class="panel panel-default">
         <div class="panel-body">
-            <h4 class="secondary-color">Service Activity for Current Week<br>
+            <h4 class="secondary-color">My Services for Current Week<br>
                 <span class="h5 no-margin"><small><i>05/15/16  -  05/23/2016</i></small></span>
             </h4>
             <hr style="margin-top: 0">

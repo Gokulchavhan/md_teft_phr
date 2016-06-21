@@ -1,16 +1,16 @@
 <div class="modal fade" id="addRep" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Add Representative</h4>
+                <h4 class="modal-title" id="myModalLabel">Invite Legal Guardian</h4>
                 <hr style="margin: 0">
             </div>
             <div class="modal-body" style="padding-top: 0">
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <label class="col-xs-8 required"><strong>Representative Name:</strong></label>
+                        <label class="col-xs-8 required"><strong>Guardian Name:</strong></label>
                         <div class="col-xs-4"><span class="value" style="margin-top: 2px; display: block">John Doe</span></div>
                     </div>
                 </div>
@@ -21,16 +21,6 @@
                         <div class="col-xs-4"><span class="value" style="margin-top: 2px; display: block">jdoe116@yahoo.com</span></div>
                     </div>
                 </div>
-                <br>
-                <div class="row" style="padding-left: 15px;">
-                    <div class="col-xs-12">
-                        <div class="checkbox" style="padding-left: 25px;">
-                            <label class="checkbox">
-                                <input type="checkbox" class="checkbox"> <span style="position: relative; bottom: 4px">Are you sure you wish to send an invite to create a representative account? This user will have access to all data shown on MyLTSS.</span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
 
             </div>
             <div class="modal-footer" style="margin-top:0;">
@@ -39,5 +29,5 @@
                 <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Send Invite</button>
             </div>
         </div><!-- /.modal-dialog -->
-    </div><!-- /.modal-content -->
+    
 </div><!-- /.modal -->

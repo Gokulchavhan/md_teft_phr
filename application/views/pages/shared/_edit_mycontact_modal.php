@@ -32,7 +32,7 @@
 				<div class="col-xs-5">
 				   <select class="form-control" id="importantcontactrelationship">
 			  	<option>Select Relationship</option>
-			  	<option>Representative</option>
+			  	<option>Guardian</option>
 			  	<option>Doctor</option>
 			  	<option>Family Member</option>
 			  	<option>Friend</option>
@@ -106,7 +106,7 @@
 				<div class="col-xs-offset-3 col-sm-6">
 				   <label class="checkbox" for="isrepresentative">
 				  <input type="checkbox" name="isdoctor" id="isrepresentative" value="" >
-				  My Representative
+				  My Guardian
 				</label>
 				</div>
 			  </div>			  

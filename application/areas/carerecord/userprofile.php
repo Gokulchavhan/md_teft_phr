@@ -13,7 +13,7 @@
                     <h4 class="panel-title">
                         <a>
                             <span class="fa fa-chevron-down"></span>
-                            General Information
+                            My Information
                         </a>
                     </h4>
                 </div>
@@ -22,27 +22,9 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>First Name:</strong></span>
+                                    <span class="control-label col-xs-5"><strong>My Name:</strong></span>
                                     <div class="col-xs-7">
-                                        <span class="value">Rosie</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Middle Name:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">A</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Last Name:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">Red</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Suffix:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">--</span>
+                                        <span class="value">Rosie A Red</span>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -51,64 +33,6 @@
                                         <span class="value">08/12/1951</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Gender:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">Female</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Race:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">Caucasian</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Hispanic:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">No</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>Jurisdiction/County:</strong></span>
-                                    <div class="col-xs-7">
-                                        <span class="value">Montgomery</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseTwo" role="button">
-                    <h4 class="panel-title">
-                        <a >
-                            <span class="fa fa-chevron-down"></span>
-                            Additional Information
-                        </a>
-                    </h4>
-
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse ">
-                    <div class="panel-body form-horizontal">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5"><strong>SSN:</strong></span>
-                                    <div class="col-xs-7"><span class="value">***-**-1234</span></div>
-                                </div>
-                                <div class="form-group">
-
-                                    <span class="control-label col-xs-5"><strong>Client ID:</strong></span>
-                                    <div class="col-xs-7"><span class="value">1234567890</span></div>
-
-                                </div>
-
-
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
                                                                 <strong>Marital Status:</strong>
@@ -125,12 +49,72 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Participant's Address:</strong><br>
+                                                                <strong>My Address:</strong><br>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">123 Main St.,<br>
                                                                                             Silver Spring, MD 20901</span>
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Guardian Phone #:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>OTP Device Usage:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">Yes</span></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>My OTP Device Serial #:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">123456789012345</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Gender:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Female</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Race:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Caucasian</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+
+
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Hispanic:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">No</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>Jurisdiction/County:</strong></span>
+                                    <div class="col-xs-7">
+                                        <span class="value">Montgomery</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5"><strong>SSN:</strong></span>
+                                    <div class="col-xs-7"><span class="value">***-**-1234</span></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+
+
+
+
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
                                                                 <strong>Legal Guardian Full Name:</strong>
@@ -144,41 +128,21 @@
                                                             </span>
                                     <div class="col-xs-7"><span class="value">Sibling</span></div>
                                 </div>
-
-
-                            </div>
-
-                            <div class="col-sm-6">
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
                                         <strong>Preferred Method of Communication:</strong>
                                     </span>
-                                    <div class="col-xs-7"><span class="value">Phone</span> &nbsp;&nbsp;<a>Edit</a></div>
+                                    <div class="col-xs-7"><span class="value">Phone</span></div>
                                 </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Guardian Phone #:</strong>
-                                    </span>
-                                    <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
-                                </div>
+
+
+                            </div>
+                            <div class="col-sm-6">
 
 
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
-                                        <strong>OTP Assignment:</strong>
-                                    </span>
-                                    <div class="col-xs-7"><span class="value">Yes</span></div>
-                                </div>
-
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Participant OTP Serial #:</strong>
-                                    </span>
-                                    <div class="col-xs-7"><span class="value">123456789012345</span></div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Program Enrollment:</strong>
+                                        <strong>Program Enrolled:</strong>
                                     </span>
                                     <div class="col-xs-7"><span class="value">CO</span></div>
                                 </div>
@@ -196,35 +160,35 @@
                                     <div class="col-xs-7"><span class="value">Agency Name, Inc.</span></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="table-responsive">
-                                    <table class="table table-striped table-condensed">
-                                        <caption>Phone Numbers</caption>
-                                        <thead>
+
+                                <div class="col-xs-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-condensed">
+                                            <caption>Phone Numbers</caption>
+                                            <thead>
                                             <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
                                                 <td style="vertical-align: bottom">Primary</td>
                                                 <td style="vertical-align: bottom">Phone Type</td>
                                                 <td style="vertical-align: bottom">Phone Number</td>
                                             </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td style=""><i style="color:#2196f3; padding-left: 20px;" class="glyphicon glyphicon-check"></i></td>
-                                            <td>Home</td>
-                                            <td>240-305-2412</td>
-                                        </tr>
-                                        <tr>
-                                            <td>&nbsp;</i></td>
-                                            <td>Cell</td>
-                                            <td>301-448-5555</td>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td style=""><i style="color:#2196f3; padding-left: 20px;" class="glyphicon glyphicon-check"></i></td>
+                                                <td>Home</td>
+                                                <td>240-305-2412</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</i></td>
+                                                <td>Cell</td>
+                                                <td>301-448-5555</td>
 
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -234,7 +198,7 @@
                     <h4 class="panel-title">
                         <a>
                             <span class="fa fa-chevron-down"></span>
-                            Program Information
+                            My Programs
                         </a>
                     </h4>
                 </div>
@@ -261,8 +225,8 @@
                                         <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
                                             <td  style="vertical-align: bottom">Program Name</td>
                                             <td style="vertical-align: bottom">Status</td>
-                                            <td style="vertical-align: bottom">Enrollment Date</td>
-                                            <td style="vertical-align: bottom">Disenrollment Date</td>
+                                            <td style="vertical-align: bottom">Enrollment On</td>
+                                            <td style="vertical-align: bottom">Disenrollment On</td>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -291,7 +255,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Login Account
+                            My Login Account
                         </a>
                     </h4>
 
@@ -332,20 +296,46 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            Representatives
+                            My Guardians
                         </a>
                     </h4>
                 </div>
                 <div id="collapseFive" class="panel-collapse collapse ">
                     <div class="panel-body form-horizontal">
                         <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                <span class="control-label col-xs-5"><strong>Username:</strong>
+                                </span>
+                                    <div class="col-sm-7"><span class="value">Jdoe</span></div>
+                                </div>
+                                <div class="form-group">
+                                <span class="control-label col-sm-5">
+                                    <strong>Email Address:</strong>
+                                </span>
+                                    <div class="col-sm-7"><span class="value">jdoe116@yahoo.com</span></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Representative Alternate Phone #:</strong>
+                                    </span><div class="col-xs-7"><span class="value">240-555-5555</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="control-label col-xs-5">
+                                        <strong>Preferred Method of Communication:</strong>
+                                    </span>
+                                    <div class="col-xs-7"><span class="value">Phone</span></div>
+                                </div>
+                            </div>
                             <div class="col-xs-12">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-condensed">
-
+                                        <caption>My Guardians</caption>
                                         <thead>
                                         <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
-                                            <td style="vertical-align: bottom">Representative Name</td>
+                                            <td style="vertical-align: bottom">Guad Name</td>
                                             <td style="vertical-align: bottom">Date of Birth</td>
                                             <td style="vertical-align: bottom">Relationship</td>
                                             <td style="vertical-align: bottom">Guardian</td>
@@ -387,51 +377,26 @@
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseSix" role="button">
-                    <h4 class="panel-title">
-                        <a >
-                            <span class="fa fa-chevron-down"></span>
-                            Representative Login Account
-                        </a>
-                    </h4>
-
-                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editGuardianInfo">Edit</button>
-                </div>
-                <div id="collapseSix" class="panel-collapse collapse ">
-                    <div class="panel-body form-horizontal">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                <span class="control-label col-xs-5"><strong>Username:</strong>
-                                </span>
-                                    <div class="col-sm-7"><span class="value">Jdoe</span></div>
-                                </div>
-                                <div class="form-group">
-                                <span class="control-label col-sm-5">
-                                    <strong>Email Address:</strong>
-                                </span>
-                                    <div class="col-sm-7"><span class="value">jdoe116@yahoo.com</span></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Representative Alternate Phone #:</strong>
-                                    </span><div class="col-xs-7"><span class="value">240-555-5555</span></div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="control-label col-xs-5">
-                                        <strong>Preferred Method of Communication:</strong>
-                                    </span>
-                                    <div class="col-xs-7"><span class="value">Phone</span> &nbsp;&nbsp;<a>Edit</a></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="panel panel-default">-->
+<!--                <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseSix" role="button">-->
+<!--                    <h4 class="panel-title">-->
+<!--                        <a >-->
+<!--                            <span class="fa fa-chevron-down"></span>-->
+<!--                            Representative Login Account-->
+<!--                        </a>-->
+<!--                    </h4>-->
+<!---->
+<!--                    <button class="btn btn-default panel-edit pull-right" data-toggle="modal" data-target="#editGuardianInfo">Edit</button>-->
+<!--                </div>-->
+<!--                <div id="collapseSix" class="panel-collapse collapse ">-->
+<!--                    <div class="panel-body form-horizontal">-->
+<!--                        <div class="row">-->
+<!---->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </div>
 </div><!--/row-->

@@ -21,7 +21,7 @@
         <input type="submit" name="submit" value="Login" class="btn btn-primary btn-block"/>
         <br>
         <br>
-        <a href="<?php echo base_url().'index.php/usernamerecovery'?>">Forgot Username?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url().'index.php/passwordrecovery'?>">Forgot Password?</a>
+        <a style="font-size: 16px" href="<?php echo base_url().'index.php/usernamerecovery'?>">Forgot Username?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a style="font-size: 16px" href="<?php echo base_url().'index.php/passwordrecovery'?>">Forgot Password?</a>
     </form>
 </div>
 

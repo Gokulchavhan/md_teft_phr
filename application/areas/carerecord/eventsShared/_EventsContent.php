@@ -17,12 +17,12 @@
                 },
                 {
                     id: '2',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-08'
                 },
                 {
                     id: '3',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-09'
                 },
                 {
@@ -37,7 +37,7 @@
                 },
                 {
                     id: '6',
-                    title: 'Service Activity',
+                    title: 'New Service',
                     start: '2016-05-11'
                 }, {
                     id: '7',

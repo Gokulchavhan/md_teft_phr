@@ -2,7 +2,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Representative Login Information</h4>
+                <h4 class="modal-title" id="myModalLabel">Edit Guardian Login Information</h4>
                 <hr style="margin: 0">
             </div>
             <div class="modal-body" style="padding-top: 0">
