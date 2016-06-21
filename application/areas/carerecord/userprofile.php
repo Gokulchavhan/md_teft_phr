@@ -2,9 +2,10 @@
 
 
     <!-- Side Navigation -->
-    <?php echo $_sidenavigation; ?>
+<!--    --><?php //echo $_sidenavigation; ?>
+
     <!-- Content -->
-    <div class="col-md-9">
+    <div class="col-md-12">
         <h1 style="margin-top:0px;">My Profile</h1>
         <hr>
         <div class="panel-group" id="accordion">
@@ -268,7 +269,7 @@
                                 <div class="form-group">
                                 <span class="control-label col-xs-5"><strong>Username:</strong>
                                 </span>
-                                    <div class="col-sm-7"><span class="value">CSmith</span></div>
+                                    <div class="col-sm-7"><span class="value">rosiered</span></div>
                                 </div>
 
                             </div>
@@ -277,7 +278,7 @@
                                 <span class="control-label col-sm-5">
                                     <strong>Email Address:</strong>
                                 </span>
-                                    <div class="col-sm-7"><span class="value">casmith@live.com</span></div>
+                                    <div class="col-sm-7"><span class="value">rosie.red@yipee.com</span></div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
