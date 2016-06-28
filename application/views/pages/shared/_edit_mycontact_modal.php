@@ -106,7 +106,7 @@
 				<div class="col-xs-offset-3 col-sm-6">
 				   <label class="checkbox" for="isrepresentative">
 				  <input type="checkbox" name="isdoctor" id="isrepresentative" value="" >
-				  My Guardian
+				  My Representative
 				</label>
 				</div>
 			  </div>			  

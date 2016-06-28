@@ -3,14 +3,14 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Invite Legal Guardian</h4>
+                <h4 class="modal-title" id="myModalLabel">Invite Representative</h4>
                 <hr style="margin: 0">
             </div>
             <div class="modal-body" style="padding-top: 0">
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <label class="col-xs-8 required"><strong>Guardian Name:</strong></label>
+                        <label class="col-xs-8 required"><strong>Representative Name:</strong></label>
                         <div class="col-xs-4"><span class="value" style="margin-top: 2px; display: block">John Doe</span></div>
                     </div>
                 </div>

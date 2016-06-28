@@ -610,6 +610,18 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
         margin-top: 8px;
     }
 
+    div.row.graph-key-row{
+        margin-top: -50px !important;
+    }
+
+    span.graph-key.pull-right{
+        float: none !important;
+        width: 100%;
+    }
+
+    span.graph-key.pull-right::before{
+        width: 55px;
+    }
 }
 
 span {
@@ -843,8 +855,49 @@ div.profilePanel > h4 > a {
     font-size: 28px !important;
 }
 .fc-event-vert .fc-event-time{
-    font-size: 16px;
-    white-space: normal;
+    font-size: 15px;
     font-weight: bolder;
+    margin-bottom: 6px;
+}
+
+div.fc-event.fc-event-vert{
+    font-size: 90%;
+    line-height: 90%;
+    word-wrap: break-word;
+}
+
+div.panel-heading.profilePanel > button{
+    text-decoration: underline;
+}
+
+.fc-header-title h2{
+    font-size: 150% !important;
+}
+
+span.graph-key{
+    margin: 0 8px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+span.graph-key::before{
+    margin-bottom: -3px;
+    width: 50px;
+    content: "   ";
+    display: inline-block;
+    height: 15px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+span.graph-key.billed::before{
+    background-color: #469B88;
+}
+
+span.graph-key.approved::before{
+    background-color: #dedede;
+}
+
+span.graph-key.overbudget::before{
+    background-color: #E62E00;
 }
 

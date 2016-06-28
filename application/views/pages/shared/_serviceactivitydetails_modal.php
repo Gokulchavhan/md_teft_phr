@@ -14,14 +14,17 @@
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body form-horizontal">
-                                <div class="row">
 
-                                    <div class="col-xs-12 col-sm-5 text-right">
-                                        <p><b>Agency Provider Name:</b> Integrity Nursing Services</p>
+                                <div class="col-sm-6 col-xs-12" style="font-size: 18px !important;">
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Agency Provider Name:</strong></div>
+                                        <div class="col-xs-7">Integrity Nursing Services</div>
                                     </div>
-
-                                    <div class="col-xs-12 col-sm-5 text-right">
-                                        <p><b>Agency Staff Name:</b> John Doe</p>
+                                </div>
+                                <div class="col-sm-6 col-xs-12" style="font-size: 18px !important;">
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Agency Staff Name:</strong></div>
+                                        <div class="col-xs-7">John Doe</div>
                                     </div>
                                 </div>
                             </div>
@@ -34,56 +37,58 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse in">
                             <div class="panel-body form-horizontal">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>My Name:</b> Your Name</p>
+                                <div class="col-sm-6 col-xs-12" style="font-size: 18px !important;">
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>My Name:</strong></div>
+                                        <div class="col-xs-7">Rosie A Red</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>My Service:</strong></div>
+                                        <div class="col-xs-7">Personal Assistance Agency</div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Service Date:</b> 08/12/1991</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Type:</strong></div>
+                                        <div class="col-xs-7">Community First Choice</div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Clock-In By:</strong></div>
+                                        <div class="col-xs-7">Telephone</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Provider Clock-In Time:</strong></div>
+                                        <div class="col-xs-7">12:00 PM</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Duration:</strong></div>
+                                        <div class="col-xs-7">3 hours</div>
+                                    </div>
+
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>My Service:</b> Personal Assistance Agency</p>
+                                <div class="col-sm-6 col-xs-12" style="font-size: 18px !important;">
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Date:</strong></div>
+                                        <div class="col-xs-7">08/12/1991</div>
                                     </div>
-
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Payment Status:</b> In Process</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>OTP Used?:</strong></div>
+                                        <div class="col-xs-7">Yes</div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Service Type:</b> Community First Choice</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Payment Status:</strong></div>
+                                        <div class="col-xs-7">In Process</div>
                                     </div>
-                                    <div class="col-xs-12 col-sm-5   text-right">
-                                        <p><b>Service Clock-in by:</b> Telephone</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Clock-Out By:</strong></div>
+                                        <div class="col-xs-7">Telephone</div>
                                     </div>
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Provider Clock-In Time:</b> 12:00 PM</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Provider Clock-Out Time:</strong></div>
+                                        <div class="col-xs-7">3:00 PM</div>
                                     </div>
-
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Provider Clock-Out Time:</b> 3:00 PM</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Service Duration:</b> 3 hours</p>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-5  text-right">
-                                        <p><b>Service Units:</b> 17</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-
-
-                                    <div class="col-xs-12 col-sm-5   text-right">
-                                        <p><b>OTP Used?:</b> Yes</p>
+                                    <div class="row">
+                                        <div class="col-xs-5 text-right"><strong>Service Units:</strong></div>
+                                        <div class="col-xs-7">17</div>
                                     </div>
                                 </div>
 

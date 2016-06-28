@@ -122,7 +122,6 @@
                         <option value="all">All</option>
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
-                        <option value="text">Text</option>
                         <option value="mail">US Mail</option>
                     </select>
                 </div>

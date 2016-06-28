@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="form-group">
                                     <span class="control-label col-xs-5">
-                                        <strong>Guardian Phone #:</strong>
+                                        <strong>Representative Phone #:</strong>
                                     </span>
                                     <div class="col-xs-7"><span class="value">(240) 305-2412</span></div>
                                 </div>
@@ -125,7 +125,7 @@
 
                                 <div class="form-group">
                                                             <span class="control-label col-xs-5">
-                                                                <strong>Guardian Relationship:</strong>
+                                                                <strong>Representative Relationship:</strong>
                                                             </span>
                                     <div class="col-xs-7"><span class="value">Sibling</span></div>
                                 </div>
@@ -297,7 +297,7 @@
                     <h4 class="panel-title">
                         <a >
                             <span class="fa fa-chevron-down"></span>
-                            My Guardians
+                            My Representatives
                         </a>
                     </h4>
                 </div>
@@ -333,10 +333,10 @@
                             <div class="col-xs-12">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-condensed">
-                                        <caption>My Guardians</caption>
+                                        <caption>My Representatives</caption>
                                         <thead>
                                         <tr style="font-size: 13px !important; font-weight: bold; vertical-align: bottom">
-                                            <td style="vertical-align: bottom">Guad Name</td>
+                                            <td style="vertical-align: bottom">Representative Name</td>
                                             <td style="vertical-align: bottom">Date of Birth</td>
                                             <td style="vertical-align: bottom">Relationship</td>
                                             <td style="vertical-align: bottom">Guardian</td>

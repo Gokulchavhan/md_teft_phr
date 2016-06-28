@@ -1,5 +1,6 @@
 <div class="panel panel-default">
     <div class="panel-body">
+
         <div class="content" id="donut-carousel" style="direction: rtl">
             <div class="col-xs-6 col-sm-4 col-md-3 form-horizontal" style="margin-bottom: 15px; height: 265px; direction: ltr;
     text-align: center;">
@@ -50,6 +51,13 @@
                     <hr class="no-margin">
                     <span class="h4 no-margin">3&nbsp;<small>services received</small></span>
                 </div>
+            </div>
+        </div>
+        <div class="row graph-key-row">
+            <div class="col-xs-12">
+                <span class="graph-key overbudget pull-right"> - Overbudget</span>
+                <span class="graph-key billed pull-right"> - Billed Hours</span>
+                <span class="graph-key approved pull-right"> - Approved Hours</span>
             </div>
         </div>
     </div>

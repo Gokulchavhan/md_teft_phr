@@ -12,36 +12,36 @@
 
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-xs-4"><strong>My Username:</strong></label>
-						<div class="col-sm-8"><span class="value" style="margin-top: 2px; display: block">CSmith</span></div>
+						<label class="control-label text-right col-xs-3"><strong>My Username:</strong></label>
+						<div class="col-sm-9"><span class="value" style="margin-top: 2px; display: block">CSmith</span></div>
 					</div>
 				</div>
 
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4">
+						<label class="control-label text-right col-sm-3">
 							<strong>Old Email Address:</strong>
 						</label>
-                        <span class="col-xs-12 col-sm-8">casmith@live.com
+                        <span class="col-xs-12 col-sm-9">casmith@live.com
 
 					</div>
 				</div>
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4 required"><strong>New Email Address:</strong></label>
-						<div class="col-xs-12 col-sm-8"><input type="email" required class="form-control"><span class="sublabel">example@mail.com</span></span></div>
+						<label class="control-label text-right col-sm-3 required"><strong>New Email Address:</strong></label>
+						<div class="col-xs-12 col-sm-9"><input type="email" required class="form-control"><span class="sublabel">example@mail.com</span></span></div>
 					</div>
 				</div>
 
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4">
+						<label class="control-label text-right col-sm-3">
 							<strong>Old Phone #:</strong>
 						</label>
-						<span class="col-xs-12 col-sm-8">240-305-2412</span>
+						<span class="col-xs-12 col-sm-9">240-305-2412</span>
 
 					</div>
 				</div>
@@ -49,18 +49,18 @@
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4 required"><strong>New Phone #:</strong></label>
-						<div class="col-xs-12 col-sm-8"><input type="email" required class="form-control"><span class="sublabel">123-456-7890</span></span></div>
+						<label class="control-label text-right col-sm-3 required"><strong>New Phone #:</strong></label>
+						<div class="col-xs-12 col-sm-9"><input type="email" required class="form-control"><span class="sublabel">123-456-7890</span></span></div>
 					</div>
 				</div>
 
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label class="control-label col-sm-4">
+						<label class="control-label text-right col-sm-3">
 							<strong>Old Phone Type:</strong>
 						</label>
-						<span class="col-xs-12 col-sm-8">Cell</span>
+						<span class="col-xs-12 col-sm-9">Cell</span>
 
 					</div>
 				</div>
@@ -68,8 +68,8 @@
 				<br>
 				<div class="row">
 					<div class="col-xs-12">
-						<label for="phoneType" class="col-sm-4 control-label required"><strong>New Phone Type:</strong></label>
-						<div class="col-sm-8 col-xs-12">
+						<label for="phoneType" class="col-sm-3 text-right control-label required"><strong>New Phone Type:</strong></label>
+						<div class="col-sm-9 col-xs-12">
 							<select required class="form-control methodOfCom" id="phoneType">
 								<option></option>
 								<option value="home">Home</option>

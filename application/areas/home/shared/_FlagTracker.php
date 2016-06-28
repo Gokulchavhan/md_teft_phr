@@ -10,7 +10,7 @@
                 <div class="col-sm-6 col-md-8 no-padding">
                     <div class="col-sm-12 col-md-6">
                         <div class="row section-block">
-                            <h4 class="secondary-color">Active Flags
+                            <h4 class="secondary-color">Open Flags
                             </h4>
                             <hr style="margin: 0">
                             <div class="col-sm-12 no-padding">
@@ -522,7 +522,7 @@
         data: {
             labels: ["Pending Review", "Under Review", "Completed (No Action Required)", "Completed (Escalated to RE)"],
             datasets: [{
-                label: '# of Flags',
+                label: 'Status of My Flags',
                 data: [1, 2, 4, 1],
                 backgroundColor: [
                     "#ddd",

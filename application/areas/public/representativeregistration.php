@@ -6,7 +6,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <h2 id="myModalLabel" class="primary-color">
-            <b>MyLTSS</b> Guardian Registration
+            <b>MyLTSS</b> Representative Registration
         </h2>
         <hr>
         <br>
@@ -117,7 +117,6 @@
                         <option value="all">All</option>
                         <option value="email">Email</option>
                         <option value="phone">Phone</option>
-                        <option value="text">Text</option>
                         <option value="mail">US Mail</option>
                     </select>
                 </div>

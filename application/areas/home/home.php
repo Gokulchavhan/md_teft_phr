@@ -20,7 +20,7 @@
                                 <span class="value h4"><small>effective date</small><br><span>03/15/2016</span></span>
                             </div>
                             <div class="col-sm-6">
-                                <span class="value h4"><small>end date</small><br><span>03/14/2017</span></span>
+                                <span class="value h4"><small>recertification date</small><br><span>03/14/2017</span></span>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
         <div class="panel panel-default profilePanel">
 
         <div class="panel-heading profilePanel" data-toggle="collapse" href="#collapseFive" role="button">
-            <h4 class="panel-title"><a href=""><span class="fa fa-chevron-down"></span>&nbsp;<span class="fa fa-clock-o"></span>&nbsp;My Service Hours</a></h4>
+            <h4 class="panel-title"><a href=""><span class="fa fa-chevron-down"></span>&nbsp;<span class="fa fa-clock-o"></span>&nbsp;My Weekly Service Budget</a></h4>
         </div>
 
         <div id="collapseFive" class="panel-collapse collapse in">

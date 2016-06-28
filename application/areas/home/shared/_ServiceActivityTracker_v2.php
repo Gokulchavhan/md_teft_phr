@@ -34,90 +34,10 @@
             <!--                    </div>-->
             <!--                </div>-->
             <!--            </div>-->
-            <div class="col-sm-6 col-lg-9 no-padding">
+            <div class="col-lg-12 no-padding">
                 <button class="btn btn-primary pull-right visible-xs" data-toggle="modal" data-target="#editEmail">View All Services</button>
                 <div id="service-activity-calendar"></div>
                 <br><br>
-            </div>
-            <div class="col-sm-6 col-lg-3 no-padding">
-                <div class="col-xs-12 col-sm-12">
-                    <h4 class="text-center">
-                        <strong class="orange-color">May 12 - May 18</strong><br>
-                    </h4>
-                    <hr style="margin-top: 0">
-                    <div class="row section-block"  style="max-height: 550px; overflow-x: hidden; overflow-y: auto">
-                        <h5 class="text-center">
-                            <small><strong class="coolgray-color">Friday May 13</strong></small>
-                        </h5>
-                        <hr style="margin-top: 0; border-color: #bbb;">
-                        <div class="row" style="margin-bottom: 10px;">
-                            <div class="col-xs-2 col-sm-3 text-right"
-                                 style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div><span style="font-weight: bold; font-size: 80%">8:00 am</span></div>
-                                <div><span style="font-weight: bold; font-size: 80%">1:00 pm</span></div>
-                            </div>
-                            <div class="col-xs-10 col-sm-8" style="padding-top: 5px;">
-                                <p class="h5 no-margin bluesteel-color">Personal Assistance</p>
-                                <div>
-                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-bottom: 10px; background-color: #F5FAFF;">
-                            <div class="col-xs-2 col-sm-3 text-right"
-                                 style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div><span style="font-weight: bold; font-size: 80%">1:15 pm</span></div>
-                                <div><span style="font-weight: bold; font-size: 80%">7:00 pm</span></div>
-                            </div>
-                            <div class="col-xs-10 col-sm-8" style="padding-top: 5px;">
-                                <p class="h5 no-margin bluesteel-color">Shared Attendant</p>
-                                <div>
-                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5 class="text-center">
-                            <small><strong class="coolgray-color">Thursday May 12</strong></small>
-                        </h5>
-                        <hr style="margin-top: 0; border-color: #bbb;">
-                        <div class="row" style="margin-bottom: 10px;">
-                            <div class="col-xs-2 col-sm-3 text-right"
-                                 style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div><span style="font-weight: bold; font-size: 80%">8:15 am</span></div>
-                                <div><span style="font-weight: bold; font-size: 80%">10:00 am</span></div>
-                            </div>
-                            <div class="col-xs-10 col-sm-8" style="padding-top: 5px;">
-                                <p class="h5 no-margin bluesteel-color">Shared Attendant</p>
-                                <div>
-                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <h5 class="text-center">
-                            <small><strong class="coolgray-color">Wednesday May 11</strong></small>
-                        </h5>
-                        <hr style="margin-top: 0; border-color: #bbb;">
-                        <div class="row" style="margin-bottom: 10px;">
-                            <div class="col-xs-2 col-sm-3 text-right"
-                                 style="border-right: 3px solid lightgray; padding: 0 10px 0 0">
-                                <div><span style="font-weight: bold; font-size: 80%">7:45 am</span></div>
-                                <div><span style="font-weight: bold; font-size: 80%">1:10 pm</span></div>
-                            </div>
-                            <div class="col-xs-10 col-sm-8" style="padding-top: 5px;">
-                                <p class="h5 no-margin bluesteel-color">Shared Attendant</p>
-                                <div>
-                                    <a href="#" data-toggle="modal" data-target="#serviceActivityDetails">Details</a>&nbsp;&nbsp;
-                                    <a href="#" data-toggle="modal" data-target="#flagService">Flag</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -25,7 +25,7 @@
                                 <span class="value h4"><small>effective date</small><br><span>03/15/2016</span></span>
                             </div>
                             <div class="col-sm-6">
-                                <span class="value h4"><small>end date</small><br><span>03/14/2017</span></span>
+                                <span class="value h4"><small>recertification date</small><br><span>03/14/2017</span></span>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service</strong></span>
+                                        <span style="font-size: 80%"><strong>In Process</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -221,7 +221,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service</strong></span>
+                                        <span style="font-size: 80%"><strong>In Process</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -338,7 +338,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service</strong></span>
+                                        <span style="font-size: 80%"><strong>In Process</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -368,7 +368,7 @@
                                             Providers)
                                         </small>
                                         <br>
-                                        <span style="font-size: 80%"><strong>New Service</strong></span>
+                                        <span style="font-size: 80%"><strong>In Process</strong></span>
                                     </p>
                                 </div>
                                 <div class="col-sm-4 text-right" style="padding-top: 10px;">
@@ -500,7 +500,7 @@
                     center: '',
                     right: ''
                 },
-                titleFormat: 'MMMM yyyy \'(prev)\'',
+                titleFormat: 'MMMM D YYYY',
                 events: [
                     {
                         id: '1',
